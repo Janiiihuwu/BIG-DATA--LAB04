@@ -1,0 +1,1001 @@
+appid,name,release_date,price,positive_reviews,negative_reviews,peak_ccu,genres,developer,publisher,release_date_dt,release_year,total_reviews,positive_ratio,is_free,price_category,primary_genre
+100000,Steam Game 0,2015-12-07,4.99,50,41,6,"Adventure, Action, Strategy",Developer 0,Publisher 0,2015-12-07,2015.0,91,54.95,De Pago,Económico ($0.01 - $9.99),Adventure
+100001,Steam Game 1,2014-09-24,39.99,2,3,0,"Massively Multiplayer, Strategy, Action",Developer 1,Publisher 1,2014-09-24,2014.0,5,40.0,De Pago,Premium (>$30.00),Massively Multiplayer
+100002,Steam Game 2,2009-10-15,14.99,51,14,17,"RPG, Massively Multiplayer, Casual",Developer 2,Publisher 2,2009-10-15,2009.0,65,78.46,De Pago,Estándar ($10.00 - $29.99),RPG
+100003,Steam Game 3,2021-10-10,9.99,4,3,27,Indie,Developer 3,Publisher 3,2021-10-10,2021.0,7,57.14,De Pago,Económico ($0.01 - $9.99),Indie
+100004,Steam Game 4,2016-03-16,0.0,9,5,0,"Massively Multiplayer, Sports",Developer 4,Publisher 4,2016-03-16,2016.0,14,64.29,Gratuito,Gratuito ($0),Massively Multiplayer
+100005,Steam Game 5,2020-02-16,0.0,0,1,0,Racing,Developer 5,Publisher 5,2020-02-16,2020.0,1,0.0,Gratuito,Gratuito ($0),Racing
+100006,Steam Game 6,2012-09-20,0.0,12,2,6,"Massively Multiplayer, RPG, Strategy",Developer 6,Publisher 6,2012-09-20,2012.0,14,85.71,Gratuito,Gratuito ($0),Massively Multiplayer
+100007,Steam Game 7,2018-01-01,19.99,12,3,0,Strategy,Developer 7,Publisher 7,2018-01-01,2018.0,15,80.0,De Pago,Estándar ($10.00 - $29.99),Strategy
+100008,Steam Game 8,2016-06-27,14.99,269,18,26,Strategy,Developer 8,Publisher 8,2016-06-27,2016.0,287,93.73,De Pago,Estándar ($10.00 - $29.99),Strategy
+100009,Steam Game 9,2017-05-11,14.99,9,2,1,"Sports, Indie, Adventure",Developer 9,Publisher 9,2017-05-11,2017.0,11,81.82,De Pago,Estándar ($10.00 - $29.99),Sports
+100010,Steam Game 10,2023-12-19,0.0,218,42,11,"Massively Multiplayer, Strategy, RPG",Developer 10,Publisher 10,2023-12-19,2023.0,260,83.85,Gratuito,Gratuito ($0),Massively Multiplayer
+100011,Steam Game 11,2010-12-18,39.99,4,2,6,"RPG, Adventure, Massively Multiplayer",Developer 11,Publisher 11,2010-12-18,2010.0,6,66.67,De Pago,Premium (>$30.00),RPG
+100012,Steam Game 12,2017-11-03,19.99,14,5,9,"Racing, Massively Multiplayer, RPG",Developer 12,Publisher 12,2017-11-03,2017.0,19,73.68,De Pago,Estándar ($10.00 - $29.99),Racing
+100013,Steam Game 13,2021-04-15,4.99,28,12,4,"Adventure, Racing, RPG",Developer 13,Publisher 13,2021-04-15,2021.0,40,70.0,De Pago,Económico ($0.01 - $9.99),Adventure
+100014,Steam Game 14,2019-10-06,4.99,11,6,2,"Indie, Action",Developer 14,Publisher 14,2019-10-06,2019.0,17,64.71,De Pago,Económico ($0.01 - $9.99),Indie
+100016,Steam Game 16,2020-02-03,4.99,0,0,6,"Simulation, Racing",Developer 16,Publisher 16,2020-02-03,2020.0,0,,De Pago,Económico ($0.01 - $9.99),Simulation
+100017,Steam Game 17,2011-04-10,9.99,36,8,5,Strategy,Developer 17,Publisher 17,2011-04-10,2011.0,44,81.82,De Pago,Económico ($0.01 - $9.99),Strategy
+100018,Steam Game 18,2016-06-16,9.99,63,7,42,Simulation,Developer 18,Publisher 18,2016-06-16,2016.0,70,90.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100019,Steam Game 19,2016-06-04,4.99,2,2,4,"Casual, Racing, Adventure",Developer 19,Publisher 19,2016-06-04,2016.0,4,50.0,De Pago,Económico ($0.01 - $9.99),Casual
+100020,Steam Game 20,2018-05-01,14.99,3,3,11,"Simulation, Adventure",Developer 20,Publisher 20,2018-05-01,2018.0,6,50.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100021,Steam Game 21,2019-08-22,0.0,54,13,9,Strategy,Developer 21,Publisher 21,2019-08-22,2019.0,67,80.6,Gratuito,Gratuito ($0),Strategy
+100022,Steam Game 22,2015-12-18,4.99,2,2,0,"Racing, Sports, Adventure",Developer 22,Publisher 22,2015-12-18,2015.0,4,50.0,De Pago,Económico ($0.01 - $9.99),Racing
+100023,Steam Game 23,2019-03-04,4.99,29,6,1,Indie,Developer 23,Publisher 23,2019-03-04,2019.0,35,82.86,De Pago,Económico ($0.01 - $9.99),Indie
+100024,Steam Game 24,2015-09-05,9.99,17,8,4,"Indie, Sports",Developer 24,Publisher 24,2015-09-05,2015.0,25,68.0,De Pago,Económico ($0.01 - $9.99),Indie
+100025,Steam Game 25,2012-10-21,19.99,11,4,0,Sports,Developer 25,Publisher 25,2012-10-21,2012.0,15,73.33,De Pago,Estándar ($10.00 - $29.99),Sports
+100026,Steam Game 26,2018-04-04,4.99,6,1,1,"Indie, Racing",Developer 26,Publisher 26,2018-04-04,2018.0,7,85.71,De Pago,Económico ($0.01 - $9.99),Indie
+100027,Steam Game 27,2017-01-19,9.99,23,4,32,"Strategy, Racing",Developer 27,Publisher 27,2017-01-19,2017.0,27,85.19,De Pago,Económico ($0.01 - $9.99),Strategy
+100028,Steam Game 28,2017-06-20,9.99,16,7,26,"RPG, Strategy",Developer 28,Publisher 28,2017-06-20,2017.0,23,69.57,De Pago,Económico ($0.01 - $9.99),RPG
+100029,Steam Game 29,2018-02-19,0.0,201,30,1,"Massively Multiplayer, RPG",Developer 29,Publisher 29,2018-02-19,2018.0,231,87.01,Gratuito,Gratuito ($0),Massively Multiplayer
+100030,Steam Game 30,2018-04-03,14.99,19,3,2,"Indie, Casual, Massively Multiplayer",Developer 30,Publisher 30,2018-04-03,2018.0,22,86.36,De Pago,Estándar ($10.00 - $29.99),Indie
+100031,Steam Game 31,2018-12-20,0.0,427,65,2,"Indie, Simulation, Sports",Developer 31,Publisher 31,2018-12-20,2018.0,492,86.79,Gratuito,Gratuito ($0),Indie
+100032,Steam Game 32,2024-12-13,0.0,2,6,16,"Racing, Sports, Indie",Developer 32,Publisher 32,2024-12-13,2024.0,8,25.0,Gratuito,Gratuito ($0),Racing
+100033,Steam Game 33,2020-03-25,39.99,76,21,12,"Casual, Simulation, Action",Developer 33,Publisher 33,2020-03-25,2020.0,97,78.35,De Pago,Premium (>$30.00),Casual
+100034,Steam Game 34,2022-03-25,39.99,3,2,1,"Strategy, Massively Multiplayer",Developer 34,Publisher 34,2022-03-25,2022.0,5,60.0,De Pago,Premium (>$30.00),Strategy
+100035,Steam Game 35,2018-02-24,19.99,2,4,1,"Simulation, Strategy",Developer 35,Publisher 35,2018-02-24,2018.0,6,33.33,De Pago,Estándar ($10.00 - $29.99),Simulation
+100036,Steam Game 36,2020-08-20,4.99,91,10,0,"RPG, Sports, Strategy",Developer 36,Publisher 36,2020-08-20,2020.0,101,90.1,De Pago,Económico ($0.01 - $9.99),RPG
+100037,Steam Game 37,2010-02-18,0.0,31,10,4,"Racing, Simulation, Strategy",Developer 37,Publisher 37,2010-02-18,2010.0,41,75.61,Gratuito,Gratuito ($0),Racing
+100038,Steam Game 38,2021-01-25,14.99,60,2,17,"Simulation, RPG, Massively Multiplayer",Developer 38,Publisher 38,2021-01-25,2021.0,62,96.77,De Pago,Estándar ($10.00 - $29.99),Simulation
+100039,Steam Game 39,2023-05-06,9.99,5,5,1,"Racing, Adventure, Casual",Developer 39,Publisher 39,2023-05-06,2023.0,10,50.0,De Pago,Económico ($0.01 - $9.99),Racing
+100040,Steam Game 40,2024-01-24,0.0,75,27,5,Simulation,Developer 40,Publisher 40,2024-01-24,2024.0,102,73.53,Gratuito,Gratuito ($0),Simulation
+100041,Steam Game 41,2013-06-20,9.99,31,4,6,"RPG, Action, Indie",Developer 41,Publisher 41,2013-06-20,2013.0,35,88.57,De Pago,Económico ($0.01 - $9.99),RPG
+100042,Steam Game 42,2024-05-24,0.0,52,6,9,Action,Developer 42,Publisher 42,2024-05-24,2024.0,58,89.66,Gratuito,Gratuito ($0),Action
+100043,Steam Game 43,2018-12-06,29.99,4,1,4,"Strategy, Action, Indie",Developer 43,Publisher 43,2018-12-06,2018.0,5,80.0,De Pago,Estándar ($10.00 - $29.99),Strategy
+100044,Steam Game 44,2021-12-06,4.99,40,3,0,Strategy,Developer 44,Publisher 44,2021-12-06,2021.0,43,93.02,De Pago,Económico ($0.01 - $9.99),Strategy
+100045,Steam Game 45,2020-01-22,14.99,0,1,3,"Adventure, Massively Multiplayer",Developer 45,Publisher 45,2020-01-22,2020.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Adventure
+100046,Steam Game 46,2022-07-25,4.99,9,2,0,"Racing, Simulation, Casual",Developer 46,Publisher 46,2022-07-25,2022.0,11,81.82,De Pago,Económico ($0.01 - $9.99),Racing
+100047,Steam Game 47,2019-11-17,9.99,63,45,2,"Casual, Strategy",Developer 47,Publisher 47,2019-11-17,2019.0,108,58.33,De Pago,Económico ($0.01 - $9.99),Casual
+100048,Steam Game 48,2016-03-17,9.99,6,1,5,Casual,Developer 48,Publisher 48,2016-03-17,2016.0,7,85.71,De Pago,Económico ($0.01 - $9.99),Casual
+100049,Steam Game 49,2020-02-05,4.99,2,2,203,"Racing, Indie",Developer 49,Publisher 49,2020-02-05,2020.0,4,50.0,De Pago,Económico ($0.01 - $9.99),Racing
+100050,Steam Game 50,Fecha Inválida,39.99,189,21,1,"Racing, Casual",Developer 50,Publisher 50,,,210,90.0,De Pago,Premium (>$30.00),Racing
+100051,Steam Game 51,2015-09-26,19.99,234,71,1,"Massively Multiplayer, RPG",Developer 51,Publisher 51,2015-09-26,2015.0,305,76.72,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100052,Steam Game 52,2013-03-09,29.99,0,0,6,"Massively Multiplayer, Adventure",Developer 52,Publisher 52,2013-03-09,2013.0,0,,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100053,Steam Game 53,2011-08-20,29.99,113,5,11,"Casual, Adventure, Action",Developer 53,Publisher 53,2011-08-20,2011.0,118,95.76,De Pago,Estándar ($10.00 - $29.99),Casual
+100054,Steam Game 54,2021-04-02,9.99,170,24,9,Strategy,Developer 54,Publisher 54,2021-04-02,2021.0,194,87.63,De Pago,Económico ($0.01 - $9.99),Strategy
+100055,Steam Game 55,2015-06-19,29.99,52,13,9,"RPG, Massively Multiplayer, Casual",Developer 55,Publisher 55,2015-06-19,2015.0,65,80.0,De Pago,Estándar ($10.00 - $29.99),RPG
+100056,Steam Game 56,2016-08-09,0.0,25,14,0,Racing,Developer 56,Publisher 56,2016-08-09,2016.0,39,64.1,Gratuito,Gratuito ($0),Racing
+100057,Steam Game 57,2020-04-27,4.99,291,54,5,Sports,Developer 57,Publisher 57,2020-04-27,2020.0,345,84.35,De Pago,Económico ($0.01 - $9.99),Sports
+100058,Steam Game 58,2009-03-08,0.0,66,10,7,Action,Developer 58,Publisher 58,2009-03-08,2009.0,76,86.84,Gratuito,Gratuito ($0),Action
+100059,Steam Game 59,2016-09-19,4.99,52,27,0,"Racing, Strategy",Developer 59,Publisher 59,2016-09-19,2016.0,79,65.82,De Pago,Económico ($0.01 - $9.99),Racing
+100060,Steam Game 60,2023-10-13,9.99,7,2,24,"Adventure, Action, Racing",Developer 60,Publisher 60,2023-10-13,2023.0,9,77.78,De Pago,Económico ($0.01 - $9.99),Adventure
+100061,Steam Game 61,2014-07-24,4.99,59,50,0,"Action, RPG",Developer 61,Publisher 61,2014-07-24,2014.0,109,54.13,De Pago,Económico ($0.01 - $9.99),Action
+100062,Steam Game 62,2011-09-04,19.99,83,14,7,"Racing, Action, Sports",Developer 62,Publisher 62,2011-09-04,2011.0,97,85.57,De Pago,Estándar ($10.00 - $29.99),Racing
+100063,Steam Game 63,2024-03-06,4.99,75,8,2,"Indie, RPG, Racing",Developer 63,Publisher 63,2024-03-06,2024.0,83,90.36,De Pago,Económico ($0.01 - $9.99),Indie
+100064,Steam Game 64,2019-01-04,4.99,17,18,85,Massively Multiplayer,Developer 64,Publisher 64,2019-01-04,2019.0,35,48.57,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100065,Steam Game 65,2021-03-11,9.99,31,16,3,Strategy,Developer 65,Publisher 65,2021-03-11,2021.0,47,65.96,De Pago,Económico ($0.01 - $9.99),Strategy
+100066,Steam Game 66,2013-07-21,0.0,64,6,2,RPG,Developer 66,Publisher 66,2013-07-21,2013.0,70,91.43,Gratuito,Gratuito ($0),RPG
+100067,Steam Game 67,2007-01-10,19.99,18,3,2,"Massively Multiplayer, Simulation",Developer 67,Publisher 67,2007-01-10,2007.0,21,85.71,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100068,Steam Game 68,2018-05-16,0.0,85,41,5,"RPG, Indie",Developer 68,Publisher 68,2018-05-16,2018.0,126,67.46,Gratuito,Gratuito ($0),RPG
+100069,Steam Game 69,2019-12-25,59.99,32,1,38,"Indie, RPG",Developer 69,Publisher 69,2019-12-25,2019.0,33,96.97,De Pago,Premium (>$30.00),Indie
+100070,Steam Game 70,2014-05-18,19.99,74,20,1,"Simulation, Racing",Developer 70,Publisher 70,2014-05-18,2014.0,94,78.72,De Pago,Estándar ($10.00 - $29.99),Simulation
+100071,Steam Game 71,2007-03-25,4.99,15,4,17,"Sports, RPG",Developer 71,Publisher 71,2007-03-25,2007.0,19,78.95,De Pago,Económico ($0.01 - $9.99),Sports
+100072,Steam Game 72,2024-12-19,0.0,48,6,5,Sports,Developer 72,Publisher 72,2024-12-19,2024.0,54,88.89,Gratuito,Gratuito ($0),Sports
+100073,Steam Game 73,2016-08-21,19.99,236,25,2,"Adventure, RPG",Developer 73,Publisher 73,2016-08-21,2016.0,261,90.42,De Pago,Estándar ($10.00 - $29.99),Adventure
+100074,Steam Game 74,2020-01-23,14.99,6,2,5,"Simulation, Massively Multiplayer",Developer 74,Publisher 74,2020-01-23,2020.0,8,75.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100075,Steam Game 75,2017-09-12,14.99,200,144,0,Massively Multiplayer,Developer 75,Publisher 75,2017-09-12,2017.0,344,58.14,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100076,Steam Game 76,2015-12-14,19.99,10,1,14,"Indie, Casual",Developer 76,Publisher 76,2015-12-14,2015.0,11,90.91,De Pago,Estándar ($10.00 - $29.99),Indie
+100077,Steam Game 77,2023-11-18,0.0,3,3,2,"RPG, Simulation, Massively Multiplayer",Developer 77,Publisher 77,2023-11-18,2023.0,6,50.0,Gratuito,Gratuito ($0),RPG
+100078,Steam Game 78,2018-11-20,4.99,48,8,1,"Action, Casual",Developer 78,Publisher 78,2018-11-20,2018.0,56,85.71,De Pago,Económico ($0.01 - $9.99),Action
+100079,Steam Game 79,2016-07-01,0.0,75,34,14,"Simulation, Indie, RPG",Developer 79,Publisher 79,2016-07-01,2016.0,109,68.81,Gratuito,Gratuito ($0),Simulation
+100080,Steam Game 80,2020-01-13,19.99,13,5,24,"Casual, Strategy, RPG",Developer 80,Publisher 80,2020-01-13,2020.0,18,72.22,De Pago,Estándar ($10.00 - $29.99),Casual
+100081,Steam Game 81,2019-02-27,14.99,5,2,2,"Sports, Adventure",Developer 81,Publisher 81,2019-02-27,2019.0,7,71.43,De Pago,Estándar ($10.00 - $29.99),Sports
+100082,Steam Game 82,2020-02-03,4.99,54,3,0,"Adventure, RPG, Massively Multiplayer",Developer 82,Publisher 82,2020-02-03,2020.0,57,94.74,De Pago,Económico ($0.01 - $9.99),Adventure
+100083,Steam Game 83,2021-11-14,0.0,8,3,3,"Strategy, Sports",Developer 83,Publisher 83,2021-11-14,2021.0,11,72.73,Gratuito,Gratuito ($0),Strategy
+100084,Steam Game 84,2013-01-22,4.99,67,86,9,"RPG, Indie",Developer 84,Publisher 84,2013-01-22,2013.0,153,43.79,De Pago,Económico ($0.01 - $9.99),RPG
+100085,Steam Game 85,2010-01-18,4.99,0,0,1,Racing,Developer 85,Publisher 85,2010-01-18,2010.0,0,,De Pago,Económico ($0.01 - $9.99),Racing
+100086,Steam Game 86,2017-10-24,14.99,52,6,2,"Racing, Indie, Action",Developer 86,Publisher 86,2017-10-24,2017.0,58,89.66,De Pago,Estándar ($10.00 - $29.99),Racing
+100087,Steam Game 87,2008-02-23,14.99,1,1,1,"Adventure, RPG",Developer 87,Publisher 87,2008-02-23,2008.0,2,50.0,De Pago,Estándar ($10.00 - $29.99),Adventure
+100088,Steam Game 88,2014-06-19,29.99,29,9,2,"Simulation, Action",Developer 88,Publisher 88,2014-06-19,2014.0,38,76.32,De Pago,Estándar ($10.00 - $29.99),Simulation
+100089,Steam Game 89,2013-05-01,9.99,182,60,1,"Indie, Simulation, Massively Multiplayer",Developer 89,Publisher 89,2013-05-01,2013.0,242,75.21,De Pago,Económico ($0.01 - $9.99),Indie
+100090,Steam Game 90,2020-05-15,0.0,65,29,5,"Action, Racing, Casual",Developer 90,Publisher 90,2020-05-15,2020.0,94,69.15,Gratuito,Gratuito ($0),Action
+100091,Steam Game 91,2021-02-16,14.99,12,2,27,"Indie, RPG, Simulation",Developer 91,Publisher 91,2021-02-16,2021.0,14,85.71,De Pago,Estándar ($10.00 - $29.99),Indie
+100092,Steam Game 92,2012-07-10,19.99,22,3,5,"Indie, Action, Massively Multiplayer",Developer 92,Publisher 92,2012-07-10,2012.0,25,88.0,De Pago,Estándar ($10.00 - $29.99),Indie
+100093,Steam Game 93,2015-03-20,9.99,29,3,7,Casual,Developer 93,Publisher 93,2015-03-20,2015.0,32,90.62,De Pago,Económico ($0.01 - $9.99),Casual
+100094,Steam Game 94,2020-12-04,19.99,9,7,2,"Racing, RPG",Developer 94,Publisher 94,2020-12-04,2020.0,16,56.25,De Pago,Estándar ($10.00 - $29.99),Racing
+100095,Steam Game 95,2014-09-11,9.99,30,11,3,"Action, Casual",Developer 95,Publisher 95,2014-09-11,2014.0,41,73.17,De Pago,Económico ($0.01 - $9.99),Action
+100096,Steam Game 96,2016-08-16,9.99,26,7,10,Racing,Developer 96,Publisher 96,2016-08-16,2016.0,33,78.79,De Pago,Económico ($0.01 - $9.99),Racing
+100097,Steam Game 97,2016-09-05,9.99,10,5,14,"RPG, Strategy, Adventure",Developer 97,Publisher 97,2016-09-05,2016.0,15,66.67,De Pago,Económico ($0.01 - $9.99),RPG
+100098,Steam Game 98,2011-09-19,0.0,108,2,10,"Racing, Casual, Sports",Developer 98,Publisher 98,2011-09-19,2011.0,110,98.18,Gratuito,Gratuito ($0),Racing
+100099,Steam Game 99,2014-10-11,0.0,10,2,0,Massively Multiplayer,Developer 99,Publisher 99,2014-10-11,2014.0,12,83.33,Gratuito,Gratuito ($0),Massively Multiplayer
+100100,Steam Game 100,2014-06-18,0.0,326,22,1,Racing,Developer 100,Publisher 100,2014-06-18,2014.0,348,93.68,Gratuito,Gratuito ($0),Racing
+100101,Steam Game 101,2020-05-15,14.99,792,153,0,"Sports, Casual, Massively Multiplayer",Developer 101,Publisher 101,2020-05-15,2020.0,945,83.81,De Pago,Estándar ($10.00 - $29.99),Sports
+100102,Steam Game 102,2015-02-02,4.99,5,6,3,Adventure,Developer 102,Publisher 102,2015-02-02,2015.0,11,45.45,De Pago,Económico ($0.01 - $9.99),Adventure
+100103,Steam Game 103,2020-07-24,9.99,31,8,2,Strategy,Developer 103,Publisher 103,2020-07-24,2020.0,39,79.49,De Pago,Económico ($0.01 - $9.99),Strategy
+100104,Steam Game 104,2018-11-13,29.99,4,3,4,"RPG, Strategy, Action",Developer 104,Publisher 104,2018-11-13,2018.0,7,57.14,De Pago,Estándar ($10.00 - $29.99),RPG
+100105,Steam Game 105,2011-05-23,4.99,13,4,0,"Action, RPG, Racing",Developer 105,Publisher 105,2011-05-23,2011.0,17,76.47,De Pago,Económico ($0.01 - $9.99),Action
+100106,Steam Game 106,2014-10-12,9.99,0,0,0,"RPG, Massively Multiplayer, Casual",Developer 106,Publisher 106,2014-10-12,2014.0,0,,De Pago,Económico ($0.01 - $9.99),RPG
+100107,Steam Game 107,2009-11-14,19.99,1057,544,2,"Simulation, Indie",Developer 107,Publisher 107,2009-11-14,2009.0,1601,66.02,De Pago,Estándar ($10.00 - $29.99),Simulation
+100108,Steam Game 108,2024-08-01,4.99,21,3,1,"RPG, Adventure",Developer 108,Publisher 108,2024-08-01,2024.0,24,87.5,De Pago,Económico ($0.01 - $9.99),RPG
+100109,Steam Game 109,2021-05-12,0.0,5,5,1,Action,Developer 109,Publisher 109,2021-05-12,2021.0,10,50.0,Gratuito,Gratuito ($0),Action
+100110,Steam Game 110,2015-01-13,4.99,17,30,3,Massively Multiplayer,Developer 110,Publisher 110,2015-01-13,2015.0,47,36.17,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100111,Steam Game 111,2016-03-25,0.0,125,30,0,"RPG, Racing",Developer 111,Publisher 111,2016-03-25,2016.0,155,80.65,Gratuito,Gratuito ($0),RPG
+100112,Steam Game 112,2020-10-03,29.99,61,20,2,Sports,Developer 112,Publisher 112,2020-10-03,2020.0,81,75.31,De Pago,Estándar ($10.00 - $29.99),Sports
+100113,Steam Game 113,2017-01-03,19.99,8,2,24,Indie,Developer 113,Publisher 113,2017-01-03,2017.0,10,80.0,De Pago,Estándar ($10.00 - $29.99),Indie
+100114,Steam Game 114,2019-10-01,14.99,6,1,2,Massively Multiplayer,Developer 114,Publisher 114,2019-10-01,2019.0,7,85.71,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100115,Steam Game 115,2008-12-11,29.99,95,15,27,"Strategy, Massively Multiplayer",Developer 115,Publisher 115,2008-12-11,2008.0,110,86.36,De Pago,Estándar ($10.00 - $29.99),Strategy
+100116,Steam Game 116,2023-12-04,19.99,39,4,6,Action,Developer 116,Publisher 116,2023-12-04,2023.0,43,90.7,De Pago,Estándar ($10.00 - $29.99),Action
+100117,Steam Game 117,2015-05-26,4.99,38,10,0,"Adventure, Simulation, Casual",Developer 117,Publisher 117,2015-05-26,2015.0,48,79.17,De Pago,Económico ($0.01 - $9.99),Adventure
+100118,Steam Game 118,2019-11-11,29.99,63,20,3,"Adventure, Simulation, RPG",Developer 118,Publisher 118,2019-11-11,2019.0,83,75.9,De Pago,Estándar ($10.00 - $29.99),Adventure
+100119,Steam Game 119,2023-06-02,9.99,56,23,1,"Sports, Simulation",Developer 119,Publisher 119,2023-06-02,2023.0,79,70.89,De Pago,Económico ($0.01 - $9.99),Sports
+100120,Steam Game 120,2019-07-19,19.99,204,39,2,RPG,Developer 120,Publisher 120,2019-07-19,2019.0,243,83.95,De Pago,Estándar ($10.00 - $29.99),RPG
+100121,Steam Game 121,2020-11-12,29.99,0,1,3,Action,Developer 121,Publisher 121,2020-11-12,2020.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Action
+100122,Steam Game 122,2024-05-27,4.99,96,4,43,Strategy,Developer 122,Publisher 122,2024-05-27,2024.0,100,96.0,De Pago,Económico ($0.01 - $9.99),Strategy
+100123,Steam Game 123,2019-05-13,0.0,10,2,0,"Massively Multiplayer, Adventure",Developer 123,Publisher 123,2019-05-13,2019.0,12,83.33,Gratuito,Gratuito ($0),Massively Multiplayer
+100124,Steam Game 124,2018-06-17,4.99,44,8,4,"Action, Casual, Strategy",Developer 124,Publisher 124,2018-06-17,2018.0,52,84.62,De Pago,Económico ($0.01 - $9.99),Action
+100125,Steam Game 125,2018-09-19,9.99,110,15,10,Simulation,Developer 125,Publisher 125,2018-09-19,2018.0,125,88.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100126,Steam Game 126,2009-02-04,19.99,15,4,9,Sports,Developer 126,Publisher 126,2009-02-04,2009.0,19,78.95,De Pago,Estándar ($10.00 - $29.99),Sports
+100127,Steam Game 127,2011-06-06,19.99,19,10,8,"Simulation, RPG, Casual",Developer 127,Publisher 127,2011-06-06,2011.0,29,65.52,De Pago,Estándar ($10.00 - $29.99),Simulation
+100128,Steam Game 128,2018-10-03,0.0,24,18,8,"Strategy, Casual, Action",Developer 128,Publisher 128,2018-10-03,2018.0,42,57.14,Gratuito,Gratuito ($0),Strategy
+100129,Steam Game 129,2018-07-11,9.99,25,13,1,"Simulation, RPG",Developer 129,Publisher 129,2018-07-11,2018.0,38,65.79,De Pago,Económico ($0.01 - $9.99),Simulation
+100130,Steam Game 130,2018-04-22,9.99,32,8,6,Racing,Developer 130,Publisher 130,2018-04-22,2018.0,40,80.0,De Pago,Económico ($0.01 - $9.99),Racing
+100131,Steam Game 131,2012-12-12,4.99,4,2,7,"Indie, Sports, RPG",Developer 131,Publisher 131,2012-12-12,2012.0,6,66.67,De Pago,Económico ($0.01 - $9.99),Indie
+100132,Steam Game 132,2023-05-12,0.0,29,10,1,"Strategy, Racing",Developer 132,Publisher 132,2023-05-12,2023.0,39,74.36,Gratuito,Gratuito ($0),Strategy
+100133,Steam Game 133,2022-07-18,4.99,49,4,1,Indie,Developer 133,Publisher 133,2022-07-18,2022.0,53,92.45,De Pago,Económico ($0.01 - $9.99),Indie
+100134,Steam Game 134,2015-08-14,39.99,34,12,4,Indie,Developer 134,Publisher 134,2015-08-14,2015.0,46,73.91,De Pago,Premium (>$30.00),Indie
+100135,Steam Game 135,2017-03-11,4.99,37,6,29,"Adventure, Massively Multiplayer, Action",Developer 135,Publisher 135,2017-03-11,2017.0,43,86.05,De Pago,Económico ($0.01 - $9.99),Adventure
+100136,Steam Game 136,2016-03-24,9.99,29,3,14,"Action, Massively Multiplayer",Developer 136,Publisher 136,2016-03-24,2016.0,32,90.62,De Pago,Económico ($0.01 - $9.99),Action
+100137,Steam Game 137,2014-09-21,14.99,51,21,1,"Sports, RPG, Strategy",Developer 137,Publisher 137,2014-09-21,2014.0,72,70.83,De Pago,Estándar ($10.00 - $29.99),Sports
+100138,Steam Game 138,2016-12-17,4.99,3,1,0,"Casual, Action, Massively Multiplayer",Developer 138,Publisher 138,2016-12-17,2016.0,4,75.0,De Pago,Económico ($0.01 - $9.99),Casual
+100139,Steam Game 139,2025-01-22,59.99,44,14,4,"Action, Simulation, Massively Multiplayer",Developer 139,Publisher 139,2025-01-22,2025.0,58,75.86,De Pago,Premium (>$30.00),Action
+100140,Steam Game 140,2018-10-16,39.99,40,4,21,"Casual, Sports",Developer 140,Publisher 140,2018-10-16,2018.0,44,90.91,De Pago,Premium (>$30.00),Casual
+100141,Steam Game 141,2022-08-03,4.99,16,6,13,"Strategy, Sports, Simulation",Developer 141,Publisher 141,2022-08-03,2022.0,22,72.73,De Pago,Económico ($0.01 - $9.99),Strategy
+100142,Steam Game 142,2020-05-04,9.99,40,15,0,Strategy,Developer 142,Publisher 142,2020-05-04,2020.0,55,72.73,De Pago,Económico ($0.01 - $9.99),Strategy
+100143,Steam Game 143,2022-03-26,4.99,2,1,1,"Casual, Sports",Developer 143,Publisher 143,2022-03-26,2022.0,3,66.67,De Pago,Económico ($0.01 - $9.99),Casual
+100144,Steam Game 144,2016-12-08,4.99,19,6,5,"Racing, Indie",Developer 144,Publisher 144,2016-12-08,2016.0,25,76.0,De Pago,Económico ($0.01 - $9.99),Racing
+100145,Steam Game 145,2019-07-24,0.0,15,14,0,"RPG, Massively Multiplayer",Developer 145,Publisher 145,2019-07-24,2019.0,29,51.72,Gratuito,Gratuito ($0),RPG
+100146,Steam Game 146,2016-04-11,14.99,15,1,15,Sports,Developer 146,Publisher 146,2016-04-11,2016.0,16,93.75,De Pago,Estándar ($10.00 - $29.99),Sports
+100147,Steam Game 147,2021-06-13,9.99,4560,135,0,Sports,Developer 147,Publisher 147,2021-06-13,2021.0,4695,97.12,De Pago,Económico ($0.01 - $9.99),Sports
+100148,Steam Game 148,2020-05-24,0.0,48,18,2,Racing,Developer 148,Publisher 148,2020-05-24,2020.0,66,72.73,Gratuito,Gratuito ($0),Racing
+100149,Steam Game 149,2021-07-12,4.99,12,4,9,"RPG, Massively Multiplayer",Developer 149,Publisher 149,2021-07-12,2021.0,16,75.0,De Pago,Económico ($0.01 - $9.99),RPG
+100150,Steam Game 150,2014-12-05,29.99,5,7,25,"Action, Simulation, Adventure",Developer 150,Publisher 150,2014-12-05,2014.0,12,41.67,De Pago,Estándar ($10.00 - $29.99),Action
+100151,Steam Game 151,2021-12-16,4.99,3,5,0,Racing,Developer 151,Publisher 151,2021-12-16,2021.0,8,37.5,De Pago,Económico ($0.01 - $9.99),Racing
+100152,Steam Game 152,2025-07-01,0.0,12,5,10,"Action, Adventure, Casual",Developer 152,Publisher 152,2025-07-01,2025.0,17,70.59,Gratuito,Gratuito ($0),Action
+100153,Steam Game 153,2021-03-09,9.99,254,17,11,"Indie, Action",Developer 153,Publisher 153,2021-03-09,2021.0,271,93.73,De Pago,Económico ($0.01 - $9.99),Indie
+100154,Steam Game 154,2017-11-14,59.99,20,8,31,Adventure,Developer 154,Publisher 154,2017-11-14,2017.0,28,71.43,De Pago,Premium (>$30.00),Adventure
+100155,Steam Game 155,2015-05-27,4.99,31,2,1,"Racing, Adventure",Developer 155,Publisher 155,2015-05-27,2015.0,33,93.94,De Pago,Económico ($0.01 - $9.99),Racing
+100156,Steam Game 156,2012-02-25,14.99,36,9,2,Action,Developer 156,Publisher 156,2012-02-25,2012.0,45,80.0,De Pago,Estándar ($10.00 - $29.99),Action
+100157,Steam Game 157,2017-02-08,19.99,0,1,0,"Racing, Strategy, Indie",Developer 157,Publisher 157,2017-02-08,2017.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100158,Steam Game 158,2015-05-27,4.99,4,7,25,Action,Developer 158,Publisher 158,2015-05-27,2015.0,11,36.36,De Pago,Económico ($0.01 - $9.99),Action
+100159,Steam Game 159,2017-05-03,14.99,0,0,8,"Strategy, Massively Multiplayer",Developer 159,Publisher 159,2017-05-03,2017.0,0,,De Pago,Estándar ($10.00 - $29.99),Strategy
+100160,Steam Game 160,2010-09-22,4.99,24,7,21,"Action, Massively Multiplayer",Developer 160,Publisher 160,2010-09-22,2010.0,31,77.42,De Pago,Económico ($0.01 - $9.99),Action
+100161,Steam Game 161,2015-08-07,14.99,511,236,1,"Simulation, Indie",Developer 161,Publisher 161,2015-08-07,2015.0,747,68.41,De Pago,Estándar ($10.00 - $29.99),Simulation
+100162,Steam Game 162,2024-08-04,14.99,23,6,9,"Adventure, Racing, Action",Developer 162,Publisher 162,2024-08-04,2024.0,29,79.31,De Pago,Estándar ($10.00 - $29.99),Adventure
+100163,Steam Game 163,2012-10-15,9.99,51,79,26,Casual,Developer 163,Publisher 163,2012-10-15,2012.0,130,39.23,De Pago,Económico ($0.01 - $9.99),Casual
+100164,Steam Game 164,2011-04-12,0.0,81,38,1,Action,Developer 164,Publisher 164,2011-04-12,2011.0,119,68.07,Gratuito,Gratuito ($0),Action
+100165,Steam Game 165,2019-09-26,19.99,1220,783,34,"Racing, Casual",Developer 165,Publisher 165,2019-09-26,2019.0,2003,60.91,De Pago,Estándar ($10.00 - $29.99),Racing
+100166,Steam Game 166,2021-01-23,4.99,110,13,9,Action,Developer 166,Publisher 166,2021-01-23,2021.0,123,89.43,De Pago,Económico ($0.01 - $9.99),Action
+100167,Steam Game 167,2011-06-09,4.99,0,0,14,Action,Developer 167,Publisher 167,2011-06-09,2011.0,0,,De Pago,Económico ($0.01 - $9.99),Action
+100168,Steam Game 168,2023-05-22,0.0,23,8,1,Action,Developer 168,Publisher 168,2023-05-22,2023.0,31,74.19,Gratuito,Gratuito ($0),Action
+100169,Steam Game 169,2009-03-18,9.99,19,3,0,"Action, Adventure",Developer 169,Publisher 169,2009-03-18,2009.0,22,86.36,De Pago,Económico ($0.01 - $9.99),Action
+100170,Steam Game 170,2022-01-22,14.99,25,9,14,Adventure,Developer 170,Publisher 170,2022-01-22,2022.0,34,73.53,De Pago,Estándar ($10.00 - $29.99),Adventure
+100171,Steam Game 171,2021-05-13,0.0,20,7,0,"Indie, Action",Developer 171,Publisher 171,2021-05-13,2021.0,27,74.07,Gratuito,Gratuito ($0),Indie
+100172,Steam Game 172,2019-01-03,9.99,180,40,20,"Sports, Adventure",Developer 172,Publisher 172,2019-01-03,2019.0,220,81.82,De Pago,Económico ($0.01 - $9.99),Sports
+100173,Steam Game 173,2019-06-07,4.99,7,1,0,"Strategy, Casual",Developer 173,Publisher 173,2019-06-07,2019.0,8,87.5,De Pago,Económico ($0.01 - $9.99),Strategy
+100174,Steam Game 174,2021-03-19,14.99,30,6,7,"RPG, Indie, Strategy",Developer 174,Publisher 174,2021-03-19,2021.0,36,83.33,De Pago,Estándar ($10.00 - $29.99),RPG
+100175,Steam Game 175,2011-03-08,0.0,102,92,1,"Action, Indie, Sports",Developer 175,Publisher 175,2011-03-08,2011.0,194,52.58,Gratuito,Gratuito ($0),Action
+100176,Steam Game 176,2016-03-11,14.99,0,1,0,Action,Developer 176,Publisher 176,2016-03-11,2016.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Action
+100177,Steam Game 177,2011-12-27,9.99,24,6,0,"Sports, Strategy",Developer 177,Publisher 177,2011-12-27,2011.0,30,80.0,De Pago,Económico ($0.01 - $9.99),Sports
+100178,Steam Game 178,2013-03-05,29.99,20,6,1,"Casual, RPG, Massively Multiplayer",Developer 178,Publisher 178,2013-03-05,2013.0,26,76.92,De Pago,Estándar ($10.00 - $29.99),Casual
+100179,Steam Game 179,2021-11-16,0.0,49,5,45,"Sports, RPG",Developer 179,Publisher 179,2021-11-16,2021.0,54,90.74,Gratuito,Gratuito ($0),Sports
+100180,Steam Game 180,2020-11-03,4.99,42,5,6,Indie,Developer 180,Publisher 180,2020-11-03,2020.0,47,89.36,De Pago,Económico ($0.01 - $9.99),Indie
+100181,Steam Game 181,2016-10-01,0.0,4,2,3,Sports,Developer 181,Publisher 181,2016-10-01,2016.0,6,66.67,Gratuito,Gratuito ($0),Sports
+100182,Steam Game 182,2017-12-21,29.99,78,8,53,"Indie, Massively Multiplayer",Developer 182,Publisher 182,2017-12-21,2017.0,86,90.7,De Pago,Estándar ($10.00 - $29.99),Indie
+100183,Steam Game 183,2019-10-10,29.99,2454,2766,2,RPG,Developer 183,Publisher 183,2019-10-10,2019.0,5220,47.01,De Pago,Estándar ($10.00 - $29.99),RPG
+100184,Steam Game 184,2019-03-10,4.99,21,6,9,Massively Multiplayer,Developer 184,Publisher 184,2019-03-10,2019.0,27,77.78,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100185,Steam Game 185,2017-02-16,14.99,4,4,4,"Racing, Action",Developer 185,Publisher 185,2017-02-16,2017.0,8,50.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100186,Steam Game 186,2020-05-11,19.99,0,1,0,"Simulation, Massively Multiplayer, Sports",Developer 186,Publisher 186,2020-05-11,2020.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100187,Steam Game 187,2014-06-19,9.99,11,2,2,"Simulation, Indie, Action",Developer 187,Publisher 187,2014-06-19,2014.0,13,84.62,De Pago,Económico ($0.01 - $9.99),Simulation
+100188,Steam Game 188,2015-06-20,9.99,2,2,96,"Sports, Indie",Developer 188,Publisher 188,2015-06-20,2015.0,4,50.0,De Pago,Económico ($0.01 - $9.99),Sports
+100189,Steam Game 189,2010-02-13,4.99,141,29,3,"RPG, Strategy, Sports",Developer 189,Publisher 189,2010-02-13,2010.0,170,82.94,De Pago,Económico ($0.01 - $9.99),RPG
+100190,Steam Game 190,2018-01-15,0.0,77,51,0,"Racing, Indie, RPG",Developer 190,Publisher 190,2018-01-15,2018.0,128,60.16,Gratuito,Gratuito ($0),Racing
+100191,Steam Game 191,2020-04-10,29.99,85,57,38,"Action, Strategy, Indie",Developer 191,Publisher 191,2020-04-10,2020.0,142,59.86,De Pago,Estándar ($10.00 - $29.99),Action
+100192,Steam Game 192,2018-10-04,29.99,6,5,3,Massively Multiplayer,Developer 192,Publisher 192,2018-10-04,2018.0,11,54.55,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100193,Steam Game 193,2016-08-19,14.99,10,7,0,"Racing, Indie, Action",Developer 193,Publisher 193,2016-08-19,2016.0,17,58.82,De Pago,Estándar ($10.00 - $29.99),Racing
+100194,Steam Game 194,2014-01-15,4.99,6,3,10,Sports,Developer 194,Publisher 194,2014-01-15,2014.0,9,66.67,De Pago,Económico ($0.01 - $9.99),Sports
+100195,Steam Game 195,2018-11-06,4.99,73,15,0,"Action, Adventure",Developer 195,Publisher 195,2018-11-06,2018.0,88,82.95,De Pago,Económico ($0.01 - $9.99),Action
+100196,Steam Game 196,2012-07-22,14.99,117,57,46,"Sports, Racing",Developer 196,Publisher 196,2012-07-22,2012.0,174,67.24,De Pago,Estándar ($10.00 - $29.99),Sports
+100197,Steam Game 197,2018-05-17,29.99,13,9,2,"RPG, Indie, Strategy",Developer 197,Publisher 197,2018-05-17,2018.0,22,59.09,De Pago,Estándar ($10.00 - $29.99),RPG
+100198,Steam Game 198,2013-08-13,29.99,116,16,4,Action,Developer 198,Publisher 198,2013-08-13,2013.0,132,87.88,De Pago,Estándar ($10.00 - $29.99),Action
+100199,Steam Game 199,2011-02-20,19.99,13,4,1,"Sports, Adventure, Indie",Developer 199,Publisher 199,2011-02-20,2011.0,17,76.47,De Pago,Estándar ($10.00 - $29.99),Sports
+100200,Steam Game 200,2024-01-17,14.99,6,5,1,"Indie, Action",Developer 200,Publisher 200,2024-01-17,2024.0,11,54.55,De Pago,Estándar ($10.00 - $29.99),Indie
+100201,Steam Game 201,2010-09-15,0.0,24,2,25,"Racing, Adventure, RPG",Developer 201,Publisher 201,2010-09-15,2010.0,26,92.31,Gratuito,Gratuito ($0),Racing
+100202,Steam Game 202,2022-04-07,0.0,26,4,5,"Simulation, Casual, Racing",Developer 202,Publisher 202,2022-04-07,2022.0,30,86.67,Gratuito,Gratuito ($0),Simulation
+100203,Steam Game 203,2023-11-23,29.99,0,0,1,"Action, Massively Multiplayer",Developer 203,Publisher 203,2023-11-23,2023.0,0,,De Pago,Estándar ($10.00 - $29.99),Action
+100204,Steam Game 204,2020-04-22,14.99,46,16,1,"Simulation, Massively Multiplayer",Developer 204,Publisher 204,2020-04-22,2020.0,62,74.19,De Pago,Estándar ($10.00 - $29.99),Simulation
+100205,Steam Game 205,2024-02-11,0.0,4,1,15,"Strategy, Simulation, Racing",Developer 205,Publisher 205,2024-02-11,2024.0,5,80.0,Gratuito,Gratuito ($0),Strategy
+100206,Steam Game 206,2020-11-18,0.0,5,5,5,"Casual, Simulation, Sports",Developer 206,Publisher 206,2020-11-18,2020.0,10,50.0,Gratuito,Gratuito ($0),Casual
+100207,Steam Game 207,2013-02-20,14.99,48,7,23,"RPG, Indie, Action",Developer 207,Publisher 207,2013-02-20,2013.0,55,87.27,De Pago,Estándar ($10.00 - $29.99),RPG
+100208,Steam Game 208,2018-05-19,0.0,433,77,1,"Casual, Strategy",Developer 208,Publisher 208,2018-05-19,2018.0,510,84.9,Gratuito,Gratuito ($0),Casual
+100209,Steam Game 209,2020-02-27,0.0,228,23,30,"Sports, Indie, Strategy",Developer 209,Publisher 209,2020-02-27,2020.0,251,90.84,Gratuito,Gratuito ($0),Sports
+100210,Steam Game 210,2019-06-08,9.99,519,129,16,"Racing, Adventure",Developer 210,Publisher 210,2019-06-08,2019.0,648,80.09,De Pago,Económico ($0.01 - $9.99),Racing
+100211,Steam Game 211,2017-11-18,14.99,0,1,3,Indie,Developer 211,Publisher 211,2017-11-18,2017.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Indie
+100212,Steam Game 212,2016-07-10,14.99,11,5,0,Adventure,Developer 212,Publisher 212,2016-07-10,2016.0,16,68.75,De Pago,Estándar ($10.00 - $29.99),Adventure
+100213,Steam Game 213,2022-02-18,4.99,0,0,2,Racing,Developer 213,Publisher 213,2022-02-18,2022.0,0,,De Pago,Económico ($0.01 - $9.99),Racing
+100214,Steam Game 214,2021-12-17,14.99,71,18,6,"Racing, Strategy",Developer 214,Publisher 214,2021-12-17,2021.0,89,79.78,De Pago,Estándar ($10.00 - $29.99),Racing
+100215,Steam Game 215,2021-08-09,4.99,33,3,8,"Strategy, Casual",Developer 215,Publisher 215,2021-08-09,2021.0,36,91.67,De Pago,Económico ($0.01 - $9.99),Strategy
+100216,Steam Game 216,2016-09-03,4.99,0,0,27,"Action, Racing, Strategy",Developer 216,Publisher 216,2016-09-03,2016.0,0,,De Pago,Económico ($0.01 - $9.99),Action
+100217,Steam Game 217,2017-10-15,14.99,74,9,15,"RPG, Casual, Sports",Developer 217,Publisher 217,2017-10-15,2017.0,83,89.16,De Pago,Estándar ($10.00 - $29.99),RPG
+100218,Steam Game 218,2024-03-24,14.99,5,3,0,"Massively Multiplayer, Adventure",Developer 218,Publisher 218,2024-03-24,2024.0,8,62.5,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100219,Steam Game 219,2022-04-23,19.99,8,1,3,"Adventure, Indie",Developer 219,Publisher 219,2022-04-23,2022.0,9,88.89,De Pago,Estándar ($10.00 - $29.99),Adventure
+100220,Steam Game 220,2019-07-12,14.99,41,1,1,Indie,Developer 220,Publisher 220,2019-07-12,2019.0,42,97.62,De Pago,Estándar ($10.00 - $29.99),Indie
+100221,Steam Game 221,2015-11-17,9.99,0,0,0,"Indie, RPG",Developer 221,Publisher 221,2015-11-17,2015.0,0,,De Pago,Económico ($0.01 - $9.99),Indie
+100222,Steam Game 222,2016-01-27,0.0,53,14,20,"Racing, RPG, Action",Developer 222,Publisher 222,2016-01-27,2016.0,67,79.1,Gratuito,Gratuito ($0),Racing
+100223,Steam Game 223,2020-04-06,4.99,9,5,0,RPG,Developer 223,Publisher 223,2020-04-06,2020.0,14,64.29,De Pago,Económico ($0.01 - $9.99),RPG
+100224,Steam Game 224,2009-01-24,4.99,14,8,1,RPG,Developer 224,Publisher 224,2009-01-24,2009.0,22,63.64,De Pago,Económico ($0.01 - $9.99),RPG
+100225,Steam Game 225,2023-02-22,4.99,0,0,1,RPG,Developer 225,Publisher 225,2023-02-22,2023.0,0,,De Pago,Económico ($0.01 - $9.99),RPG
+100226,Steam Game 226,2015-09-09,59.99,7,2,2,Racing,Developer 226,Publisher 226,2015-09-09,2015.0,9,77.78,De Pago,Premium (>$30.00),Racing
+100227,Steam Game 227,2015-02-10,9.99,36,5,0,Action,Developer 227,Publisher 227,2015-02-10,2015.0,41,87.8,De Pago,Económico ($0.01 - $9.99),Action
+100228,Steam Game 228,2006-12-03,29.99,12,4,0,"Racing, Simulation, Action",Developer 228,Publisher 228,2006-12-03,2006.0,16,75.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100229,Steam Game 229,2019-03-06,14.99,23,4,0,"Racing, Action",Developer 229,Publisher 229,2019-03-06,2019.0,27,85.19,De Pago,Estándar ($10.00 - $29.99),Racing
+100230,Steam Game 230,2018-12-26,19.99,14,8,19,"Indie, RPG",Developer 230,Publisher 230,2018-12-26,2018.0,22,63.64,De Pago,Estándar ($10.00 - $29.99),Indie
+100231,Steam Game 231,2017-11-13,9.99,17,8,1,"Adventure, Massively Multiplayer",Developer 231,Publisher 231,2017-11-13,2017.0,25,68.0,De Pago,Económico ($0.01 - $9.99),Adventure
+100232,Steam Game 232,2017-06-14,9.99,7,2,9,"Simulation, Massively Multiplayer",Developer 232,Publisher 232,2017-06-14,2017.0,9,77.78,De Pago,Económico ($0.01 - $9.99),Simulation
+100233,Steam Game 233,2015-11-04,9.99,0,1,4,"Massively Multiplayer, RPG",Developer 233,Publisher 233,2015-11-04,2015.0,1,0.0,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100234,Steam Game 234,2017-01-10,4.99,9,6,2,Sports,Developer 234,Publisher 234,2017-01-10,2017.0,15,60.0,De Pago,Económico ($0.01 - $9.99),Sports
+100235,Steam Game 235,2006-07-19,14.99,12,4,0,Massively Multiplayer,Developer 235,Publisher 235,2006-07-19,2006.0,16,75.0,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100236,Steam Game 236,2015-11-16,4.99,40,2,0,"Indie, Racing, Casual",Developer 236,Publisher 236,2015-11-16,2015.0,42,95.24,De Pago,Económico ($0.01 - $9.99),Indie
+100237,Steam Game 237,2023-08-24,0.0,323,50,13,"Sports, Adventure, Action",Developer 237,Publisher 237,2023-08-24,2023.0,373,86.6,Gratuito,Gratuito ($0),Sports
+100238,Steam Game 238,2021-09-07,14.99,8,3,12,"Strategy, Casual, Racing",Developer 238,Publisher 238,2021-09-07,2021.0,11,72.73,De Pago,Estándar ($10.00 - $29.99),Strategy
+100239,Steam Game 239,2019-09-23,0.0,23,2,23,"Indie, Massively Multiplayer",Developer 239,Publisher 239,2019-09-23,2019.0,25,92.0,Gratuito,Gratuito ($0),Indie
+100240,Steam Game 240,2021-12-05,39.99,9,5,39,Indie,Developer 240,Publisher 240,2021-12-05,2021.0,14,64.29,De Pago,Premium (>$30.00),Indie
+100241,Steam Game 241,2018-05-12,39.99,9,2,1,"Sports, Massively Multiplayer, Action",Developer 241,Publisher 241,2018-05-12,2018.0,11,81.82,De Pago,Premium (>$30.00),Sports
+100242,Steam Game 242,2011-05-15,29.99,56,11,5,Massively Multiplayer,Developer 242,Publisher 242,2011-05-15,2011.0,67,83.58,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100243,Steam Game 243,2017-11-01,4.99,0,1,1,Simulation,Developer 243,Publisher 243,2017-11-01,2017.0,1,0.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100244,Steam Game 244,2023-12-22,0.0,71,21,2,"Simulation, Adventure, Sports",Developer 244,Publisher 244,2023-12-22,2023.0,92,77.17,Gratuito,Gratuito ($0),Simulation
+100245,Steam Game 245,2010-04-06,29.99,85,30,120,Sports,Developer 245,Publisher 245,2010-04-06,2010.0,115,73.91,De Pago,Estándar ($10.00 - $29.99),Sports
+100246,Steam Game 246,2020-04-19,9.99,50,8,2,"Racing, Adventure, RPG",Developer 246,Publisher 246,2020-04-19,2020.0,58,86.21,De Pago,Económico ($0.01 - $9.99),Racing
+100247,Steam Game 247,2020-10-05,39.99,4,7,1,"Strategy, Simulation",Developer 247,Publisher 247,2020-10-05,2020.0,11,36.36,De Pago,Premium (>$30.00),Strategy
+100248,Steam Game 248,2016-11-09,39.99,192,43,2,"Sports, Adventure, Racing",Developer 248,Publisher 248,2016-11-09,2016.0,235,81.7,De Pago,Premium (>$30.00),Sports
+100249,Steam Game 249,2022-01-07,19.99,21,30,2,"RPG, Sports, Strategy",Developer 249,Publisher 249,2022-01-07,2022.0,51,41.18,De Pago,Estándar ($10.00 - $29.99),RPG
+100251,Steam Game 251,2014-08-09,9.99,12,6,1,"Racing, Simulation",Developer 251,Publisher 251,2014-08-09,2014.0,18,66.67,De Pago,Económico ($0.01 - $9.99),Racing
+100252,Steam Game 252,2019-04-22,19.99,97,12,5,"Massively Multiplayer, Indie, Casual",Developer 252,Publisher 252,2019-04-22,2019.0,109,88.99,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100253,Steam Game 253,2021-03-16,4.99,6,2,15,"Action, Casual",Developer 253,Publisher 253,2021-03-16,2021.0,8,75.0,De Pago,Económico ($0.01 - $9.99),Action
+100254,Steam Game 254,2022-03-05,0.0,129,36,6,"Indie, Sports, Massively Multiplayer",Developer 254,Publisher 254,2022-03-05,2022.0,165,78.18,Gratuito,Gratuito ($0),Indie
+100255,Steam Game 255,2023-11-10,9.99,68,20,0,"Simulation, RPG, Strategy",Developer 255,Publisher 255,2023-11-10,2023.0,88,77.27,De Pago,Económico ($0.01 - $9.99),Simulation
+100256,Steam Game 256,2009-07-21,29.99,127,48,29,"Simulation, Adventure, Racing",Developer 256,Publisher 256,2009-07-21,2009.0,175,72.57,De Pago,Estándar ($10.00 - $29.99),Simulation
+100257,Steam Game 257,2013-06-21,14.99,62,25,5,Racing,Developer 257,Publisher 257,2013-06-21,2013.0,87,71.26,De Pago,Estándar ($10.00 - $29.99),Racing
+100258,Steam Game 258,2013-01-15,9.99,7,3,0,"Simulation, Massively Multiplayer, Indie",Developer 258,Publisher 258,2013-01-15,2013.0,10,70.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100259,Steam Game 259,2014-12-15,0.0,7,2,38,"Casual, RPG",Developer 259,Publisher 259,2014-12-15,2014.0,9,77.78,Gratuito,Gratuito ($0),Casual
+100260,Steam Game 260,2019-01-13,14.99,1,2,6,"Action, RPG, Racing",Developer 260,Publisher 260,2019-01-13,2019.0,3,33.33,De Pago,Estándar ($10.00 - $29.99),Action
+100261,Steam Game 261,2017-01-20,69.99,26,4,8,"Adventure, Casual",Developer 261,Publisher 261,2017-01-20,2017.0,30,86.67,De Pago,Premium (>$30.00),Adventure
+100262,Steam Game 262,2012-05-18,0.0,21,5,2,Indie,Developer 262,Publisher 262,2012-05-18,2012.0,26,80.77,Gratuito,Gratuito ($0),Indie
+100263,Steam Game 263,2024-01-23,9.99,5,4,1,"Racing, Casual, Simulation",Developer 263,Publisher 263,2024-01-23,2024.0,9,55.56,De Pago,Económico ($0.01 - $9.99),Racing
+100264,Steam Game 264,2012-07-07,29.99,20,14,12,"Strategy, Racing",Developer 264,Publisher 264,2012-07-07,2012.0,34,58.82,De Pago,Estándar ($10.00 - $29.99),Strategy
+100265,Steam Game 265,2022-09-08,14.99,4,3,3,"Simulation, Racing",Developer 265,Publisher 265,2022-09-08,2022.0,7,57.14,De Pago,Estándar ($10.00 - $29.99),Simulation
+100266,Steam Game 266,2016-11-08,14.99,12,7,8,Strategy,Developer 266,Publisher 266,2016-11-08,2016.0,19,63.16,De Pago,Estándar ($10.00 - $29.99),Strategy
+100267,Steam Game 267,2012-03-11,14.99,3,3,1,"Adventure, Indie, Massively Multiplayer",Developer 267,Publisher 267,2012-03-11,2012.0,6,50.0,De Pago,Estándar ($10.00 - $29.99),Adventure
+100268,Steam Game 268,2010-04-24,4.99,47,31,2,"Casual, Simulation, Strategy",Developer 268,Publisher 268,2010-04-24,2010.0,78,60.26,De Pago,Económico ($0.01 - $9.99),Casual
+100269,Steam Game 269,2017-07-09,4.99,69,10,5,"Racing, RPG",Developer 269,Publisher 269,2017-07-09,2017.0,79,87.34,De Pago,Económico ($0.01 - $9.99),Racing
+100270,Steam Game 270,2017-02-06,19.99,126,21,11,"Strategy, Sports, Adventure",Developer 270,Publisher 270,2017-02-06,2017.0,147,85.71,De Pago,Estándar ($10.00 - $29.99),Strategy
+100271,Steam Game 271,2017-12-20,19.99,28,5,2,"Racing, Adventure, Indie",Developer 271,Publisher 271,2017-12-20,2017.0,33,84.85,De Pago,Estándar ($10.00 - $29.99),Racing
+100272,Steam Game 272,2019-04-02,19.99,40,6,25,Indie,Developer 272,Publisher 272,2019-04-02,2019.0,46,86.96,De Pago,Estándar ($10.00 - $29.99),Indie
+100273,Steam Game 273,2015-07-05,29.99,36,12,9,"Adventure, Massively Multiplayer, Action",Developer 273,Publisher 273,2015-07-05,2015.0,48,75.0,De Pago,Estándar ($10.00 - $29.99),Adventure
+100274,Steam Game 274,2006-11-22,9.99,4,2,21,Racing,Developer 274,Publisher 274,2006-11-22,2006.0,6,66.67,De Pago,Económico ($0.01 - $9.99),Racing
+100275,Steam Game 275,2018-09-23,9.99,14,4,1,"Massively Multiplayer, Action, Racing",Developer 275,Publisher 275,2018-09-23,2018.0,18,77.78,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100276,Steam Game 276,2010-08-22,19.99,255,27,3,"Racing, Strategy, Massively Multiplayer",Developer 276,Publisher 276,2010-08-22,2010.0,282,90.43,De Pago,Estándar ($10.00 - $29.99),Racing
+100277,Steam Game 277,2021-04-04,14.99,10,3,14,"RPG, Sports, Adventure",Developer 277,Publisher 277,2021-04-04,2021.0,13,76.92,De Pago,Estándar ($10.00 - $29.99),RPG
+100278,Steam Game 278,2021-02-20,14.99,28,12,4,"RPG, Adventure, Casual",Developer 278,Publisher 278,2021-02-20,2021.0,40,70.0,De Pago,Estándar ($10.00 - $29.99),RPG
+100279,Steam Game 279,2012-12-15,19.99,27,16,5,"Action, Simulation, RPG",Developer 279,Publisher 279,2012-12-15,2012.0,43,62.79,De Pago,Estándar ($10.00 - $29.99),Action
+100280,Steam Game 280,2023-09-07,29.99,63,11,7,"Strategy, RPG, Simulation",Developer 280,Publisher 280,2023-09-07,2023.0,74,85.14,De Pago,Estándar ($10.00 - $29.99),Strategy
+100281,Steam Game 281,2017-04-01,4.99,4,4,10,Adventure,Developer 281,Publisher 281,2017-04-01,2017.0,8,50.0,De Pago,Económico ($0.01 - $9.99),Adventure
+100282,Steam Game 282,2018-09-19,4.99,155,51,11,RPG,Developer 282,Publisher 282,2018-09-19,2018.0,206,75.24,De Pago,Económico ($0.01 - $9.99),RPG
+100283,Steam Game 283,2020-09-26,0.0,440,135,10,Casual,Developer 283,Publisher 283,2020-09-26,2020.0,575,76.52,Gratuito,Gratuito ($0),Casual
+100284,Steam Game 284,2014-05-18,9.99,27,6,2,"Indie, Casual, RPG",Developer 284,Publisher 284,2014-05-18,2014.0,33,81.82,De Pago,Económico ($0.01 - $9.99),Indie
+100285,Steam Game 285,2007-06-02,0.0,19,3,4,"Indie, Racing, Adventure",Developer 285,Publisher 285,2007-06-02,2007.0,22,86.36,Gratuito,Gratuito ($0),Indie
+100286,Steam Game 286,2020-06-23,9.99,5,4,7,Indie,Developer 286,Publisher 286,2020-06-23,2020.0,9,55.56,De Pago,Económico ($0.01 - $9.99),Indie
+100287,Steam Game 287,2021-12-21,9.99,17,6,21,RPG,Developer 287,Publisher 287,2021-12-21,2021.0,23,73.91,De Pago,Económico ($0.01 - $9.99),RPG
+100288,Steam Game 288,2019-05-13,4.99,248,40,2,"Casual, Action, Indie",Developer 288,Publisher 288,2019-05-13,2019.0,288,86.11,De Pago,Económico ($0.01 - $9.99),Casual
+100289,Steam Game 289,2019-10-14,9.99,2,1,7,"Strategy, Massively Multiplayer, Simulation",Developer 289,Publisher 289,2019-10-14,2019.0,3,66.67,De Pago,Económico ($0.01 - $9.99),Strategy
+100290,Steam Game 290,2022-07-03,0.0,14,4,10,Simulation,Developer 290,Publisher 290,2022-07-03,2022.0,18,77.78,Gratuito,Gratuito ($0),Simulation
+100291,Steam Game 291,2022-11-16,0.0,96,9,3,"Strategy, Simulation, Casual",Developer 291,Publisher 291,2022-11-16,2022.0,105,91.43,Gratuito,Gratuito ($0),Strategy
+100292,Steam Game 292,2011-07-25,19.99,69,6,17,"Strategy, Indie",Developer 292,Publisher 292,2011-07-25,2011.0,75,92.0,De Pago,Estándar ($10.00 - $29.99),Strategy
+100293,Steam Game 293,2014-07-14,4.99,32,6,2,Simulation,Developer 293,Publisher 293,2014-07-14,2014.0,38,84.21,De Pago,Económico ($0.01 - $9.99),Simulation
+100294,Steam Game 294,2019-12-15,0.0,52,35,1,"Adventure, Sports",Developer 294,Publisher 294,2019-12-15,2019.0,87,59.77,Gratuito,Gratuito ($0),Adventure
+100295,Steam Game 295,2011-06-25,9.99,56,12,7,"Simulation, Massively Multiplayer, RPG",Developer 295,Publisher 295,2011-06-25,2011.0,68,82.35,De Pago,Económico ($0.01 - $9.99),Simulation
+100296,Steam Game 296,2018-02-03,19.99,41,5,11,Simulation,Developer 296,Publisher 296,2018-02-03,2018.0,46,89.13,De Pago,Estándar ($10.00 - $29.99),Simulation
+100297,Steam Game 297,2012-08-02,4.99,40,10,13,"Racing, Massively Multiplayer",Developer 297,Publisher 297,2012-08-02,2012.0,50,80.0,De Pago,Económico ($0.01 - $9.99),Racing
+100298,Steam Game 298,2023-11-03,14.99,14,2,6,"Massively Multiplayer, Indie, Simulation",Developer 298,Publisher 298,2023-11-03,2023.0,16,87.5,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100299,Steam Game 299,2016-10-09,0.0,31,8,9,"Adventure, Action, Sports",Developer 299,Publisher 299,2016-10-09,2016.0,39,79.49,Gratuito,Gratuito ($0),Adventure
+100300,Steam Game 300,2014-04-08,0.0,7,2,3,"Massively Multiplayer, Action, Adventure",Developer 300,Publisher 300,2014-04-08,2014.0,9,77.78,Gratuito,Gratuito ($0),Massively Multiplayer
+100301,Steam Game 301,2020-11-19,9.99,146,95,1,Adventure,Developer 301,Publisher 301,2020-11-19,2020.0,241,60.58,De Pago,Económico ($0.01 - $9.99),Adventure
+100302,Steam Game 302,2014-06-20,9.99,15,13,4,"Action, Sports",Developer 302,Publisher 302,2014-06-20,2014.0,28,53.57,De Pago,Económico ($0.01 - $9.99),Action
+100303,Steam Game 303,2021-07-21,14.99,49,13,1,"Racing, Adventure, Sports",Developer 303,Publisher 303,2021-07-21,2021.0,62,79.03,De Pago,Estándar ($10.00 - $29.99),Racing
+100304,Steam Game 304,2021-01-20,14.99,0,1,2,"Simulation, Adventure, Massively Multiplayer",Developer 304,Publisher 304,2021-01-20,2021.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100305,Steam Game 305,2015-06-15,59.99,47,2,5,Sports,Developer 305,Publisher 305,2015-06-15,2015.0,49,95.92,De Pago,Premium (>$30.00),Sports
+100306,Steam Game 306,2016-08-27,9.99,37,7,10,"Simulation, Adventure, Strategy",Developer 306,Publisher 306,2016-08-27,2016.0,44,84.09,De Pago,Económico ($0.01 - $9.99),Simulation
+100307,Steam Game 307,2009-05-12,4.99,12,3,11,"RPG, Casual",Developer 307,Publisher 307,2009-05-12,2009.0,15,80.0,De Pago,Económico ($0.01 - $9.99),RPG
+100308,Steam Game 308,2015-08-14,19.99,129,54,3,"Simulation, Sports, Racing",Developer 308,Publisher 308,2015-08-14,2015.0,183,70.49,De Pago,Estándar ($10.00 - $29.99),Simulation
+100309,Steam Game 309,2013-06-18,4.99,125,43,6,"Casual, Indie",Developer 309,Publisher 309,2013-06-18,2013.0,168,74.4,De Pago,Económico ($0.01 - $9.99),Casual
+100310,Steam Game 310,2009-07-27,9.99,4,5,1,"Strategy, Action",Developer 310,Publisher 310,2009-07-27,2009.0,9,44.44,De Pago,Económico ($0.01 - $9.99),Strategy
+100311,Steam Game 311,2023-09-25,0.0,68,6,8,"Casual, Adventure",Developer 311,Publisher 311,2023-09-25,2023.0,74,91.89,Gratuito,Gratuito ($0),Casual
+100312,Steam Game 312,2023-07-02,0.0,4,2,2,"Simulation, Racing",Developer 312,Publisher 312,2023-07-02,2023.0,6,66.67,Gratuito,Gratuito ($0),Simulation
+100313,Steam Game 313,2019-02-21,39.99,69,9,6,"Adventure, Strategy",Developer 313,Publisher 313,2019-02-21,2019.0,78,88.46,De Pago,Premium (>$30.00),Adventure
+100314,Steam Game 314,2017-08-11,19.99,17,6,10,"Action, Indie, Strategy",Developer 314,Publisher 314,2017-08-11,2017.0,23,73.91,De Pago,Estándar ($10.00 - $29.99),Action
+100315,Steam Game 315,2017-01-25,14.99,541,51,39,Strategy,Developer 315,Publisher 315,2017-01-25,2017.0,592,91.39,De Pago,Estándar ($10.00 - $29.99),Strategy
+100316,Steam Game 316,2019-01-24,9.99,26,7,0,"Racing, Indie",Developer 316,Publisher 316,2019-01-24,2019.0,33,78.79,De Pago,Económico ($0.01 - $9.99),Racing
+100317,Steam Game 317,2014-10-01,0.0,13,10,12,"Massively Multiplayer, Casual",Developer 317,Publisher 317,2014-10-01,2014.0,23,56.52,Gratuito,Gratuito ($0),Massively Multiplayer
+100318,Steam Game 318,2019-06-19,0.0,18,5,9,Racing,Developer 318,Publisher 318,2019-06-19,2019.0,23,78.26,Gratuito,Gratuito ($0),Racing
+100319,Steam Game 319,2008-08-26,4.99,31,2,0,"Simulation, Strategy, Adventure",Developer 319,Publisher 319,2008-08-26,2008.0,33,93.94,De Pago,Económico ($0.01 - $9.99),Simulation
+100320,Steam Game 320,2019-10-14,9.99,2,1,0,"Massively Multiplayer, Casual, Simulation",Developer 320,Publisher 320,2019-10-14,2019.0,3,66.67,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100321,Steam Game 321,2018-01-09,14.99,11,3,2,"Sports, Strategy",Developer 321,Publisher 321,2018-01-09,2018.0,14,78.57,De Pago,Estándar ($10.00 - $29.99),Sports
+100322,Steam Game 322,2020-01-03,14.99,111,18,7,"Sports, Strategy",Developer 322,Publisher 322,2020-01-03,2020.0,129,86.05,De Pago,Estándar ($10.00 - $29.99),Sports
+100323,Steam Game 323,2019-12-27,4.99,102,49,0,"Casual, Sports, Strategy",Developer 323,Publisher 323,2019-12-27,2019.0,151,67.55,De Pago,Económico ($0.01 - $9.99),Casual
+100324,Steam Game 324,2015-05-14,39.99,32,12,43,"Adventure, Casual, Action",Developer 324,Publisher 324,2015-05-14,2015.0,44,72.73,De Pago,Premium (>$30.00),Adventure
+100325,Steam Game 325,2018-03-20,14.99,35,10,12,"Strategy, RPG, Casual",Developer 325,Publisher 325,2018-03-20,2018.0,45,77.78,De Pago,Estándar ($10.00 - $29.99),Strategy
+100326,Steam Game 326,2019-10-03,9.99,0,0,12,"Racing, Strategy",Developer 326,Publisher 326,2019-10-03,2019.0,0,,De Pago,Económico ($0.01 - $9.99),Racing
+100327,Steam Game 327,2007-10-23,14.99,38,10,15,"Adventure, RPG",Developer 327,Publisher 327,2007-10-23,2007.0,48,79.17,De Pago,Estándar ($10.00 - $29.99),Adventure
+100328,Steam Game 328,2024-01-25,9.99,22,2,15,RPG,Developer 328,Publisher 328,2024-01-25,2024.0,24,91.67,De Pago,Económico ($0.01 - $9.99),RPG
+100329,Steam Game 329,2016-02-04,4.99,229,34,2,"RPG, Adventure",Developer 329,Publisher 329,2016-02-04,2016.0,263,87.07,De Pago,Económico ($0.01 - $9.99),RPG
+100330,Steam Game 330,2015-04-25,4.99,276,34,3,"Action, Massively Multiplayer, Adventure",Developer 330,Publisher 330,2015-04-25,2015.0,310,89.03,De Pago,Económico ($0.01 - $9.99),Action
+100331,Steam Game 331,2020-08-02,19.99,90,32,5,"Indie, Action, Simulation",Developer 331,Publisher 331,2020-08-02,2020.0,122,73.77,De Pago,Estándar ($10.00 - $29.99),Indie
+100332,Steam Game 332,2021-06-02,0.0,0,1,3,"Massively Multiplayer, Adventure, Indie",Developer 332,Publisher 332,2021-06-02,2021.0,1,0.0,Gratuito,Gratuito ($0),Massively Multiplayer
+100333,Steam Game 333,2017-04-25,0.0,10,4,3,"Adventure, Massively Multiplayer, Strategy",Developer 333,Publisher 333,2017-04-25,2017.0,14,71.43,Gratuito,Gratuito ($0),Adventure
+100334,Steam Game 334,2019-07-15,0.0,73,49,4,"Strategy, Casual",Developer 334,Publisher 334,2019-07-15,2019.0,122,59.84,Gratuito,Gratuito ($0),Strategy
+100335,Steam Game 335,2015-09-23,0.0,11,5,0,RPG,Developer 335,Publisher 335,2015-09-23,2015.0,16,68.75,Gratuito,Gratuito ($0),RPG
+100336,Steam Game 336,2020-06-21,19.99,31,5,58,Adventure,Developer 336,Publisher 336,2020-06-21,2020.0,36,86.11,De Pago,Estándar ($10.00 - $29.99),Adventure
+100337,Steam Game 337,2018-01-21,14.99,3967,2228,54,"Racing, Casual",Developer 337,Publisher 337,2018-01-21,2018.0,6195,64.04,De Pago,Estándar ($10.00 - $29.99),Racing
+100338,Steam Game 338,2012-08-13,9.99,18,2,1,Massively Multiplayer,Developer 338,Publisher 338,2012-08-13,2012.0,20,90.0,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100339,Steam Game 339,2021-03-25,0.0,52,26,2,"Casual, Racing",Developer 339,Publisher 339,2021-03-25,2021.0,78,66.67,Gratuito,Gratuito ($0),Casual
+100340,Steam Game 340,2022-05-27,9.99,16,19,38,"Racing, Indie, Adventure",Developer 340,Publisher 340,2022-05-27,2022.0,35,45.71,De Pago,Económico ($0.01 - $9.99),Racing
+100341,Steam Game 341,2016-02-20,9.99,47,19,0,Indie,Developer 341,Publisher 341,2016-02-20,2016.0,66,71.21,De Pago,Económico ($0.01 - $9.99),Indie
+100342,Steam Game 342,2016-01-11,0.0,49,3,3,"Adventure, Action",Developer 342,Publisher 342,2016-01-11,2016.0,52,94.23,Gratuito,Gratuito ($0),Adventure
+100343,Steam Game 343,2020-07-14,9.99,108,29,25,"RPG, Sports",Developer 343,Publisher 343,2020-07-14,2020.0,137,78.83,De Pago,Económico ($0.01 - $9.99),RPG
+100344,Steam Game 344,2021-03-17,9.99,0,0,16,"Sports, Adventure",Developer 344,Publisher 344,2021-03-17,2021.0,0,,De Pago,Económico ($0.01 - $9.99),Sports
+100345,Steam Game 345,2018-04-22,14.99,3,2,1,"Simulation, RPG",Developer 345,Publisher 345,2018-04-22,2018.0,5,60.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100346,Steam Game 346,2022-02-15,14.99,1,1,17,"Strategy, RPG",Developer 346,Publisher 346,2022-02-15,2022.0,2,50.0,De Pago,Estándar ($10.00 - $29.99),Strategy
+100347,Steam Game 347,2007-04-14,0.0,14,7,9,"RPG, Indie",Developer 347,Publisher 347,2007-04-14,2007.0,21,66.67,Gratuito,Gratuito ($0),RPG
+100348,Steam Game 348,2013-12-19,4.99,0,0,16,"Simulation, Action",Developer 348,Publisher 348,2013-12-19,2013.0,0,,De Pago,Económico ($0.01 - $9.99),Simulation
+100349,Steam Game 349,2022-09-02,14.99,3,1,13,Massively Multiplayer,Developer 349,Publisher 349,2022-09-02,2022.0,4,75.0,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100350,Steam Game 350,2019-09-04,9.99,2,1,2,Adventure,Developer 350,Publisher 350,2019-09-04,2019.0,3,66.67,De Pago,Económico ($0.01 - $9.99),Adventure
+100351,Steam Game 351,2019-01-25,19.99,2,1,3,"Casual, Sports",Developer 351,Publisher 351,2019-01-25,2019.0,3,66.67,De Pago,Estándar ($10.00 - $29.99),Casual
+100352,Steam Game 352,2019-12-08,14.99,20,5,7,"Simulation, Massively Multiplayer",Developer 352,Publisher 352,2019-12-08,2019.0,25,80.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100353,Steam Game 353,2012-07-12,0.0,32,3,3,Simulation,Developer 353,Publisher 353,2012-07-12,2012.0,35,91.43,Gratuito,Gratuito ($0),Simulation
+100354,Steam Game 354,2022-03-13,0.0,5,2,3,"Simulation, Indie, Casual",Developer 354,Publisher 354,2022-03-13,2022.0,7,71.43,Gratuito,Gratuito ($0),Simulation
+100355,Steam Game 355,2011-05-23,14.99,2,2,3,Racing,Developer 355,Publisher 355,2011-05-23,2011.0,4,50.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100356,Steam Game 356,2014-05-18,0.0,1,1,0,Indie,Developer 356,Publisher 356,2014-05-18,2014.0,2,50.0,Gratuito,Gratuito ($0),Indie
+100357,Steam Game 357,2020-04-17,9.99,75,11,2,"RPG, Simulation",Developer 357,Publisher 357,2020-04-17,2020.0,86,87.21,De Pago,Económico ($0.01 - $9.99),RPG
+100358,Steam Game 358,2014-01-13,39.99,17,3,11,"Casual, Indie, Racing",Developer 358,Publisher 358,2014-01-13,2014.0,20,85.0,De Pago,Premium (>$30.00),Casual
+100359,Steam Game 359,2021-11-12,9.99,3,1,30,"Strategy, Massively Multiplayer, Casual",Developer 359,Publisher 359,2021-11-12,2021.0,4,75.0,De Pago,Económico ($0.01 - $9.99),Strategy
+100360,Steam Game 360,2020-09-07,9.99,791,89,5,Casual,Developer 360,Publisher 360,2020-09-07,2020.0,880,89.89,De Pago,Económico ($0.01 - $9.99),Casual
+100361,Steam Game 361,2020-05-26,14.99,2,1,14,"Action, Adventure",Developer 361,Publisher 361,2020-05-26,2020.0,3,66.67,De Pago,Estándar ($10.00 - $29.99),Action
+100362,Steam Game 362,2017-11-16,9.99,25,4,4,"Action, RPG, Simulation",Developer 362,Publisher 362,2017-11-16,2017.0,29,86.21,De Pago,Económico ($0.01 - $9.99),Action
+100363,Steam Game 363,2018-02-14,9.99,19,7,0,"Adventure, Strategy, Action",Developer 363,Publisher 363,2018-02-14,2018.0,26,73.08,De Pago,Económico ($0.01 - $9.99),Adventure
+100364,Steam Game 364,2017-02-05,39.99,22,12,4,"Massively Multiplayer, Indie, Adventure",Developer 364,Publisher 364,2017-02-05,2017.0,34,64.71,De Pago,Premium (>$30.00),Massively Multiplayer
+100365,Steam Game 365,2020-04-11,9.99,135,101,2,Action,Developer 365,Publisher 365,2020-04-11,2020.0,236,57.2,De Pago,Económico ($0.01 - $9.99),Action
+100366,Steam Game 366,2012-02-24,39.99,24,7,6,Casual,Developer 366,Publisher 366,2012-02-24,2012.0,31,77.42,De Pago,Premium (>$30.00),Casual
+100367,Steam Game 367,2017-05-21,29.99,14,2,0,"RPG, Casual, Adventure",Developer 367,Publisher 367,2017-05-21,2017.0,16,87.5,De Pago,Estándar ($10.00 - $29.99),RPG
+100368,Steam Game 368,2021-02-26,4.99,25,10,13,"Casual, Simulation",Developer 368,Publisher 368,2021-02-26,2021.0,35,71.43,De Pago,Económico ($0.01 - $9.99),Casual
+100369,Steam Game 369,2014-04-21,0.0,70,24,0,"Casual, Racing, Adventure",Developer 369,Publisher 369,2014-04-21,2014.0,94,74.47,Gratuito,Gratuito ($0),Casual
+100370,Steam Game 370,2017-04-08,0.0,15,3,11,"Indie, Adventure, Simulation",Developer 370,Publisher 370,2017-04-08,2017.0,18,83.33,Gratuito,Gratuito ($0),Indie
+100371,Steam Game 371,2015-03-09,0.0,150,38,26,"Casual, Indie, Action",Developer 371,Publisher 371,2015-03-09,2015.0,188,79.79,Gratuito,Gratuito ($0),Casual
+100372,Steam Game 372,2017-10-18,0.0,5,2,10,Strategy,Developer 372,Publisher 372,2017-10-18,2017.0,7,71.43,Gratuito,Gratuito ($0),Strategy
+100373,Steam Game 373,2010-07-08,14.99,164,22,4,Sports,Developer 373,Publisher 373,2010-07-08,2010.0,186,88.17,De Pago,Estándar ($10.00 - $29.99),Sports
+100374,Steam Game 374,2017-02-07,0.0,45,13,30,"Adventure, Sports",Developer 374,Publisher 374,2017-02-07,2017.0,58,77.59,Gratuito,Gratuito ($0),Adventure
+100375,Steam Game 375,2017-05-08,4.99,60,7,14,"Simulation, Casual",Developer 375,Publisher 375,2017-05-08,2017.0,67,89.55,De Pago,Económico ($0.01 - $9.99),Simulation
+100376,Steam Game 376,2023-02-15,19.99,109,9,1,Simulation,Developer 376,Publisher 376,2023-02-15,2023.0,118,92.37,De Pago,Estándar ($10.00 - $29.99),Simulation
+100377,Steam Game 377,2015-09-19,0.0,44,4,83,"Sports, Racing, Massively Multiplayer",Developer 377,Publisher 377,2015-09-19,2015.0,48,91.67,Gratuito,Gratuito ($0),Sports
+100378,Steam Game 378,2015-12-04,19.99,3,1,3,Racing,Developer 378,Publisher 378,2015-12-04,2015.0,4,75.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100379,Steam Game 379,2013-06-07,4.99,0,0,5,Racing,Developer 379,Publisher 379,2013-06-07,2013.0,0,,De Pago,Económico ($0.01 - $9.99),Racing
+100380,Steam Game 380,2014-12-21,0.0,99,44,0,Indie,Developer 380,Publisher 380,2014-12-21,2014.0,143,69.23,Gratuito,Gratuito ($0),Indie
+100381,Steam Game 381,2023-08-23,14.99,725,276,11,"Casual, RPG",Developer 381,Publisher 381,2023-08-23,2023.0,1001,72.43,De Pago,Estándar ($10.00 - $29.99),Casual
+100382,Steam Game 382,2019-06-22,14.99,46,12,2,"Massively Multiplayer, Racing",Developer 382,Publisher 382,2019-06-22,2019.0,58,79.31,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100383,Steam Game 383,2007-03-04,29.99,24,6,4,Simulation,Developer 383,Publisher 383,2007-03-04,2007.0,30,80.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100384,Steam Game 384,2009-07-15,14.99,57,29,0,"Indie, Massively Multiplayer, Racing",Developer 384,Publisher 384,2009-07-15,2009.0,86,66.28,De Pago,Estándar ($10.00 - $29.99),Indie
+100385,Steam Game 385,2008-02-02,19.99,4,2,0,"Racing, Sports",Developer 385,Publisher 385,2008-02-02,2008.0,6,66.67,De Pago,Estándar ($10.00 - $29.99),Racing
+100386,Steam Game 386,2015-04-12,4.99,18,10,1,RPG,Developer 386,Publisher 386,2015-04-12,2015.0,28,64.29,De Pago,Económico ($0.01 - $9.99),RPG
+100387,Steam Game 387,2010-10-06,0.0,410,172,1,"Massively Multiplayer, Strategy",Developer 387,Publisher 387,2010-10-06,2010.0,582,70.45,Gratuito,Gratuito ($0),Massively Multiplayer
+100388,Steam Game 388,2010-05-06,19.99,61,13,1,Action,Developer 388,Publisher 388,2010-05-06,2010.0,74,82.43,De Pago,Estándar ($10.00 - $29.99),Action
+100389,Steam Game 389,2017-04-14,19.99,23,3,2,Massively Multiplayer,Developer 389,Publisher 389,2017-04-14,2017.0,26,88.46,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100390,Steam Game 390,2006-02-06,69.99,37,8,12,Indie,Developer 390,Publisher 390,2006-02-06,2006.0,45,82.22,De Pago,Premium (>$30.00),Indie
+100391,Steam Game 391,2007-02-01,9.99,3,3,4,Simulation,Developer 391,Publisher 391,2007-02-01,2007.0,6,50.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100392,Steam Game 392,2019-06-06,4.99,66,5,21,"Action, RPG, Racing",Developer 392,Publisher 392,2019-06-06,2019.0,71,92.96,De Pago,Económico ($0.01 - $9.99),Action
+100393,Steam Game 393,2020-11-18,19.99,34,12,28,"Strategy, RPG",Developer 393,Publisher 393,2020-11-18,2020.0,46,73.91,De Pago,Estándar ($10.00 - $29.99),Strategy
+100394,Steam Game 394,2024-12-26,4.99,41,3,2,"Racing, Simulation",Developer 394,Publisher 394,2024-12-26,2024.0,44,93.18,De Pago,Económico ($0.01 - $9.99),Racing
+100395,Steam Game 395,2017-09-21,29.99,89,17,0,Adventure,Developer 395,Publisher 395,2017-09-21,2017.0,106,83.96,De Pago,Estándar ($10.00 - $29.99),Adventure
+100396,Steam Game 396,2018-07-16,19.99,14,3,3,"Casual, RPG",Developer 396,Publisher 396,2018-07-16,2018.0,17,82.35,De Pago,Estándar ($10.00 - $29.99),Casual
+100397,Steam Game 397,2019-08-23,9.99,6,2,2,Massively Multiplayer,Developer 397,Publisher 397,2019-08-23,2019.0,8,75.0,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100398,Steam Game 398,2020-06-26,19.99,733,245,0,"Casual, Adventure, Strategy",Developer 398,Publisher 398,2020-06-26,2020.0,978,74.95,De Pago,Estándar ($10.00 - $29.99),Casual
+100399,Steam Game 399,2017-12-01,19.99,7,3,21,Sports,Developer 399,Publisher 399,2017-12-01,2017.0,10,70.0,De Pago,Estándar ($10.00 - $29.99),Sports
+100400,Steam Game 400,2024-08-21,0.0,5,8,79,Adventure,Developer 400,Publisher 400,2024-08-21,2024.0,13,38.46,Gratuito,Gratuito ($0),Adventure
+100401,Steam Game 401,2018-10-25,29.99,14,9,3,"Sports, Indie, Action",Developer 401,Publisher 401,2018-10-25,2018.0,23,60.87,De Pago,Estándar ($10.00 - $29.99),Sports
+100402,Steam Game 402,2012-04-19,9.99,13,1,6,RPG,Developer 402,Publisher 402,2012-04-19,2012.0,14,92.86,De Pago,Económico ($0.01 - $9.99),RPG
+100403,Steam Game 403,2020-10-18,19.99,33,5,2,"Simulation, RPG, Action",Developer 403,Publisher 403,2020-10-18,2020.0,38,86.84,De Pago,Estándar ($10.00 - $29.99),Simulation
+100404,Steam Game 404,2018-07-26,4.99,18,12,22,"Massively Multiplayer, Adventure, Indie",Developer 404,Publisher 404,2018-07-26,2018.0,30,60.0,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100405,Steam Game 405,2019-03-02,29.99,6,3,1,Adventure,Developer 405,Publisher 405,2019-03-02,2019.0,9,66.67,De Pago,Estándar ($10.00 - $29.99),Adventure
+100406,Steam Game 406,2018-03-19,9.99,17,5,3,"Massively Multiplayer, Sports, Indie",Developer 406,Publisher 406,2018-03-19,2018.0,22,77.27,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100407,Steam Game 407,2019-12-17,0.0,18,5,22,Sports,Developer 407,Publisher 407,2019-12-17,2019.0,23,78.26,Gratuito,Gratuito ($0),Sports
+100408,Steam Game 408,2017-03-18,29.99,25,4,0,"Sports, Action",Developer 408,Publisher 408,2017-03-18,2017.0,29,86.21,De Pago,Estándar ($10.00 - $29.99),Sports
+100409,Steam Game 409,2016-10-22,0.0,32,2,86,Simulation,Developer 409,Publisher 409,2016-10-22,2016.0,34,94.12,Gratuito,Gratuito ($0),Simulation
+100410,Steam Game 410,2013-05-24,4.99,18,21,4,Sports,Developer 410,Publisher 410,2013-05-24,2013.0,39,46.15,De Pago,Económico ($0.01 - $9.99),Sports
+100411,Steam Game 411,2016-06-04,39.99,2,1,5,Massively Multiplayer,Developer 411,Publisher 411,2016-06-04,2016.0,3,66.67,De Pago,Premium (>$30.00),Massively Multiplayer
+100412,Steam Game 412,2009-04-18,39.99,9,1,24,"RPG, Massively Multiplayer, Sports",Developer 412,Publisher 412,2009-04-18,2009.0,10,90.0,De Pago,Premium (>$30.00),RPG
+100413,Steam Game 413,2018-05-05,9.99,11,5,11,Massively Multiplayer,Developer 413,Publisher 413,2018-05-05,2018.0,16,68.75,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100414,Steam Game 414,2017-03-12,14.99,19,4,3,"Action, RPG",Developer 414,Publisher 414,2017-03-12,2017.0,23,82.61,De Pago,Estándar ($10.00 - $29.99),Action
+100415,Steam Game 415,2012-11-15,9.99,64,8,4,Racing,Developer 415,Publisher 415,2012-11-15,2012.0,72,88.89,De Pago,Económico ($0.01 - $9.99),Racing
+100416,Steam Game 416,2018-08-15,4.99,20,3,46,"Massively Multiplayer, Simulation, Adventure",Developer 416,Publisher 416,2018-08-15,2018.0,23,86.96,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100417,Steam Game 417,2022-10-03,4.99,5,4,1,Indie,Developer 417,Publisher 417,2022-10-03,2022.0,9,55.56,De Pago,Económico ($0.01 - $9.99),Indie
+100418,Steam Game 418,2018-06-21,14.99,52,19,0,Adventure,Developer 418,Publisher 418,2018-06-21,2018.0,71,73.24,De Pago,Estándar ($10.00 - $29.99),Adventure
+100419,Steam Game 419,2009-04-03,19.99,12,4,0,RPG,Developer 419,Publisher 419,2009-04-03,2009.0,16,75.0,De Pago,Estándar ($10.00 - $29.99),RPG
+100420,Steam Game 420,2017-12-11,19.99,145,44,2,"Adventure, Sports",Developer 420,Publisher 420,2017-12-11,2017.0,189,76.72,De Pago,Estándar ($10.00 - $29.99),Adventure
+100421,Steam Game 421,2022-01-20,19.99,103,49,38,"Strategy, Casual",Developer 421,Publisher 421,2022-01-20,2022.0,152,67.76,De Pago,Estándar ($10.00 - $29.99),Strategy
+100422,Steam Game 422,2023-10-21,0.0,213,4,0,Racing,Developer 422,Publisher 422,2023-10-21,2023.0,217,98.16,Gratuito,Gratuito ($0),Racing
+100423,Steam Game 423,2021-12-14,9.99,2,2,1,"Simulation, Indie",Developer 423,Publisher 423,2021-12-14,2021.0,4,50.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100424,Steam Game 424,2017-03-07,0.0,21,3,0,"Adventure, Sports",Developer 424,Publisher 424,2017-03-07,2017.0,24,87.5,Gratuito,Gratuito ($0),Adventure
+100425,Steam Game 425,2016-08-18,9.99,117,18,1,"RPG, Adventure",Developer 425,Publisher 425,2016-08-18,2016.0,135,86.67,De Pago,Económico ($0.01 - $9.99),RPG
+100426,Steam Game 426,2015-11-06,9.99,104,27,0,"Adventure, Casual, Simulation",Developer 426,Publisher 426,2015-11-06,2015.0,131,79.39,De Pago,Económico ($0.01 - $9.99),Adventure
+100427,Steam Game 427,2013-02-22,29.99,16,4,0,"Strategy, Sports, Casual",Developer 427,Publisher 427,2013-02-22,2013.0,20,80.0,De Pago,Estándar ($10.00 - $29.99),Strategy
+100428,Steam Game 428,2022-04-06,4.99,4,1,5,Adventure,Developer 428,Publisher 428,2022-04-06,2022.0,5,80.0,De Pago,Económico ($0.01 - $9.99),Adventure
+100429,Steam Game 429,2019-11-23,0.0,85,7,0,"Strategy, Action, Indie",Developer 429,Publisher 429,2019-11-23,2019.0,92,92.39,Gratuito,Gratuito ($0),Strategy
+100430,Steam Game 430,2021-10-11,0.0,19,12,0,Indie,Developer 430,Publisher 430,2021-10-11,2021.0,31,61.29,Gratuito,Gratuito ($0),Indie
+100431,Steam Game 431,2011-05-03,19.99,9,6,7,"Sports, Strategy",Developer 431,Publisher 431,2011-05-03,2011.0,15,60.0,De Pago,Estándar ($10.00 - $29.99),Sports
+100432,Steam Game 432,2013-11-21,14.99,74,22,2,"RPG, Racing",Developer 432,Publisher 432,2013-11-21,2013.0,96,77.08,De Pago,Estándar ($10.00 - $29.99),RPG
+100433,Steam Game 433,2009-06-14,0.0,6,4,7,"Racing, Simulation",Developer 433,Publisher 433,2009-06-14,2009.0,10,60.0,Gratuito,Gratuito ($0),Racing
+100434,Steam Game 434,2017-12-12,0.0,2,1,1,Sports,Developer 434,Publisher 434,2017-12-12,2017.0,3,66.67,Gratuito,Gratuito ($0),Sports
+100435,Steam Game 435,2017-02-25,14.99,4,1,0,"Simulation, Indie, Casual",Developer 435,Publisher 435,2017-02-25,2017.0,5,80.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100436,Steam Game 436,2021-11-14,0.0,119,25,0,"Casual, Action, Racing",Developer 436,Publisher 436,2021-11-14,2021.0,144,82.64,Gratuito,Gratuito ($0),Casual
+100437,Steam Game 437,2008-07-15,19.99,9,1,1,"Racing, RPG, Action",Developer 437,Publisher 437,2008-07-15,2008.0,10,90.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100438,Steam Game 438,2018-09-25,14.99,11,8,8,"Adventure, Simulation, RPG",Developer 438,Publisher 438,2018-09-25,2018.0,19,57.89,De Pago,Estándar ($10.00 - $29.99),Adventure
+100439,Steam Game 439,2020-09-23,0.0,36,1,3,"Action, Massively Multiplayer, Strategy",Developer 439,Publisher 439,2020-09-23,2020.0,37,97.3,Gratuito,Gratuito ($0),Action
+100440,Steam Game 440,2019-04-09,0.0,3,1,4,"Action, Indie, Massively Multiplayer",Developer 440,Publisher 440,2019-04-09,2019.0,4,75.0,Gratuito,Gratuito ($0),Action
+100441,Steam Game 441,2024-10-19,59.99,14,9,4,Action,Developer 441,Publisher 441,2024-10-19,2024.0,23,60.87,De Pago,Premium (>$30.00),Action
+100442,Steam Game 442,2022-04-12,4.99,152,18,3,"Racing, RPG, Sports",Developer 442,Publisher 442,2022-04-12,2022.0,170,89.41,De Pago,Económico ($0.01 - $9.99),Racing
+100443,Steam Game 443,2013-11-07,4.99,41,6,4,"Strategy, Indie",Developer 443,Publisher 443,2013-11-07,2013.0,47,87.23,De Pago,Económico ($0.01 - $9.99),Strategy
+100444,Steam Game 444,2016-02-17,19.99,3,1,34,Racing,Developer 444,Publisher 444,2016-02-17,2016.0,4,75.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100445,Steam Game 445,2020-09-14,39.99,22,11,3,Racing,Developer 445,Publisher 445,2020-09-14,2020.0,33,66.67,De Pago,Premium (>$30.00),Racing
+100446,Steam Game 446,2017-05-15,59.99,72,15,5,"Racing, RPG, Indie",Developer 446,Publisher 446,2017-05-15,2017.0,87,82.76,De Pago,Premium (>$30.00),Racing
+100447,Steam Game 447,2017-07-14,19.99,28,3,10,Action,Developer 447,Publisher 447,2017-07-14,2017.0,31,90.32,De Pago,Estándar ($10.00 - $29.99),Action
+100448,Steam Game 448,2014-03-23,4.99,25,6,0,"Massively Multiplayer, RPG, Sports",Developer 448,Publisher 448,2014-03-23,2014.0,31,80.65,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100449,Steam Game 449,2013-08-19,0.0,102,13,11,Adventure,Developer 449,Publisher 449,2013-08-19,2013.0,115,88.7,Gratuito,Gratuito ($0),Adventure
+100450,Steam Game 450,2019-11-19,19.99,2,1,2,Sports,Developer 450,Publisher 450,2019-11-19,2019.0,3,66.67,De Pago,Estándar ($10.00 - $29.99),Sports
+100451,Steam Game 451,2024-07-14,9.99,12,2,3,"Massively Multiplayer, RPG, Indie",Developer 451,Publisher 451,2024-07-14,2024.0,14,85.71,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100452,Steam Game 452,2023-08-23,9.99,1794,396,0,"Strategy, Sports, Racing",Developer 452,Publisher 452,2023-08-23,2023.0,2190,81.92,De Pago,Económico ($0.01 - $9.99),Strategy
+100453,Steam Game 453,2022-02-08,29.99,95,13,8,"Action, RPG",Developer 453,Publisher 453,2022-02-08,2022.0,108,87.96,De Pago,Estándar ($10.00 - $29.99),Action
+100454,Steam Game 454,2024-08-13,0.0,5,5,3,"Racing, Sports, Simulation",Developer 454,Publisher 454,2024-08-13,2024.0,10,50.0,Gratuito,Gratuito ($0),Racing
+100455,Steam Game 455,2013-01-04,9.99,26,39,11,"RPG, Sports",Developer 455,Publisher 455,2013-01-04,2013.0,65,40.0,De Pago,Económico ($0.01 - $9.99),RPG
+100456,Steam Game 456,2017-10-12,0.0,9,3,0,Action,Developer 456,Publisher 456,2017-10-12,2017.0,12,75.0,Gratuito,Gratuito ($0),Action
+100457,Steam Game 457,2012-06-01,9.99,89,15,4,"Sports, Casual",Developer 457,Publisher 457,2012-06-01,2012.0,104,85.58,De Pago,Económico ($0.01 - $9.99),Sports
+100458,Steam Game 458,2017-06-05,0.0,50,38,14,Massively Multiplayer,Developer 458,Publisher 458,2017-06-05,2017.0,88,56.82,Gratuito,Gratuito ($0),Massively Multiplayer
+100459,Steam Game 459,2011-10-26,0.0,67,18,8,"Adventure, Action, Simulation",Developer 459,Publisher 459,2011-10-26,2011.0,85,78.82,Gratuito,Gratuito ($0),Adventure
+100460,Steam Game 460,2019-10-04,0.0,0,1,0,"Racing, Casual",Developer 460,Publisher 460,2019-10-04,2019.0,1,0.0,Gratuito,Gratuito ($0),Racing
+100461,Steam Game 461,2017-07-16,14.99,118,99,66,RPG,Developer 461,Publisher 461,2017-07-16,2017.0,217,54.38,De Pago,Estándar ($10.00 - $29.99),RPG
+100462,Steam Game 462,2022-04-25,14.99,70,33,1,"Action, Racing, Strategy",Developer 462,Publisher 462,2022-04-25,2022.0,103,67.96,De Pago,Estándar ($10.00 - $29.99),Action
+100463,Steam Game 463,2014-08-19,9.99,10,5,2,Simulation,Developer 463,Publisher 463,2014-08-19,2014.0,15,66.67,De Pago,Económico ($0.01 - $9.99),Simulation
+100464,Steam Game 464,2016-02-20,39.99,24,5,8,Strategy,Developer 464,Publisher 464,2016-02-20,2016.0,29,82.76,De Pago,Premium (>$30.00),Strategy
+100465,Steam Game 465,2006-08-26,4.99,89,12,6,"RPG, Sports",Developer 465,Publisher 465,2006-08-26,2006.0,101,88.12,De Pago,Económico ($0.01 - $9.99),RPG
+100466,Steam Game 466,2017-07-19,4.99,1743,175,7,"Simulation, Sports",Developer 466,Publisher 466,2017-07-19,2017.0,1918,90.88,De Pago,Económico ($0.01 - $9.99),Simulation
+100467,Steam Game 467,2011-10-03,19.99,249,81,0,"Adventure, RPG, Action",Developer 467,Publisher 467,2011-10-03,2011.0,330,75.45,De Pago,Estándar ($10.00 - $29.99),Adventure
+100468,Steam Game 468,2023-06-16,4.99,21,23,5,"RPG, Sports, Simulation",Developer 468,Publisher 468,2023-06-16,2023.0,44,47.73,De Pago,Económico ($0.01 - $9.99),RPG
+100469,Steam Game 469,2023-08-07,39.99,20,11,4,Racing,Developer 469,Publisher 469,2023-08-07,2023.0,31,64.52,De Pago,Premium (>$30.00),Racing
+100470,Steam Game 470,2018-02-05,0.0,5,4,8,Indie,Developer 470,Publisher 470,2018-02-05,2018.0,9,55.56,Gratuito,Gratuito ($0),Indie
+100471,Steam Game 471,2017-08-21,39.99,8,8,2,"Indie, Simulation",Developer 471,Publisher 471,2017-08-21,2017.0,16,50.0,De Pago,Premium (>$30.00),Indie
+100472,Steam Game 472,2017-10-20,0.0,0,1,24,"Sports, Simulation, RPG",Developer 472,Publisher 472,2017-10-20,2017.0,1,0.0,Gratuito,Gratuito ($0),Sports
+100473,Steam Game 473,2016-04-26,29.99,33,13,4,"RPG, Massively Multiplayer, Sports",Developer 473,Publisher 473,2016-04-26,2016.0,46,71.74,De Pago,Estándar ($10.00 - $29.99),RPG
+100474,Steam Game 474,2017-11-24,9.99,11,3,5,Adventure,Developer 474,Publisher 474,2017-11-24,2017.0,14,78.57,De Pago,Económico ($0.01 - $9.99),Adventure
+100475,Steam Game 475,2018-07-01,69.99,15,3,2,Sports,Developer 475,Publisher 475,2018-07-01,2018.0,18,83.33,De Pago,Premium (>$30.00),Sports
+100476,Steam Game 476,2024-12-11,0.0,6,4,3,"Indie, Casual",Developer 476,Publisher 476,2024-12-11,2024.0,10,60.0,Gratuito,Gratuito ($0),Indie
+100477,Steam Game 477,2017-10-25,9.99,1,1,0,Indie,Developer 477,Publisher 477,2017-10-25,2017.0,2,50.0,De Pago,Económico ($0.01 - $9.99),Indie
+100478,Steam Game 478,2020-08-27,39.99,62,17,15,"Adventure, Strategy",Developer 478,Publisher 478,2020-08-27,2020.0,79,78.48,De Pago,Premium (>$30.00),Adventure
+100479,Steam Game 479,2020-03-25,9.99,20,6,7,"RPG, Massively Multiplayer, Adventure",Developer 479,Publisher 479,2020-03-25,2020.0,26,76.92,De Pago,Económico ($0.01 - $9.99),RPG
+100480,Steam Game 480,2023-12-27,14.99,182,33,7,Racing,Developer 480,Publisher 480,2023-12-27,2023.0,215,84.65,De Pago,Estándar ($10.00 - $29.99),Racing
+100481,Steam Game 481,2010-08-21,14.99,4,2,2,RPG,Developer 481,Publisher 481,2010-08-21,2010.0,6,66.67,De Pago,Estándar ($10.00 - $29.99),RPG
+100482,Steam Game 482,2011-01-17,9.99,135,220,29,Sports,Developer 482,Publisher 482,2011-01-17,2011.0,355,38.03,De Pago,Económico ($0.01 - $9.99),Sports
+100483,Steam Game 483,2018-09-12,14.99,38,17,15,"Massively Multiplayer, Simulation, Racing",Developer 483,Publisher 483,2018-09-12,2018.0,55,69.09,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100484,Steam Game 484,2017-02-18,9.99,31,9,6,"Simulation, Massively Multiplayer, Action",Developer 484,Publisher 484,2017-02-18,2017.0,40,77.5,De Pago,Económico ($0.01 - $9.99),Simulation
+100485,Steam Game 485,2019-02-02,29.99,554,77,0,Action,Developer 485,Publisher 485,2019-02-02,2019.0,631,87.8,De Pago,Estándar ($10.00 - $29.99),Action
+100486,Steam Game 486,2018-05-22,0.0,2,2,5,Adventure,Developer 486,Publisher 486,2018-05-22,2018.0,4,50.0,Gratuito,Gratuito ($0),Adventure
+100487,Steam Game 487,2020-08-10,4.99,24,12,9,"Massively Multiplayer, Simulation, Indie",Developer 487,Publisher 487,2020-08-10,2020.0,36,66.67,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100488,Steam Game 488,2022-01-25,39.99,130,17,14,"Strategy, Massively Multiplayer, RPG",Developer 488,Publisher 488,2022-01-25,2022.0,147,88.44,De Pago,Premium (>$30.00),Strategy
+100489,Steam Game 489,2018-03-19,29.99,92,9,7,"Sports, Strategy, Indie",Developer 489,Publisher 489,2018-03-19,2018.0,101,91.09,De Pago,Estándar ($10.00 - $29.99),Sports
+100490,Steam Game 490,2011-08-16,9.99,27,8,6,Casual,Developer 490,Publisher 490,2011-08-16,2011.0,35,77.14,De Pago,Económico ($0.01 - $9.99),Casual
+100491,Steam Game 491,2012-07-08,14.99,7,2,5,Action,Developer 491,Publisher 491,2012-07-08,2012.0,9,77.78,De Pago,Estándar ($10.00 - $29.99),Action
+100492,Steam Game 492,2014-11-02,4.99,10,1,3,Racing,Developer 492,Publisher 492,2014-11-02,2014.0,11,90.91,De Pago,Económico ($0.01 - $9.99),Racing
+100493,Steam Game 493,2022-06-05,4.99,16,2,1,"Casual, Indie",Developer 493,Publisher 493,2022-06-05,2022.0,18,88.89,De Pago,Económico ($0.01 - $9.99),Casual
+100494,Steam Game 494,2018-01-04,9.99,2,2,2,"Simulation, Massively Multiplayer",Developer 494,Publisher 494,2018-01-04,2018.0,4,50.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100495,Steam Game 495,2016-04-21,4.99,153,42,3,"Action, Indie, Casual",Developer 495,Publisher 495,2016-04-21,2016.0,195,78.46,De Pago,Económico ($0.01 - $9.99),Action
+100496,Steam Game 496,2016-12-04,9.99,11,7,8,"Indie, Action, Simulation",Developer 496,Publisher 496,2016-12-04,2016.0,18,61.11,De Pago,Económico ($0.01 - $9.99),Indie
+100497,Steam Game 497,2010-03-01,0.0,64,6,0,"Action, Sports",Developer 497,Publisher 497,2010-03-01,2010.0,70,91.43,Gratuito,Gratuito ($0),Action
+100498,Steam Game 498,2015-12-15,59.99,23,3,2,"Simulation, Strategy",Developer 498,Publisher 498,2015-12-15,2015.0,26,88.46,De Pago,Premium (>$30.00),Simulation
+100499,Steam Game 499,2016-10-13,59.99,2,3,0,"Sports, Simulation, Massively Multiplayer",Developer 499,Publisher 499,2016-10-13,2016.0,5,40.0,De Pago,Premium (>$30.00),Sports
+100501,Steam Game 501,2017-07-06,9.99,12,2,10,"RPG, Indie, Massively Multiplayer",Developer 501,Publisher 501,2017-07-06,2017.0,14,85.71,De Pago,Económico ($0.01 - $9.99),RPG
+100502,Steam Game 502,2016-08-24,4.99,33,5,1,"Casual, Strategy, Indie",Developer 502,Publisher 502,2016-08-24,2016.0,38,86.84,De Pago,Económico ($0.01 - $9.99),Casual
+100503,Steam Game 503,2023-12-23,19.99,128,45,20,"Action, Sports",Developer 503,Publisher 503,2023-12-23,2023.0,173,73.99,De Pago,Estándar ($10.00 - $29.99),Action
+100504,Steam Game 504,2017-07-20,14.99,144,9,20,"Massively Multiplayer, Sports, Action",Developer 504,Publisher 504,2017-07-20,2017.0,153,94.12,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100505,Steam Game 505,2019-05-13,0.0,1,1,2,"Sports, Massively Multiplayer, Adventure",Developer 505,Publisher 505,2019-05-13,2019.0,2,50.0,Gratuito,Gratuito ($0),Sports
+100506,Steam Game 506,2022-09-21,29.99,79,26,48,Simulation,Developer 506,Publisher 506,2022-09-21,2022.0,105,75.24,De Pago,Estándar ($10.00 - $29.99),Simulation
+100507,Steam Game 507,2022-04-24,19.99,4,3,16,Casual,Developer 507,Publisher 507,2022-04-24,2022.0,7,57.14,De Pago,Estándar ($10.00 - $29.99),Casual
+100508,Steam Game 508,2019-03-22,39.99,30,9,0,Massively Multiplayer,Developer 508,Publisher 508,2019-03-22,2019.0,39,76.92,De Pago,Premium (>$30.00),Massively Multiplayer
+100509,Steam Game 509,2018-11-24,14.99,6,3,5,"Indie, Simulation",Developer 509,Publisher 509,2018-11-24,2018.0,9,66.67,De Pago,Estándar ($10.00 - $29.99),Indie
+100510,Steam Game 510,2016-08-22,14.99,12,4,8,Sports,Developer 510,Publisher 510,2016-08-22,2016.0,16,75.0,De Pago,Estándar ($10.00 - $29.99),Sports
+100511,Steam Game 511,2017-01-24,9.99,46,12,0,Indie,Developer 511,Publisher 511,2017-01-24,2017.0,58,79.31,De Pago,Económico ($0.01 - $9.99),Indie
+100512,Steam Game 512,2011-10-12,29.99,0,0,4,"Sports, Simulation",Developer 512,Publisher 512,2011-10-12,2011.0,0,,De Pago,Estándar ($10.00 - $29.99),Sports
+100513,Steam Game 513,2013-02-12,19.99,202,103,0,Racing,Developer 513,Publisher 513,2013-02-12,2013.0,305,66.23,De Pago,Estándar ($10.00 - $29.99),Racing
+100514,Steam Game 514,2016-10-20,0.0,171,26,5,"Action, Casual, Sports",Developer 514,Publisher 514,2016-10-20,2016.0,197,86.8,Gratuito,Gratuito ($0),Action
+100515,Steam Game 515,2008-12-10,0.0,9,7,2,Racing,Developer 515,Publisher 515,2008-12-10,2008.0,16,56.25,Gratuito,Gratuito ($0),Racing
+100516,Steam Game 516,2020-05-02,4.99,98,9,0,"Indie, Simulation, Massively Multiplayer",Developer 516,Publisher 516,2020-05-02,2020.0,107,91.59,De Pago,Económico ($0.01 - $9.99),Indie
+100517,Steam Game 517,2018-09-15,19.99,6,5,3,"Casual, Massively Multiplayer, Adventure",Developer 517,Publisher 517,2018-09-15,2018.0,11,54.55,De Pago,Estándar ($10.00 - $29.99),Casual
+100518,Steam Game 518,2021-06-19,59.99,0,1,14,"Adventure, Action",Developer 518,Publisher 518,2021-06-19,2021.0,1,0.0,De Pago,Premium (>$30.00),Adventure
+100519,Steam Game 519,2013-07-21,0.0,136,22,5,"Strategy, Indie",Developer 519,Publisher 519,2013-07-21,2013.0,158,86.08,Gratuito,Gratuito ($0),Strategy
+100520,Steam Game 520,2023-12-04,9.99,16,3,6,"Action, RPG, Strategy",Developer 520,Publisher 520,2023-12-04,2023.0,19,84.21,De Pago,Económico ($0.01 - $9.99),Action
+100521,Steam Game 521,2022-03-21,9.99,30,5,7,RPG,Developer 521,Publisher 521,2022-03-21,2022.0,35,85.71,De Pago,Económico ($0.01 - $9.99),RPG
+100522,Steam Game 522,2018-05-14,39.99,182,10,2,"Action, Indie, Massively Multiplayer",Developer 522,Publisher 522,2018-05-14,2018.0,192,94.79,De Pago,Premium (>$30.00),Action
+100523,Steam Game 523,2016-04-01,19.99,168,17,3,RPG,Developer 523,Publisher 523,2016-04-01,2016.0,185,90.81,De Pago,Estándar ($10.00 - $29.99),RPG
+100524,Steam Game 524,2022-11-01,19.99,140,28,0,"Simulation, RPG, Massively Multiplayer",Developer 524,Publisher 524,2022-11-01,2022.0,168,83.33,De Pago,Estándar ($10.00 - $29.99),Simulation
+100525,Steam Game 525,2023-05-18,9.99,15,2,3,Simulation,Developer 525,Publisher 525,2023-05-18,2023.0,17,88.24,De Pago,Económico ($0.01 - $9.99),Simulation
+100526,Steam Game 526,2013-04-15,9.99,111,18,1,"Indie, Strategy, Sports",Developer 526,Publisher 526,2013-04-15,2013.0,129,86.05,De Pago,Económico ($0.01 - $9.99),Indie
+100527,Steam Game 527,2018-11-11,4.99,35,15,5,"Adventure, Massively Multiplayer, Action",Developer 527,Publisher 527,2018-11-11,2018.0,50,70.0,De Pago,Económico ($0.01 - $9.99),Adventure
+100528,Steam Game 528,2018-06-18,0.0,66,20,13,Massively Multiplayer,Developer 528,Publisher 528,2018-06-18,2018.0,86,76.74,Gratuito,Gratuito ($0),Massively Multiplayer
+100529,Steam Game 529,2018-04-24,19.99,60,20,0,"Simulation, Action",Developer 529,Publisher 529,2018-04-24,2018.0,80,75.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100530,Steam Game 530,2010-06-10,19.99,59,11,1,"Simulation, Massively Multiplayer, Adventure",Developer 530,Publisher 530,2010-06-10,2010.0,70,84.29,De Pago,Estándar ($10.00 - $29.99),Simulation
+100531,Steam Game 531,2016-11-04,69.99,22,4,3,"Action, RPG",Developer 531,Publisher 531,2016-11-04,2016.0,26,84.62,De Pago,Premium (>$30.00),Action
+100532,Steam Game 532,2013-08-14,69.99,122,19,4,Simulation,Developer 532,Publisher 532,2013-08-14,2013.0,141,86.52,De Pago,Premium (>$30.00),Simulation
+100533,Steam Game 533,2022-09-22,9.99,45,8,8,"Adventure, Sports",Developer 533,Publisher 533,2022-09-22,2022.0,53,84.91,De Pago,Económico ($0.01 - $9.99),Adventure
+100534,Steam Game 534,2017-06-18,19.99,31,6,7,Strategy,Developer 534,Publisher 534,2017-06-18,2017.0,37,83.78,De Pago,Estándar ($10.00 - $29.99),Strategy
+100535,Steam Game 535,2021-07-01,39.99,0,1,3,"Casual, RPG, Massively Multiplayer",Developer 535,Publisher 535,2021-07-01,2021.0,1,0.0,De Pago,Premium (>$30.00),Casual
+100536,Steam Game 536,2014-02-07,19.99,4,4,2,"Strategy, Action",Developer 536,Publisher 536,2014-02-07,2014.0,8,50.0,De Pago,Estándar ($10.00 - $29.99),Strategy
+100537,Steam Game 537,2022-04-04,4.99,10,5,26,Indie,Developer 537,Publisher 537,2022-04-04,2022.0,15,66.67,De Pago,Económico ($0.01 - $9.99),Indie
+100538,Steam Game 538,2012-04-04,9.99,68,6,4,Casual,Developer 538,Publisher 538,2012-04-04,2012.0,74,91.89,De Pago,Económico ($0.01 - $9.99),Casual
+100539,Steam Game 539,2013-12-18,0.0,540,232,13,"Action, Massively Multiplayer, RPG",Developer 539,Publisher 539,2013-12-18,2013.0,772,69.95,Gratuito,Gratuito ($0),Action
+100540,Steam Game 540,2024-12-09,39.99,49,12,0,"Indie, Massively Multiplayer",Developer 540,Publisher 540,2024-12-09,2024.0,61,80.33,De Pago,Premium (>$30.00),Indie
+100541,Steam Game 541,2008-09-02,14.99,13,9,3,Action,Developer 541,Publisher 541,2008-09-02,2008.0,22,59.09,De Pago,Estándar ($10.00 - $29.99),Action
+100542,Steam Game 542,2009-06-05,4.99,13,3,2,"Action, Simulation",Developer 542,Publisher 542,2009-06-05,2009.0,16,81.25,De Pago,Económico ($0.01 - $9.99),Action
+100543,Steam Game 543,2012-08-06,14.99,17,9,10,"Sports, Racing",Developer 543,Publisher 543,2012-08-06,2012.0,26,65.38,De Pago,Estándar ($10.00 - $29.99),Sports
+100544,Steam Game 544,2013-10-03,14.99,16,3,0,"Adventure, Indie",Developer 544,Publisher 544,2013-10-03,2013.0,19,84.21,De Pago,Estándar ($10.00 - $29.99),Adventure
+100545,Steam Game 545,2010-07-27,4.99,0,0,1,"Indie, Racing",Developer 545,Publisher 545,2010-07-27,2010.0,0,,De Pago,Económico ($0.01 - $9.99),Indie
+100546,Steam Game 546,2023-02-19,0.0,0,0,15,"Simulation, RPG",Developer 546,Publisher 546,2023-02-19,2023.0,0,,Gratuito,Gratuito ($0),Simulation
+100547,Steam Game 547,2015-05-22,14.99,107,17,4,Racing,Developer 547,Publisher 547,2015-05-22,2015.0,124,86.29,De Pago,Estándar ($10.00 - $29.99),Racing
+100548,Steam Game 548,2024-09-21,9.99,10,3,29,"Action, Indie",Developer 548,Publisher 548,2024-09-21,2024.0,13,76.92,De Pago,Económico ($0.01 - $9.99),Action
+100549,Steam Game 549,2022-10-05,19.99,10,3,16,"Indie, Simulation",Developer 549,Publisher 549,2022-10-05,2022.0,13,76.92,De Pago,Estándar ($10.00 - $29.99),Indie
+100550,Steam Game 550,2020-10-21,9.99,25,10,2,Action,Developer 550,Publisher 550,2020-10-21,2020.0,35,71.43,De Pago,Económico ($0.01 - $9.99),Action
+100551,Steam Game 551,2008-11-09,19.99,18,4,1,Simulation,Developer 551,Publisher 551,2008-11-09,2008.0,22,81.82,De Pago,Estándar ($10.00 - $29.99),Simulation
+100552,Steam Game 552,2020-06-24,9.99,0,1,2,Strategy,Developer 552,Publisher 552,2020-06-24,2020.0,1,0.0,De Pago,Económico ($0.01 - $9.99),Strategy
+100553,Steam Game 553,2016-11-20,9.99,15,6,5,"Strategy, Sports",Developer 553,Publisher 553,2016-11-20,2016.0,21,71.43,De Pago,Económico ($0.01 - $9.99),Strategy
+100554,Steam Game 554,2022-09-06,29.99,14,7,12,Massively Multiplayer,Developer 554,Publisher 554,2022-09-06,2022.0,21,66.67,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100555,Steam Game 555,2018-09-05,9.99,45,14,3,Simulation,Developer 555,Publisher 555,2018-09-05,2018.0,59,76.27,De Pago,Económico ($0.01 - $9.99),Simulation
+100556,Steam Game 556,2014-02-27,0.0,0,1,0,"Massively Multiplayer, Strategy, RPG",Developer 556,Publisher 556,2014-02-27,2014.0,1,0.0,Gratuito,Gratuito ($0),Massively Multiplayer
+100557,Steam Game 557,2019-11-06,0.0,38,3,2,"Massively Multiplayer, Casual, Racing",Developer 557,Publisher 557,2019-11-06,2019.0,41,92.68,Gratuito,Gratuito ($0),Massively Multiplayer
+100558,Steam Game 558,2018-03-15,19.99,6,1,12,"Massively Multiplayer, Sports",Developer 558,Publisher 558,2018-03-15,2018.0,7,85.71,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100559,Steam Game 559,2020-10-11,14.99,66,10,1,"Racing, Strategy, Casual",Developer 559,Publisher 559,2020-10-11,2020.0,76,86.84,De Pago,Estándar ($10.00 - $29.99),Racing
+100560,Steam Game 560,2015-02-24,14.99,0,1,5,"Simulation, Racing, RPG",Developer 560,Publisher 560,2015-02-24,2015.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100561,Steam Game 561,2024-05-22,4.99,177,93,0,"RPG, Strategy, Adventure",Developer 561,Publisher 561,2024-05-22,2024.0,270,65.56,De Pago,Económico ($0.01 - $9.99),RPG
+100562,Steam Game 562,2019-12-22,0.0,20,5,33,"Casual, Indie",Developer 562,Publisher 562,2019-12-22,2019.0,25,80.0,Gratuito,Gratuito ($0),Casual
+100563,Steam Game 563,2016-08-18,0.0,14,5,12,"RPG, Action, Massively Multiplayer",Developer 563,Publisher 563,2016-08-18,2016.0,19,73.68,Gratuito,Gratuito ($0),RPG
+100564,Steam Game 564,2018-06-23,4.99,28,3,1,Indie,Developer 564,Publisher 564,2018-06-23,2018.0,31,90.32,De Pago,Económico ($0.01 - $9.99),Indie
+100565,Steam Game 565,2017-08-19,9.99,29,23,5,"Racing, Action",Developer 565,Publisher 565,2017-08-19,2017.0,52,55.77,De Pago,Económico ($0.01 - $9.99),Racing
+100566,Steam Game 566,2022-01-12,9.99,0,0,22,Simulation,Developer 566,Publisher 566,2022-01-12,2022.0,0,,De Pago,Económico ($0.01 - $9.99),Simulation
+100567,Steam Game 567,2023-09-12,9.99,3,2,11,"Racing, Sports",Developer 567,Publisher 567,2023-09-12,2023.0,5,60.0,De Pago,Económico ($0.01 - $9.99),Racing
+100568,Steam Game 568,2022-11-07,29.99,95,13,4,"Action, Casual",Developer 568,Publisher 568,2022-11-07,2022.0,108,87.96,De Pago,Estándar ($10.00 - $29.99),Action
+100569,Steam Game 569,2017-07-16,4.99,150,42,1,"Simulation, Action, Indie",Developer 569,Publisher 569,2017-07-16,2017.0,192,78.12,De Pago,Económico ($0.01 - $9.99),Simulation
+100570,Steam Game 570,2014-04-12,9.99,8,3,3,"Simulation, Racing",Developer 570,Publisher 570,2014-04-12,2014.0,11,72.73,De Pago,Económico ($0.01 - $9.99),Simulation
+100571,Steam Game 571,2019-08-21,19.99,40,11,3,"Action, Adventure, Massively Multiplayer",Developer 571,Publisher 571,2019-08-21,2019.0,51,78.43,De Pago,Estándar ($10.00 - $29.99),Action
+100572,Steam Game 572,2018-07-04,9.99,289,42,68,"Strategy, Massively Multiplayer",Developer 572,Publisher 572,2018-07-04,2018.0,331,87.31,De Pago,Económico ($0.01 - $9.99),Strategy
+100573,Steam Game 573,2010-11-10,14.99,0,0,20,Casual,Developer 573,Publisher 573,2010-11-10,2010.0,0,,De Pago,Estándar ($10.00 - $29.99),Casual
+100574,Steam Game 574,2021-05-17,19.99,10,4,12,"Strategy, Indie",Developer 574,Publisher 574,2021-05-17,2021.0,14,71.43,De Pago,Estándar ($10.00 - $29.99),Strategy
+100575,Steam Game 575,2009-05-15,39.99,69,27,0,Casual,Developer 575,Publisher 575,2009-05-15,2009.0,96,71.88,De Pago,Premium (>$30.00),Casual
+100576,Steam Game 576,2009-01-08,0.0,109,58,1,Racing,Developer 576,Publisher 576,2009-01-08,2009.0,167,65.27,Gratuito,Gratuito ($0),Racing
+100577,Steam Game 577,2020-09-14,29.99,44,18,5,"Racing, Casual, Action",Developer 577,Publisher 577,2020-09-14,2020.0,62,70.97,De Pago,Estándar ($10.00 - $29.99),Racing
+100578,Steam Game 578,2023-11-18,9.99,147,17,21,"Sports, Adventure, Massively Multiplayer",Developer 578,Publisher 578,2023-11-18,2023.0,164,89.63,De Pago,Económico ($0.01 - $9.99),Sports
+100579,Steam Game 579,2020-06-26,4.99,0,1,6,"Sports, Action, Casual",Developer 579,Publisher 579,2020-06-26,2020.0,1,0.0,De Pago,Económico ($0.01 - $9.99),Sports
+100580,Steam Game 580,2021-02-08,9.99,11,1,8,"Massively Multiplayer, Action",Developer 580,Publisher 580,2021-02-08,2021.0,12,91.67,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100581,Steam Game 581,2022-08-14,59.99,7,1,2,RPG,Developer 581,Publisher 581,2022-08-14,2022.0,8,87.5,De Pago,Premium (>$30.00),RPG
+100582,Steam Game 582,2016-09-23,9.99,15,2,1,"Sports, Casual",Developer 582,Publisher 582,2016-09-23,2016.0,17,88.24,De Pago,Económico ($0.01 - $9.99),Sports
+100583,Steam Game 583,2019-04-16,4.99,17,5,4,Action,Developer 583,Publisher 583,2019-04-16,2019.0,22,77.27,De Pago,Económico ($0.01 - $9.99),Action
+100584,Steam Game 584,2016-07-19,14.99,6,2,0,"Simulation, Adventure, Casual",Developer 584,Publisher 584,2016-07-19,2016.0,8,75.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100585,Steam Game 585,2021-12-27,4.99,216,18,0,"Strategy, Casual",Developer 585,Publisher 585,2021-12-27,2021.0,234,92.31,De Pago,Económico ($0.01 - $9.99),Strategy
+100586,Steam Game 586,2021-12-07,0.0,2,2,15,"RPG, Strategy, Casual",Developer 586,Publisher 586,2021-12-07,2021.0,4,50.0,Gratuito,Gratuito ($0),RPG
+100587,Steam Game 587,2017-07-17,0.0,58,26,1,"RPG, Simulation",Developer 587,Publisher 587,2017-07-17,2017.0,84,69.05,Gratuito,Gratuito ($0),RPG
+100588,Steam Game 588,2020-07-05,0.0,144,25,22,Simulation,Developer 588,Publisher 588,2020-07-05,2020.0,169,85.21,Gratuito,Gratuito ($0),Simulation
+100589,Steam Game 589,2016-03-13,0.0,18,2,8,Action,Developer 589,Publisher 589,2016-03-13,2016.0,20,90.0,Gratuito,Gratuito ($0),Action
+100590,Steam Game 590,2019-07-18,0.0,30,2,0,RPG,Developer 590,Publisher 590,2019-07-18,2019.0,32,93.75,Gratuito,Gratuito ($0),RPG
+100591,Steam Game 591,2015-05-18,14.99,167,22,5,"RPG, Adventure",Developer 591,Publisher 591,2015-05-18,2015.0,189,88.36,De Pago,Estándar ($10.00 - $29.99),RPG
+100592,Steam Game 592,2012-12-19,4.99,3,2,0,"Simulation, Indie",Developer 592,Publisher 592,2012-12-19,2012.0,5,60.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100593,Steam Game 593,2021-12-23,4.99,3,1,3,"Casual, Adventure",Developer 593,Publisher 593,2021-12-23,2021.0,4,75.0,De Pago,Económico ($0.01 - $9.99),Casual
+100594,Steam Game 594,2009-07-18,29.99,0,1,8,"Strategy, Massively Multiplayer, Simulation",Developer 594,Publisher 594,2009-07-18,2009.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Strategy
+100595,Steam Game 595,2017-04-20,9.99,102,36,16,RPG,Developer 595,Publisher 595,2017-04-20,2017.0,138,73.91,De Pago,Económico ($0.01 - $9.99),RPG
+100596,Steam Game 596,2023-12-20,14.99,8,1,2,"Action, Indie",Developer 596,Publisher 596,2023-12-20,2023.0,9,88.89,De Pago,Estándar ($10.00 - $29.99),Action
+100597,Steam Game 597,2006-08-17,0.0,27,1,74,Strategy,Developer 597,Publisher 597,2006-08-17,2006.0,28,96.43,Gratuito,Gratuito ($0),Strategy
+100598,Steam Game 598,2023-11-23,4.99,5,7,1,"Action, Massively Multiplayer, Sports",Developer 598,Publisher 598,2023-11-23,2023.0,12,41.67,De Pago,Económico ($0.01 - $9.99),Action
+100599,Steam Game 599,2011-04-04,0.0,608,176,2,"Massively Multiplayer, Sports",Developer 599,Publisher 599,2011-04-04,2011.0,784,77.55,Gratuito,Gratuito ($0),Massively Multiplayer
+100600,Steam Game 600,2018-05-17,0.0,74,32,17,"Massively Multiplayer, Adventure, Strategy",Developer 600,Publisher 600,2018-05-17,2018.0,106,69.81,Gratuito,Gratuito ($0),Massively Multiplayer
+100601,Steam Game 601,2017-10-19,4.99,49,5,34,"Casual, Adventure",Developer 601,Publisher 601,2017-10-19,2017.0,54,90.74,De Pago,Económico ($0.01 - $9.99),Casual
+100602,Steam Game 602,2014-12-08,0.0,101,91,5,"Adventure, Sports",Developer 602,Publisher 602,2014-12-08,2014.0,192,52.6,Gratuito,Gratuito ($0),Adventure
+100603,Steam Game 603,2020-07-20,0.0,7,3,11,"Simulation, Adventure, Massively Multiplayer",Developer 603,Publisher 603,2020-07-20,2020.0,10,70.0,Gratuito,Gratuito ($0),Simulation
+100604,Steam Game 604,2015-02-01,0.0,11,1,8,Massively Multiplayer,Developer 604,Publisher 604,2015-02-01,2015.0,12,91.67,Gratuito,Gratuito ($0),Massively Multiplayer
+100605,Steam Game 605,2020-07-07,9.99,83,12,8,"RPG, Adventure",Developer 605,Publisher 605,2020-07-07,2020.0,95,87.37,De Pago,Económico ($0.01 - $9.99),RPG
+100606,Steam Game 606,2016-07-08,4.99,8,1,2,"Massively Multiplayer, Casual",Developer 606,Publisher 606,2016-07-08,2016.0,9,88.89,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100607,Steam Game 607,2009-06-05,4.99,34,11,19,"Casual, Sports",Developer 607,Publisher 607,2009-06-05,2009.0,45,75.56,De Pago,Económico ($0.01 - $9.99),Casual
+100608,Steam Game 608,2017-02-09,9.99,42,24,2,Simulation,Developer 608,Publisher 608,2017-02-09,2017.0,66,63.64,De Pago,Económico ($0.01 - $9.99),Simulation
+100609,Steam Game 609,2019-08-07,14.99,16,2,39,"RPG, Massively Multiplayer, Adventure",Developer 609,Publisher 609,2019-08-07,2019.0,18,88.89,De Pago,Estándar ($10.00 - $29.99),RPG
+100610,Steam Game 610,2012-06-04,0.0,56,8,0,Racing,Developer 610,Publisher 610,2012-06-04,2012.0,64,87.5,Gratuito,Gratuito ($0),Racing
+100611,Steam Game 611,2021-12-25,19.99,1,1,1,"RPG, Casual, Strategy",Developer 611,Publisher 611,2021-12-25,2021.0,2,50.0,De Pago,Estándar ($10.00 - $29.99),RPG
+100612,Steam Game 612,2019-01-22,14.99,16,4,1,"Massively Multiplayer, Sports",Developer 612,Publisher 612,2019-01-22,2019.0,20,80.0,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100613,Steam Game 613,2022-03-27,0.0,35,40,24,Strategy,Developer 613,Publisher 613,2022-03-27,2022.0,75,46.67,Gratuito,Gratuito ($0),Strategy
+100614,Steam Game 614,2022-04-08,29.99,30,2,6,"RPG, Massively Multiplayer",Developer 614,Publisher 614,2022-04-08,2022.0,32,93.75,De Pago,Estándar ($10.00 - $29.99),RPG
+100615,Steam Game 615,2024-10-02,29.99,46,17,0,"Strategy, Casual",Developer 615,Publisher 615,2024-10-02,2024.0,63,73.02,De Pago,Estándar ($10.00 - $29.99),Strategy
+100616,Steam Game 616,2017-10-05,0.0,25,10,0,Racing,Developer 616,Publisher 616,2017-10-05,2017.0,35,71.43,Gratuito,Gratuito ($0),Racing
+100617,Steam Game 617,2016-08-03,4.99,13,3,13,"Massively Multiplayer, RPG, Simulation",Developer 617,Publisher 617,2016-08-03,2016.0,16,81.25,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100618,Steam Game 618,2021-07-05,19.99,10,2,0,Action,Developer 618,Publisher 618,2021-07-05,2021.0,12,83.33,De Pago,Estándar ($10.00 - $29.99),Action
+100619,Steam Game 619,2019-06-24,14.99,14,12,17,"Simulation, Racing",Developer 619,Publisher 619,2019-06-24,2019.0,26,53.85,De Pago,Estándar ($10.00 - $29.99),Simulation
+100620,Steam Game 620,2016-10-22,4.99,4,8,6,"Action, Indie",Developer 620,Publisher 620,2016-10-22,2016.0,12,33.33,De Pago,Económico ($0.01 - $9.99),Action
+100621,Steam Game 621,2022-06-01,4.99,22,4,3,"Massively Multiplayer, Action, Casual",Developer 621,Publisher 621,2022-06-01,2022.0,26,84.62,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100622,Steam Game 622,2015-12-07,4.99,17,1,13,"Casual, Massively Multiplayer",Developer 622,Publisher 622,2015-12-07,2015.0,18,94.44,De Pago,Económico ($0.01 - $9.99),Casual
+100623,Steam Game 623,2022-10-10,9.99,4,2,8,Simulation,Developer 623,Publisher 623,2022-10-10,2022.0,6,66.67,De Pago,Económico ($0.01 - $9.99),Simulation
+100624,Steam Game 624,2021-09-16,14.99,49,14,33,"Strategy, Simulation, Action",Developer 624,Publisher 624,2021-09-16,2021.0,63,77.78,De Pago,Estándar ($10.00 - $29.99),Strategy
+100625,Steam Game 625,2017-12-01,4.99,4,4,7,"Massively Multiplayer, Adventure, Action",Developer 625,Publisher 625,2017-12-01,2017.0,8,50.0,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100626,Steam Game 626,2016-12-17,9.99,724,140,3,RPG,Developer 626,Publisher 626,2016-12-17,2016.0,864,83.8,De Pago,Económico ($0.01 - $9.99),RPG
+100627,Steam Game 627,2022-05-04,14.99,203,43,1,"Action, Massively Multiplayer",Developer 627,Publisher 627,2022-05-04,2022.0,246,82.52,De Pago,Estándar ($10.00 - $29.99),Action
+100628,Steam Game 628,2017-03-16,0.0,436,59,8,"Racing, Massively Multiplayer",Developer 628,Publisher 628,2017-03-16,2017.0,495,88.08,Gratuito,Gratuito ($0),Racing
+100629,Steam Game 629,2020-11-09,4.99,37,2,0,"RPG, Racing",Developer 629,Publisher 629,2020-11-09,2020.0,39,94.87,De Pago,Económico ($0.01 - $9.99),RPG
+100630,Steam Game 630,2019-01-08,14.99,2,2,15,"Simulation, Massively Multiplayer",Developer 630,Publisher 630,2019-01-08,2019.0,4,50.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100631,Steam Game 631,2013-02-26,29.99,379,118,0,"Strategy, Action",Developer 631,Publisher 631,2013-02-26,2013.0,497,76.26,De Pago,Estándar ($10.00 - $29.99),Strategy
+100632,Steam Game 632,2022-07-19,9.99,6,1,0,"Racing, Sports, Strategy",Developer 632,Publisher 632,2022-07-19,2022.0,7,85.71,De Pago,Económico ($0.01 - $9.99),Racing
+100633,Steam Game 633,2019-12-22,9.99,47,6,13,Strategy,Developer 633,Publisher 633,2019-12-22,2019.0,53,88.68,De Pago,Económico ($0.01 - $9.99),Strategy
+100634,Steam Game 634,2016-02-17,0.0,0,0,0,"Indie, Sports, Racing",Developer 634,Publisher 634,2016-02-17,2016.0,0,,Gratuito,Gratuito ($0),Indie
+100635,Steam Game 635,2016-12-10,9.99,82,19,152,Strategy,Developer 635,Publisher 635,2016-12-10,2016.0,101,81.19,De Pago,Económico ($0.01 - $9.99),Strategy
+100636,Steam Game 636,2014-09-17,9.99,21,11,0,Simulation,Developer 636,Publisher 636,2014-09-17,2014.0,32,65.62,De Pago,Económico ($0.01 - $9.99),Simulation
+100637,Steam Game 637,2018-01-22,4.99,6,5,0,"Adventure, Simulation",Developer 637,Publisher 637,2018-01-22,2018.0,11,54.55,De Pago,Económico ($0.01 - $9.99),Adventure
+100638,Steam Game 638,2013-04-21,4.99,2,2,10,Indie,Developer 638,Publisher 638,2013-04-21,2013.0,4,50.0,De Pago,Económico ($0.01 - $9.99),Indie
+100639,Steam Game 639,2016-08-16,4.99,65,17,1,"Action, Sports, Indie",Developer 639,Publisher 639,2016-08-16,2016.0,82,79.27,De Pago,Económico ($0.01 - $9.99),Action
+100640,Steam Game 640,2023-11-22,0.0,0,1,7,"Massively Multiplayer, Action, Indie",Developer 640,Publisher 640,2023-11-22,2023.0,1,0.0,Gratuito,Gratuito ($0),Massively Multiplayer
+100641,Steam Game 641,2009-12-09,4.99,41,11,0,Adventure,Developer 641,Publisher 641,2009-12-09,2009.0,52,78.85,De Pago,Económico ($0.01 - $9.99),Adventure
+100642,Steam Game 642,2020-08-05,4.99,206,34,95,"Strategy, Casual",Developer 642,Publisher 642,2020-08-05,2020.0,240,85.83,De Pago,Económico ($0.01 - $9.99),Strategy
+100643,Steam Game 643,2012-04-02,4.99,22,2,31,"Action, Simulation, Sports",Developer 643,Publisher 643,2012-04-02,2012.0,24,91.67,De Pago,Económico ($0.01 - $9.99),Action
+100644,Steam Game 644,2016-12-14,0.0,7,2,3,Action,Developer 644,Publisher 644,2016-12-14,2016.0,9,77.78,Gratuito,Gratuito ($0),Action
+100645,Steam Game 645,2018-12-17,29.99,1,1,16,"Simulation, Adventure, RPG",Developer 645,Publisher 645,2018-12-17,2018.0,2,50.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100646,Steam Game 646,2024-04-13,9.99,6,5,9,"Massively Multiplayer, RPG, Adventure",Developer 646,Publisher 646,2024-04-13,2024.0,11,54.55,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100647,Steam Game 647,2016-04-13,14.99,21,11,91,"Indie, Sports, Action",Developer 647,Publisher 647,2016-04-13,2016.0,32,65.62,De Pago,Estándar ($10.00 - $29.99),Indie
+100648,Steam Game 648,2014-01-27,19.99,136,34,2,"Indie, Sports, Adventure",Developer 648,Publisher 648,2014-01-27,2014.0,170,80.0,De Pago,Estándar ($10.00 - $29.99),Indie
+100649,Steam Game 649,2019-03-13,9.99,43,18,0,"Strategy, Indie",Developer 649,Publisher 649,2019-03-13,2019.0,61,70.49,De Pago,Económico ($0.01 - $9.99),Strategy
+100650,Steam Game 650,2017-03-18,0.0,38,26,1,"Casual, RPG",Developer 650,Publisher 650,2017-03-18,2017.0,64,59.38,Gratuito,Gratuito ($0),Casual
+100651,Steam Game 651,2015-05-24,9.99,18,7,0,"Indie, Strategy, RPG",Developer 651,Publisher 651,2015-05-24,2015.0,25,72.0,De Pago,Económico ($0.01 - $9.99),Indie
+100652,Steam Game 652,2020-08-01,9.99,140,31,4,"Action, Racing, Casual",Developer 652,Publisher 652,2020-08-01,2020.0,171,81.87,De Pago,Económico ($0.01 - $9.99),Action
+100653,Steam Game 653,2020-05-22,14.99,125,14,2,"Casual, Action",Developer 653,Publisher 653,2020-05-22,2020.0,139,89.93,De Pago,Estándar ($10.00 - $29.99),Casual
+100654,Steam Game 654,2020-04-21,9.99,7,3,1,Action,Developer 654,Publisher 654,2020-04-21,2020.0,10,70.0,De Pago,Económico ($0.01 - $9.99),Action
+100655,Steam Game 655,2021-07-26,0.0,12,18,2,"RPG, Action",Developer 655,Publisher 655,2021-07-26,2021.0,30,40.0,Gratuito,Gratuito ($0),RPG
+100656,Steam Game 656,2019-01-27,4.99,4,3,5,"Massively Multiplayer, Indie, Sports",Developer 656,Publisher 656,2019-01-27,2019.0,7,57.14,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100657,Steam Game 657,2019-06-25,4.99,23,2,1,RPG,Developer 657,Publisher 657,2019-06-25,2019.0,25,92.0,De Pago,Económico ($0.01 - $9.99),RPG
+100658,Steam Game 658,2017-09-04,14.99,183,19,0,"Action, Strategy",Developer 658,Publisher 658,2017-09-04,2017.0,202,90.59,De Pago,Estándar ($10.00 - $29.99),Action
+100659,Steam Game 659,2018-02-21,9.99,44,12,4,Massively Multiplayer,Developer 659,Publisher 659,2018-02-21,2018.0,56,78.57,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100660,Steam Game 660,2019-09-05,4.99,2,1,11,"Racing, Massively Multiplayer",Developer 660,Publisher 660,2019-09-05,2019.0,3,66.67,De Pago,Económico ($0.01 - $9.99),Racing
+100661,Steam Game 661,2018-07-11,59.99,46,16,0,RPG,Developer 661,Publisher 661,2018-07-11,2018.0,62,74.19,De Pago,Premium (>$30.00),RPG
+100662,Steam Game 662,2019-07-02,14.99,142,11,42,"Strategy, RPG, Simulation",Developer 662,Publisher 662,2019-07-02,2019.0,153,92.81,De Pago,Estándar ($10.00 - $29.99),Strategy
+100663,Steam Game 663,2022-04-27,4.99,44,10,34,Casual,Developer 663,Publisher 663,2022-04-27,2022.0,54,81.48,De Pago,Económico ($0.01 - $9.99),Casual
+100664,Steam Game 664,2017-10-02,0.0,0,1,6,"Racing, Action, Massively Multiplayer",Developer 664,Publisher 664,2017-10-02,2017.0,1,0.0,Gratuito,Gratuito ($0),Racing
+100665,Steam Game 665,2017-05-25,0.0,0,0,10,"Simulation, Massively Multiplayer, Action",Developer 665,Publisher 665,2017-05-25,2017.0,0,,Gratuito,Gratuito ($0),Simulation
+100666,Steam Game 666,2020-12-16,4.99,0,0,2,Strategy,Developer 666,Publisher 666,2020-12-16,2020.0,0,,De Pago,Económico ($0.01 - $9.99),Strategy
+100667,Steam Game 667,2015-06-03,0.0,83,8,5,"Sports, Casual, Adventure",Developer 667,Publisher 667,2015-06-03,2015.0,91,91.21,Gratuito,Gratuito ($0),Sports
+100668,Steam Game 668,2011-06-06,4.99,52,20,13,Adventure,Developer 668,Publisher 668,2011-06-06,2011.0,72,72.22,De Pago,Económico ($0.01 - $9.99),Adventure
+100669,Steam Game 669,2016-08-20,4.99,5,1,9,"Simulation, Sports",Developer 669,Publisher 669,2016-08-20,2016.0,6,83.33,De Pago,Económico ($0.01 - $9.99),Simulation
+100670,Steam Game 670,2018-10-04,0.0,64,25,12,Indie,Developer 670,Publisher 670,2018-10-04,2018.0,89,71.91,Gratuito,Gratuito ($0),Indie
+100671,Steam Game 671,2015-12-05,29.99,5,2,20,"Strategy, Adventure",Developer 671,Publisher 671,2015-12-05,2015.0,7,71.43,De Pago,Estándar ($10.00 - $29.99),Strategy
+100672,Steam Game 672,2019-05-21,0.0,137,67,16,"RPG, Strategy, Massively Multiplayer",Developer 672,Publisher 672,2019-05-21,2019.0,204,67.16,Gratuito,Gratuito ($0),RPG
+100673,Steam Game 673,2018-10-07,9.99,15,3,0,Casual,Developer 673,Publisher 673,2018-10-07,2018.0,18,83.33,De Pago,Económico ($0.01 - $9.99),Casual
+100674,Steam Game 674,2015-04-07,9.99,0,0,3,"Action, Racing, Adventure",Developer 674,Publisher 674,2015-04-07,2015.0,0,,De Pago,Económico ($0.01 - $9.99),Action
+100675,Steam Game 675,2013-11-17,59.99,393,224,100,"Sports, RPG",Developer 675,Publisher 675,2013-11-17,2013.0,617,63.7,De Pago,Premium (>$30.00),Sports
+100676,Steam Game 676,2020-08-06,0.0,948,361,9,"RPG, Indie",Developer 676,Publisher 676,2020-08-06,2020.0,1309,72.42,Gratuito,Gratuito ($0),RPG
+100677,Steam Game 677,2006-10-04,9.99,811,361,4,Action,Developer 677,Publisher 677,2006-10-04,2006.0,1172,69.2,De Pago,Económico ($0.01 - $9.99),Action
+100678,Steam Game 678,2016-08-02,39.99,2,1,8,"Action, Sports",Developer 678,Publisher 678,2016-08-02,2016.0,3,66.67,De Pago,Premium (>$30.00),Action
+100679,Steam Game 679,2015-11-06,19.99,1,1,2,"Indie, Casual, Simulation",Developer 679,Publisher 679,2015-11-06,2015.0,2,50.0,De Pago,Estándar ($10.00 - $29.99),Indie
+100680,Steam Game 680,2012-03-07,19.99,22,2,18,"Sports, Adventure",Developer 680,Publisher 680,2012-03-07,2012.0,24,91.67,De Pago,Estándar ($10.00 - $29.99),Sports
+100681,Steam Game 681,2024-02-02,4.99,9,3,0,"Sports, Simulation, Strategy",Developer 681,Publisher 681,2024-02-02,2024.0,12,75.0,De Pago,Económico ($0.01 - $9.99),Sports
+100682,Steam Game 682,2016-01-18,0.0,21,11,0,RPG,Developer 682,Publisher 682,2016-01-18,2016.0,32,65.62,Gratuito,Gratuito ($0),RPG
+100683,Steam Game 683,2021-01-10,14.99,72,10,6,"Action, Simulation, Strategy",Developer 683,Publisher 683,2021-01-10,2021.0,82,87.8,De Pago,Estándar ($10.00 - $29.99),Action
+100684,Steam Game 684,2017-04-27,29.99,1,1,19,Sports,Developer 684,Publisher 684,2017-04-27,2017.0,2,50.0,De Pago,Estándar ($10.00 - $29.99),Sports
+100685,Steam Game 685,2018-10-07,9.99,0,1,6,"Strategy, Sports",Developer 685,Publisher 685,2018-10-07,2018.0,1,0.0,De Pago,Económico ($0.01 - $9.99),Strategy
+100686,Steam Game 686,2019-02-09,9.99,9,5,28,"Sports, Simulation, Strategy",Developer 686,Publisher 686,2019-02-09,2019.0,14,64.29,De Pago,Económico ($0.01 - $9.99),Sports
+100687,Steam Game 687,2018-03-19,4.99,7,6,7,Adventure,Developer 687,Publisher 687,2018-03-19,2018.0,13,53.85,De Pago,Económico ($0.01 - $9.99),Adventure
+100688,Steam Game 688,2023-03-19,19.99,136,40,7,"Massively Multiplayer, Racing",Developer 688,Publisher 688,2023-03-19,2023.0,176,77.27,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100689,Steam Game 689,2018-07-24,4.99,18,6,0,Racing,Developer 689,Publisher 689,2018-07-24,2018.0,24,75.0,De Pago,Económico ($0.01 - $9.99),Racing
+100690,Steam Game 690,2025-06-02,4.99,1,1,13,Simulation,Developer 690,Publisher 690,2025-06-02,2025.0,2,50.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100691,Steam Game 691,2016-11-25,9.99,5,1,14,"Indie, Action",Developer 691,Publisher 691,2016-11-25,2016.0,6,83.33,De Pago,Económico ($0.01 - $9.99),Indie
+100692,Steam Game 692,2019-05-23,9.99,9,4,5,"Strategy, Adventure, Sports",Developer 692,Publisher 692,2019-05-23,2019.0,13,69.23,De Pago,Económico ($0.01 - $9.99),Strategy
+100693,Steam Game 693,2023-09-24,4.99,50,28,7,"Casual, Strategy, Action",Developer 693,Publisher 693,2023-09-24,2023.0,78,64.1,De Pago,Económico ($0.01 - $9.99),Casual
+100694,Steam Game 694,2019-04-25,0.0,44,37,4,Adventure,Developer 694,Publisher 694,2019-04-25,2019.0,81,54.32,Gratuito,Gratuito ($0),Adventure
+100695,Steam Game 695,2015-12-12,14.99,30,15,23,"RPG, Massively Multiplayer",Developer 695,Publisher 695,2015-12-12,2015.0,45,66.67,De Pago,Estándar ($10.00 - $29.99),RPG
+100696,Steam Game 696,2021-10-19,4.99,7,2,11,Casual,Developer 696,Publisher 696,2021-10-19,2021.0,9,77.78,De Pago,Económico ($0.01 - $9.99),Casual
+100697,Steam Game 697,2018-03-06,9.99,5,1,3,"Action, RPG",Developer 697,Publisher 697,2018-03-06,2018.0,6,83.33,De Pago,Económico ($0.01 - $9.99),Action
+100698,Steam Game 698,2020-07-24,0.0,39,21,0,Casual,Developer 698,Publisher 698,2020-07-24,2020.0,60,65.0,Gratuito,Gratuito ($0),Casual
+100699,Steam Game 699,2008-07-01,9.99,15,8,54,Adventure,Developer 699,Publisher 699,2008-07-01,2008.0,23,65.22,De Pago,Económico ($0.01 - $9.99),Adventure
+100700,Steam Game 700,2016-02-15,9.99,22,9,4,Massively Multiplayer,Developer 700,Publisher 700,2016-02-15,2016.0,31,70.97,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100701,Steam Game 701,2019-09-22,0.0,2,1,2,"RPG, Simulation, Massively Multiplayer",Developer 701,Publisher 701,2019-09-22,2019.0,3,66.67,Gratuito,Gratuito ($0),RPG
+100702,Steam Game 702,2019-08-19,4.99,2,2,42,"Simulation, RPG, Racing",Developer 702,Publisher 702,2019-08-19,2019.0,4,50.0,De Pago,Económico ($0.01 - $9.99),Simulation
+100703,Steam Game 703,2018-01-14,0.0,84,15,7,"Simulation, Casual",Developer 703,Publisher 703,2018-01-14,2018.0,99,84.85,Gratuito,Gratuito ($0),Simulation
+100704,Steam Game 704,2009-02-24,0.0,70,18,38,Strategy,Developer 704,Publisher 704,2009-02-24,2009.0,88,79.55,Gratuito,Gratuito ($0),Strategy
+100705,Steam Game 705,2021-11-25,59.99,91,80,15,"Indie, Casual",Developer 705,Publisher 705,2021-11-25,2021.0,171,53.22,De Pago,Premium (>$30.00),Indie
+100706,Steam Game 706,2019-02-13,4.99,79,7,2,"RPG, Simulation, Strategy",Developer 706,Publisher 706,2019-02-13,2019.0,86,91.86,De Pago,Económico ($0.01 - $9.99),RPG
+100707,Steam Game 707,2011-08-05,19.99,89,21,0,"Massively Multiplayer, Simulation, RPG",Developer 707,Publisher 707,2011-08-05,2011.0,110,80.91,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100708,Steam Game 708,2022-11-02,4.99,16,2,17,Action,Developer 708,Publisher 708,2022-11-02,2022.0,18,88.89,De Pago,Económico ($0.01 - $9.99),Action
+100709,Steam Game 709,2019-03-15,14.99,56,4,4,"Action, RPG",Developer 709,Publisher 709,2019-03-15,2019.0,60,93.33,De Pago,Estándar ($10.00 - $29.99),Action
+100710,Steam Game 710,2021-07-16,19.99,5,4,0,"Adventure, Indie, Simulation",Developer 710,Publisher 710,2021-07-16,2021.0,9,55.56,De Pago,Estándar ($10.00 - $29.99),Adventure
+100711,Steam Game 711,2021-10-07,9.99,11,6,10,"Racing, Strategy, Simulation",Developer 711,Publisher 711,2021-10-07,2021.0,17,64.71,De Pago,Económico ($0.01 - $9.99),Racing
+100712,Steam Game 712,2020-06-22,9.99,1,1,3,Strategy,Developer 712,Publisher 712,2020-06-22,2020.0,2,50.0,De Pago,Económico ($0.01 - $9.99),Strategy
+100713,Steam Game 713,2015-02-06,9.99,4,1,43,"Sports, Massively Multiplayer",Developer 713,Publisher 713,2015-02-06,2015.0,5,80.0,De Pago,Económico ($0.01 - $9.99),Sports
+100714,Steam Game 714,2020-09-17,4.99,236,26,1,"Adventure, Massively Multiplayer, Simulation",Developer 714,Publisher 714,2020-09-17,2020.0,262,90.08,De Pago,Económico ($0.01 - $9.99),Adventure
+100715,Steam Game 715,2016-09-01,29.99,18,2,184,"Sports, Strategy",Developer 715,Publisher 715,2016-09-01,2016.0,20,90.0,De Pago,Estándar ($10.00 - $29.99),Sports
+100716,Steam Game 716,2016-07-06,19.99,94,11,0,Indie,Developer 716,Publisher 716,2016-07-06,2016.0,105,89.52,De Pago,Estándar ($10.00 - $29.99),Indie
+100717,Steam Game 717,2019-04-06,39.99,16,11,4,"Racing, Strategy, Casual",Developer 717,Publisher 717,2019-04-06,2019.0,27,59.26,De Pago,Premium (>$30.00),Racing
+100718,Steam Game 718,2022-01-04,0.0,1,1,0,"Strategy, Casual",Developer 718,Publisher 718,2022-01-04,2022.0,2,50.0,Gratuito,Gratuito ($0),Strategy
+100719,Steam Game 719,2017-08-08,14.99,57,30,12,Massively Multiplayer,Developer 719,Publisher 719,2017-08-08,2017.0,87,65.52,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100720,Steam Game 720,2018-09-09,29.99,48,9,10,"Massively Multiplayer, Racing, RPG",Developer 720,Publisher 720,2018-09-09,2018.0,57,84.21,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100721,Steam Game 721,2014-08-22,4.99,12,1,19,Simulation,Developer 721,Publisher 721,2014-08-22,2014.0,13,92.31,De Pago,Económico ($0.01 - $9.99),Simulation
+100722,Steam Game 722,2019-02-10,0.0,2,1,21,"Indie, Racing, Sports",Developer 722,Publisher 722,2019-02-10,2019.0,3,66.67,Gratuito,Gratuito ($0),Indie
+100723,Steam Game 723,2015-07-24,14.99,1246,135,0,"Massively Multiplayer, Casual",Developer 723,Publisher 723,2015-07-24,2015.0,1381,90.22,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100724,Steam Game 724,2022-10-08,9.99,62,102,2,"Racing, Action",Developer 724,Publisher 724,2022-10-08,2022.0,164,37.8,De Pago,Económico ($0.01 - $9.99),Racing
+100725,Steam Game 725,2006-01-02,19.99,31,5,15,"Casual, Simulation",Developer 725,Publisher 725,2006-01-02,2006.0,36,86.11,De Pago,Estándar ($10.00 - $29.99),Casual
+100726,Steam Game 726,2017-05-20,0.0,206,76,6,"Sports, Racing",Developer 726,Publisher 726,2017-05-20,2017.0,282,73.05,Gratuito,Gratuito ($0),Sports
+100727,Steam Game 727,2021-08-17,19.99,66,59,2,"Racing, Massively Multiplayer, Simulation",Developer 727,Publisher 727,2021-08-17,2021.0,125,52.8,De Pago,Estándar ($10.00 - $29.99),Racing
+100728,Steam Game 728,2015-09-01,4.99,19,2,0,Simulation,Developer 728,Publisher 728,2015-09-01,2015.0,21,90.48,De Pago,Económico ($0.01 - $9.99),Simulation
+100729,Steam Game 729,2017-10-14,0.0,0,0,33,"Strategy, Racing, Casual",Developer 729,Publisher 729,2017-10-14,2017.0,0,,Gratuito,Gratuito ($0),Strategy
+100730,Steam Game 730,2012-03-22,0.0,22,8,1,Casual,Developer 730,Publisher 730,2012-03-22,2012.0,30,73.33,Gratuito,Gratuito ($0),Casual
+100731,Steam Game 731,2012-08-23,19.99,18,2,0,Sports,Developer 731,Publisher 731,2012-08-23,2012.0,20,90.0,De Pago,Estándar ($10.00 - $29.99),Sports
+100732,Steam Game 732,2019-03-05,14.99,1,2,2,"Simulation, Indie, Strategy",Developer 732,Publisher 732,2019-03-05,2019.0,3,33.33,De Pago,Estándar ($10.00 - $29.99),Simulation
+100733,Steam Game 733,2021-08-24,9.99,31,4,3,"RPG, Strategy, Sports",Developer 733,Publisher 733,2021-08-24,2021.0,35,88.57,De Pago,Económico ($0.01 - $9.99),RPG
+100734,Steam Game 734,2010-11-09,4.99,22,6,3,Simulation,Developer 734,Publisher 734,2010-11-09,2010.0,28,78.57,De Pago,Económico ($0.01 - $9.99),Simulation
+100735,Steam Game 735,2014-05-20,29.99,18,4,2,"RPG, Indie",Developer 735,Publisher 735,2014-05-20,2014.0,22,81.82,De Pago,Estándar ($10.00 - $29.99),RPG
+100736,Steam Game 736,2017-07-17,9.99,69,11,0,Adventure,Developer 736,Publisher 736,2017-07-17,2017.0,80,86.25,De Pago,Económico ($0.01 - $9.99),Adventure
+100737,Steam Game 737,2023-11-06,19.99,10,3,12,"Racing, Indie",Developer 737,Publisher 737,2023-11-06,2023.0,13,76.92,De Pago,Estándar ($10.00 - $29.99),Racing
+100738,Steam Game 738,2011-12-01,9.99,97,27,28,Casual,Developer 738,Publisher 738,2011-12-01,2011.0,124,78.23,De Pago,Económico ($0.01 - $9.99),Casual
+100739,Steam Game 739,2020-12-18,4.99,4,3,1,Racing,Developer 739,Publisher 739,2020-12-18,2020.0,7,57.14,De Pago,Económico ($0.01 - $9.99),Racing
+100740,Steam Game 740,2019-06-11,9.99,7,2,1,RPG,Developer 740,Publisher 740,2019-06-11,2019.0,9,77.78,De Pago,Económico ($0.01 - $9.99),RPG
+100741,Steam Game 741,2017-05-04,4.99,11,1,12,"Action, Sports",Developer 741,Publisher 741,2017-05-04,2017.0,12,91.67,De Pago,Económico ($0.01 - $9.99),Action
+100742,Steam Game 742,2015-02-20,14.99,12,11,7,"Action, Strategy, Casual",Developer 742,Publisher 742,2015-02-20,2015.0,23,52.17,De Pago,Estándar ($10.00 - $29.99),Action
+100743,Steam Game 743,2016-09-06,9.99,80,36,1,Sports,Developer 743,Publisher 743,2016-09-06,2016.0,116,68.97,De Pago,Económico ($0.01 - $9.99),Sports
+100744,Steam Game 744,2017-07-08,4.99,29,25,0,"Sports, Simulation",Developer 744,Publisher 744,2017-07-08,2017.0,54,53.7,De Pago,Económico ($0.01 - $9.99),Sports
+100745,Steam Game 745,2022-07-19,29.99,18,6,14,"Casual, Action",Developer 745,Publisher 745,2022-07-19,2022.0,24,75.0,De Pago,Estándar ($10.00 - $29.99),Casual
+100746,Steam Game 746,2024-05-15,9.99,38,1,49,Indie,Developer 746,Publisher 746,2024-05-15,2024.0,39,97.44,De Pago,Económico ($0.01 - $9.99),Indie
+100747,Steam Game 747,2023-03-22,9.99,16,1,3,"Simulation, RPG, Strategy",Developer 747,Publisher 747,2023-03-22,2023.0,17,94.12,De Pago,Económico ($0.01 - $9.99),Simulation
+100748,Steam Game 748,2013-09-19,29.99,3,7,11,Racing,Developer 748,Publisher 748,2013-09-19,2013.0,10,30.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100749,Steam Game 749,2008-10-02,14.99,51,14,1,"Strategy, Massively Multiplayer, Adventure",Developer 749,Publisher 749,2008-10-02,2008.0,65,78.46,De Pago,Estándar ($10.00 - $29.99),Strategy
+100750,Steam Game 750,2014-11-04,0.0,5,1,0,Strategy,Developer 750,Publisher 750,2014-11-04,2014.0,6,83.33,Gratuito,Gratuito ($0),Strategy
+100751,Steam Game 751,2015-08-04,29.99,1,1,11,"Sports, Massively Multiplayer",Developer 751,Publisher 751,2015-08-04,2015.0,2,50.0,De Pago,Estándar ($10.00 - $29.99),Sports
+100752,Steam Game 752,2017-06-12,14.99,83,25,20,"Indie, Strategy",Developer 752,Publisher 752,2017-06-12,2017.0,108,76.85,De Pago,Estándar ($10.00 - $29.99),Indie
+100753,Steam Game 753,2018-12-18,4.99,52,6,19,"Sports, Racing, Action",Developer 753,Publisher 753,2018-12-18,2018.0,58,89.66,De Pago,Económico ($0.01 - $9.99),Sports
+100754,Steam Game 754,2016-12-12,0.0,15,4,11,"Sports, Indie, Racing",Developer 754,Publisher 754,2016-12-12,2016.0,19,78.95,Gratuito,Gratuito ($0),Sports
+100755,Steam Game 755,2023-02-27,19.99,22,3,0,"Simulation, Action",Developer 755,Publisher 755,2023-02-27,2023.0,25,88.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100756,Steam Game 756,2020-07-19,14.99,5,3,26,"Sports, Simulation, Action",Developer 756,Publisher 756,2020-07-19,2020.0,8,62.5,De Pago,Estándar ($10.00 - $29.99),Sports
+100757,Steam Game 757,2020-05-25,9.99,260,41,35,"Massively Multiplayer, Strategy, Simulation",Developer 757,Publisher 757,2020-05-25,2020.0,301,86.38,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100758,Steam Game 758,2018-08-26,29.99,265,89,11,"Strategy, Adventure, RPG",Developer 758,Publisher 758,2018-08-26,2018.0,354,74.86,De Pago,Estándar ($10.00 - $29.99),Strategy
+100759,Steam Game 759,2018-06-25,19.99,164,13,1,"Strategy, Action, Racing",Developer 759,Publisher 759,2018-06-25,2018.0,177,92.66,De Pago,Estándar ($10.00 - $29.99),Strategy
+100760,Steam Game 760,2017-10-15,0.0,85,72,0,"Strategy, Adventure, Sports",Developer 760,Publisher 760,2017-10-15,2017.0,157,54.14,Gratuito,Gratuito ($0),Strategy
+100761,Steam Game 761,2017-09-10,4.99,85,25,7,"Simulation, Racing, Indie",Developer 761,Publisher 761,2017-09-10,2017.0,110,77.27,De Pago,Económico ($0.01 - $9.99),Simulation
+100762,Steam Game 762,2023-08-07,4.99,11,2,41,Simulation,Developer 762,Publisher 762,2023-08-07,2023.0,13,84.62,De Pago,Económico ($0.01 - $9.99),Simulation
+100763,Steam Game 763,2018-07-02,14.99,27,8,4,"Massively Multiplayer, Casual",Developer 763,Publisher 763,2018-07-02,2018.0,35,77.14,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100764,Steam Game 764,2017-01-13,0.0,31,8,1,Indie,Developer 764,Publisher 764,2017-01-13,2017.0,39,79.49,Gratuito,Gratuito ($0),Indie
+100765,Steam Game 765,2017-10-16,9.99,122,158,0,"Massively Multiplayer, Indie",Developer 765,Publisher 765,2017-10-16,2017.0,280,43.57,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100766,Steam Game 766,2023-09-21,19.99,9,1,56,"Casual, Racing, Sports",Developer 766,Publisher 766,2023-09-21,2023.0,10,90.0,De Pago,Estándar ($10.00 - $29.99),Casual
+100767,Steam Game 767,2016-08-08,29.99,20,14,165,"RPG, Strategy",Developer 767,Publisher 767,2016-08-08,2016.0,34,58.82,De Pago,Estándar ($10.00 - $29.99),RPG
+100768,Steam Game 768,2025-01-01,4.99,5,1,3,"Adventure, Simulation, Casual",Developer 768,Publisher 768,2025-01-01,2025.0,6,83.33,De Pago,Económico ($0.01 - $9.99),Adventure
+100769,Steam Game 769,2016-01-17,19.99,1,1,5,"Racing, Strategy",Developer 769,Publisher 769,2016-01-17,2016.0,2,50.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100770,Steam Game 770,2021-03-27,0.0,5,2,0,"Racing, Indie, Simulation",Developer 770,Publisher 770,2021-03-27,2021.0,7,71.43,Gratuito,Gratuito ($0),Racing
+100771,Steam Game 771,2010-03-15,19.99,3,1,2,Sports,Developer 771,Publisher 771,2010-03-15,2010.0,4,75.0,De Pago,Estándar ($10.00 - $29.99),Sports
+100772,Steam Game 772,2017-02-27,0.0,2,2,0,Adventure,Developer 772,Publisher 772,2017-02-27,2017.0,4,50.0,Gratuito,Gratuito ($0),Adventure
+100773,Steam Game 773,2013-11-22,9.99,45,33,19,"Indie, Action",Developer 773,Publisher 773,2013-11-22,2013.0,78,57.69,De Pago,Económico ($0.01 - $9.99),Indie
+100774,Steam Game 774,2015-08-23,19.99,17,7,49,"Indie, Strategy, Massively Multiplayer",Developer 774,Publisher 774,2015-08-23,2015.0,24,70.83,De Pago,Estándar ($10.00 - $29.99),Indie
+100775,Steam Game 775,2017-05-14,0.0,106,37,15,Simulation,Developer 775,Publisher 775,2017-05-14,2017.0,143,74.13,Gratuito,Gratuito ($0),Simulation
+100776,Steam Game 776,2018-01-07,4.99,6,2,6,Action,Developer 776,Publisher 776,2018-01-07,2018.0,8,75.0,De Pago,Económico ($0.01 - $9.99),Action
+100777,Steam Game 777,2012-01-19,14.99,56,7,11,Massively Multiplayer,Developer 777,Publisher 777,2012-01-19,2012.0,63,88.89,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100778,Steam Game 778,2017-02-10,14.99,11,2,1,Racing,Developer 778,Publisher 778,2017-02-10,2017.0,13,84.62,De Pago,Estándar ($10.00 - $29.99),Racing
+100779,Steam Game 779,2023-07-20,14.99,47,7,61,"Simulation, Sports, Action",Developer 779,Publisher 779,2023-07-20,2023.0,54,87.04,De Pago,Estándar ($10.00 - $29.99),Simulation
+100780,Steam Game 780,2018-09-25,14.99,17,14,0,"Adventure, Action",Developer 780,Publisher 780,2018-09-25,2018.0,31,54.84,De Pago,Estándar ($10.00 - $29.99),Adventure
+100781,Steam Game 781,2010-09-11,9.99,4,1,2,"Strategy, Indie",Developer 781,Publisher 781,2010-09-11,2010.0,5,80.0,De Pago,Económico ($0.01 - $9.99),Strategy
+100782,Steam Game 782,2014-09-26,4.99,222,78,17,"Massively Multiplayer, RPG, Casual",Developer 782,Publisher 782,2014-09-26,2014.0,300,74.0,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100783,Steam Game 783,2021-10-20,4.99,1,1,16,"Casual, Strategy",Developer 783,Publisher 783,2021-10-20,2021.0,2,50.0,De Pago,Económico ($0.01 - $9.99),Casual
+100784,Steam Game 784,2015-11-21,4.99,19,7,3,"RPG, Simulation",Developer 784,Publisher 784,2015-11-21,2015.0,26,73.08,De Pago,Económico ($0.01 - $9.99),RPG
+100785,Steam Game 785,2021-06-22,29.99,52,14,2,"RPG, Sports, Strategy",Developer 785,Publisher 785,2021-06-22,2021.0,66,78.79,De Pago,Estándar ($10.00 - $29.99),RPG
+100786,Steam Game 786,2015-11-23,9.99,123,33,0,Adventure,Developer 786,Publisher 786,2015-11-23,2015.0,156,78.85,De Pago,Económico ($0.01 - $9.99),Adventure
+100787,Steam Game 787,2018-12-05,9.99,2246,462,2,"Massively Multiplayer, RPG, Sports",Developer 787,Publisher 787,2018-12-05,2018.0,2708,82.94,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100788,Steam Game 788,2018-05-07,9.99,32,8,13,"Racing, RPG",Developer 788,Publisher 788,2018-05-07,2018.0,40,80.0,De Pago,Económico ($0.01 - $9.99),Racing
+100789,Steam Game 789,2019-12-12,39.99,538,211,7,"Strategy, Sports",Developer 789,Publisher 789,2019-12-12,2019.0,749,71.83,De Pago,Premium (>$30.00),Strategy
+100790,Steam Game 790,2020-10-02,0.0,31,4,0,Massively Multiplayer,Developer 790,Publisher 790,2020-10-02,2020.0,35,88.57,Gratuito,Gratuito ($0),Massively Multiplayer
+100791,Steam Game 791,2025-10-07,9.99,31,18,0,"Sports, Indie, Racing",Developer 791,Publisher 791,2025-10-07,2025.0,49,63.27,De Pago,Económico ($0.01 - $9.99),Sports
+100792,Steam Game 792,2006-11-21,9.99,40,15,0,"Action, Massively Multiplayer, RPG",Developer 792,Publisher 792,2006-11-21,2006.0,55,72.73,De Pago,Económico ($0.01 - $9.99),Action
+100793,Steam Game 793,2020-08-26,14.99,45,19,80,Simulation,Developer 793,Publisher 793,2020-08-26,2020.0,64,70.31,De Pago,Estándar ($10.00 - $29.99),Simulation
+100794,Steam Game 794,2021-06-05,0.0,17,6,13,Indie,Developer 794,Publisher 794,2021-06-05,2021.0,23,73.91,Gratuito,Gratuito ($0),Indie
+100795,Steam Game 795,2014-08-27,29.99,611,120,0,"Sports, Simulation",Developer 795,Publisher 795,2014-08-27,2014.0,731,83.58,De Pago,Estándar ($10.00 - $29.99),Sports
+100796,Steam Game 796,2015-01-22,29.99,9,10,29,Simulation,Developer 796,Publisher 796,2015-01-22,2015.0,19,47.37,De Pago,Estándar ($10.00 - $29.99),Simulation
+100797,Steam Game 797,2019-04-12,9.99,6,2,6,"Sports, Strategy",Developer 797,Publisher 797,2019-04-12,2019.0,8,75.0,De Pago,Económico ($0.01 - $9.99),Sports
+100798,Steam Game 798,2014-10-25,14.99,36,18,2,"Simulation, Strategy, Massively Multiplayer",Developer 798,Publisher 798,2014-10-25,2014.0,54,66.67,De Pago,Estándar ($10.00 - $29.99),Simulation
+100799,Steam Game 799,2019-05-04,29.99,19,2,1,"Adventure, Action",Developer 799,Publisher 799,2019-05-04,2019.0,21,90.48,De Pago,Estándar ($10.00 - $29.99),Adventure
+100800,Steam Game 800,2013-04-21,14.99,2,2,9,"Massively Multiplayer, Racing, Action",Developer 800,Publisher 0,2013-04-21,2013.0,4,50.0,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100801,Steam Game 801,2018-06-21,0.0,5,2,49,"RPG, Casual",Developer 801,Publisher 1,2018-06-21,2018.0,7,71.43,Gratuito,Gratuito ($0),RPG
+100802,Steam Game 802,2021-07-19,9.99,117,6,10,Massively Multiplayer,Developer 802,Publisher 2,2021-07-19,2021.0,123,95.12,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100803,Steam Game 803,2024-11-03,14.99,24,1,78,"Massively Multiplayer, Racing, Strategy",Developer 803,Publisher 3,2024-11-03,2024.0,25,96.0,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100804,Steam Game 804,2017-11-17,9.99,0,0,4,"Strategy, Adventure",Developer 804,Publisher 4,2017-11-17,2017.0,0,,De Pago,Económico ($0.01 - $9.99),Strategy
+100805,Steam Game 805,2016-08-04,14.99,217,31,10,"Action, Casual, RPG",Developer 805,Publisher 5,2016-08-04,2016.0,248,87.5,De Pago,Estándar ($10.00 - $29.99),Action
+100806,Steam Game 806,2021-08-09,29.99,6,3,4,"Indie, Racing, Massively Multiplayer",Developer 806,Publisher 6,2021-08-09,2021.0,9,66.67,De Pago,Estándar ($10.00 - $29.99),Indie
+100807,Steam Game 807,2015-05-02,29.99,27,14,66,"Simulation, RPG, Sports",Developer 807,Publisher 7,2015-05-02,2015.0,41,65.85,De Pago,Estándar ($10.00 - $29.99),Simulation
+100808,Steam Game 808,2017-08-10,9.99,138,32,0,"Adventure, RPG, Simulation",Developer 808,Publisher 8,2017-08-10,2017.0,170,81.18,De Pago,Económico ($0.01 - $9.99),Adventure
+100809,Steam Game 809,2013-12-20,0.0,211,17,0,"Strategy, Sports",Developer 809,Publisher 9,2013-12-20,2013.0,228,92.54,Gratuito,Gratuito ($0),Strategy
+100810,Steam Game 810,2021-03-25,59.99,110,6,2,"Sports, Strategy, Adventure",Developer 810,Publisher 10,2021-03-25,2021.0,116,94.83,De Pago,Premium (>$30.00),Sports
+100811,Steam Game 811,2017-12-09,19.99,95,40,5,Massively Multiplayer,Developer 811,Publisher 11,2017-12-09,2017.0,135,70.37,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100812,Steam Game 812,2019-03-08,0.0,39,4,1,"Action, RPG",Developer 812,Publisher 12,2019-03-08,2019.0,43,90.7,Gratuito,Gratuito ($0),Action
+100813,Steam Game 813,2013-01-18,29.99,92,5,5,"Casual, Massively Multiplayer",Developer 813,Publisher 13,2013-01-18,2013.0,97,94.85,De Pago,Estándar ($10.00 - $29.99),Casual
+100814,Steam Game 814,2023-10-11,19.99,22,17,5,"Racing, Action, Indie",Developer 814,Publisher 14,2023-10-11,2023.0,39,56.41,De Pago,Estándar ($10.00 - $29.99),Racing
+100815,Steam Game 815,2024-01-19,9.99,3,2,5,"Casual, RPG, Sports",Developer 815,Publisher 15,2024-01-19,2024.0,5,60.0,De Pago,Económico ($0.01 - $9.99),Casual
+100816,Steam Game 816,2016-01-22,9.99,38,36,15,RPG,Developer 816,Publisher 16,2016-01-22,2016.0,74,51.35,De Pago,Económico ($0.01 - $9.99),RPG
+100817,Steam Game 817,2021-10-18,9.99,18,12,4,Indie,Developer 817,Publisher 17,2021-10-18,2021.0,30,60.0,De Pago,Económico ($0.01 - $9.99),Indie
+100818,Steam Game 818,2013-11-19,0.0,28,10,0,Massively Multiplayer,Developer 818,Publisher 18,2013-11-19,2013.0,38,73.68,Gratuito,Gratuito ($0),Massively Multiplayer
+100819,Steam Game 819,2020-03-17,4.99,237,114,0,"Casual, Massively Multiplayer, Action",Developer 819,Publisher 19,2020-03-17,2020.0,351,67.52,De Pago,Económico ($0.01 - $9.99),Casual
+100820,Steam Game 820,2021-08-20,19.99,1,1,5,"RPG, Racing",Developer 820,Publisher 20,2021-08-20,2021.0,2,50.0,De Pago,Estándar ($10.00 - $29.99),RPG
+100821,Steam Game 821,2018-09-27,0.0,28,48,12,"Casual, Adventure",Developer 821,Publisher 21,2018-09-27,2018.0,76,36.84,Gratuito,Gratuito ($0),Casual
+100822,Steam Game 822,2018-03-22,4.99,434,96,7,"Adventure, Simulation, Sports",Developer 822,Publisher 22,2018-03-22,2018.0,530,81.89,De Pago,Económico ($0.01 - $9.99),Adventure
+100823,Steam Game 823,2021-08-17,9.99,13,7,6,Adventure,Developer 823,Publisher 23,2021-08-17,2021.0,20,65.0,De Pago,Económico ($0.01 - $9.99),Adventure
+100824,Steam Game 824,2014-11-15,9.99,1,1,8,"Indie, Racing",Developer 824,Publisher 24,2014-11-15,2014.0,2,50.0,De Pago,Económico ($0.01 - $9.99),Indie
+100825,Steam Game 825,2013-10-16,29.99,171,40,3,Casual,Developer 825,Publisher 25,2013-10-16,2013.0,211,81.04,De Pago,Estándar ($10.00 - $29.99),Casual
+100826,Steam Game 826,2020-01-17,4.99,19,9,9,Massively Multiplayer,Developer 826,Publisher 26,2020-01-17,2020.0,28,67.86,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100827,Steam Game 827,2018-03-08,4.99,23,5,9,"Simulation, RPG",Developer 827,Publisher 27,2018-03-08,2018.0,28,82.14,De Pago,Económico ($0.01 - $9.99),Simulation
+100828,Steam Game 828,2022-01-23,14.99,0,0,3,"Strategy, Racing, Indie",Developer 828,Publisher 28,2022-01-23,2022.0,0,,De Pago,Estándar ($10.00 - $29.99),Strategy
+100829,Steam Game 829,2025-10-07,9.99,8,2,3,Sports,Developer 829,Publisher 29,2025-10-07,2025.0,10,80.0,De Pago,Económico ($0.01 - $9.99),Sports
+100830,Steam Game 830,2021-09-23,4.99,83,22,10,Sports,Developer 830,Publisher 30,2021-09-23,2021.0,105,79.05,De Pago,Económico ($0.01 - $9.99),Sports
+100831,Steam Game 831,2013-03-21,9.99,6,3,1,Casual,Developer 831,Publisher 31,2013-03-21,2013.0,9,66.67,De Pago,Económico ($0.01 - $9.99),Casual
+100832,Steam Game 832,2017-10-04,0.0,13,1,0,"Action, Simulation",Developer 832,Publisher 32,2017-10-04,2017.0,14,92.86,Gratuito,Gratuito ($0),Action
+100833,Steam Game 833,2019-10-07,0.0,9,2,2,"Sports, Casual, Indie",Developer 833,Publisher 33,2019-10-07,2019.0,11,81.82,Gratuito,Gratuito ($0),Sports
+100834,Steam Game 834,2015-05-11,9.99,9,1,1,RPG,Developer 834,Publisher 34,2015-05-11,2015.0,10,90.0,De Pago,Económico ($0.01 - $9.99),RPG
+100835,Steam Game 835,2021-11-03,9.99,14,19,0,"Adventure, Casual",Developer 835,Publisher 35,2021-11-03,2021.0,33,42.42,De Pago,Económico ($0.01 - $9.99),Adventure
+100836,Steam Game 836,2017-10-25,29.99,68,12,5,"Indie, Casual",Developer 836,Publisher 36,2017-10-25,2017.0,80,85.0,De Pago,Estándar ($10.00 - $29.99),Indie
+100837,Steam Game 837,2012-10-02,4.99,6,1,2,"Massively Multiplayer, RPG",Developer 837,Publisher 37,2012-10-02,2012.0,7,85.71,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100838,Steam Game 838,2014-07-01,9.99,42,8,2,"Sports, Simulation",Developer 838,Publisher 38,2014-07-01,2014.0,50,84.0,De Pago,Económico ($0.01 - $9.99),Sports
+100839,Steam Game 839,2019-09-24,14.99,62,10,2,"Sports, Adventure",Developer 839,Publisher 39,2019-09-24,2019.0,72,86.11,De Pago,Estándar ($10.00 - $29.99),Sports
+100840,Steam Game 840,2019-07-06,0.0,19,9,7,"Indie, Sports",Developer 840,Publisher 40,2019-07-06,2019.0,28,67.86,Gratuito,Gratuito ($0),Indie
+100841,Steam Game 841,2020-01-14,14.99,3,2,2,"Racing, Adventure, RPG",Developer 841,Publisher 41,2020-01-14,2020.0,5,60.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100842,Steam Game 842,2013-07-04,0.0,16,7,16,Sports,Developer 842,Publisher 42,2013-07-04,2013.0,23,69.57,Gratuito,Gratuito ($0),Sports
+100843,Steam Game 843,2020-07-16,39.99,92,14,0,"RPG, Sports",Developer 843,Publisher 43,2020-07-16,2020.0,106,86.79,De Pago,Premium (>$30.00),RPG
+100844,Steam Game 844,2011-02-10,0.0,9,3,1,"Action, Racing",Developer 844,Publisher 44,2011-02-10,2011.0,12,75.0,Gratuito,Gratuito ($0),Action
+100845,Steam Game 845,2023-07-25,9.99,25,23,1,"Sports, Racing, Simulation",Developer 845,Publisher 45,2023-07-25,2023.0,48,52.08,De Pago,Económico ($0.01 - $9.99),Sports
+100846,Steam Game 846,2020-02-05,0.0,2,5,2,Strategy,Developer 846,Publisher 46,2020-02-05,2020.0,7,28.57,Gratuito,Gratuito ($0),Strategy
+100847,Steam Game 847,2020-01-11,69.99,5,3,26,"Indie, Casual, Action",Developer 847,Publisher 47,2020-01-11,2020.0,8,62.5,De Pago,Premium (>$30.00),Indie
+100848,Steam Game 848,2014-09-01,9.99,46,6,2,Casual,Developer 848,Publisher 48,2014-09-01,2014.0,52,88.46,De Pago,Económico ($0.01 - $9.99),Casual
+100849,Steam Game 849,2013-10-17,9.99,49,20,55,"Simulation, Sports",Developer 849,Publisher 49,2013-10-17,2013.0,69,71.01,De Pago,Económico ($0.01 - $9.99),Simulation
+100850,Steam Game 850,2013-10-14,0.0,139,17,15,"Action, Adventure, Indie",Developer 850,Publisher 50,2013-10-14,2013.0,156,89.1,Gratuito,Gratuito ($0),Action
+100851,Steam Game 851,2014-05-07,14.99,28,6,0,"Casual, Massively Multiplayer",Developer 851,Publisher 51,2014-05-07,2014.0,34,82.35,De Pago,Estándar ($10.00 - $29.99),Casual
+100852,Steam Game 852,2021-07-14,4.99,12,8,1,Casual,Developer 852,Publisher 52,2021-07-14,2021.0,20,60.0,De Pago,Económico ($0.01 - $9.99),Casual
+100853,Steam Game 853,2019-10-01,29.99,120,48,13,"Indie, RPG, Casual",Developer 853,Publisher 53,2019-10-01,2019.0,168,71.43,De Pago,Estándar ($10.00 - $29.99),Indie
+100854,Steam Game 854,2024-06-06,4.99,3,1,0,"Massively Multiplayer, Action, Strategy",Developer 854,Publisher 54,2024-06-06,2024.0,4,75.0,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100855,Steam Game 855,2011-08-07,4.99,113,49,0,"Strategy, Adventure, Simulation",Developer 855,Publisher 55,2011-08-07,2011.0,162,69.75,De Pago,Económico ($0.01 - $9.99),Strategy
+100856,Steam Game 856,2020-10-11,0.0,3,1,1,"Massively Multiplayer, Indie",Developer 856,Publisher 56,2020-10-11,2020.0,4,75.0,Gratuito,Gratuito ($0),Massively Multiplayer
+100857,Steam Game 857,2021-03-10,9.99,15,3,18,"Indie, Sports, RPG",Developer 857,Publisher 57,2021-03-10,2021.0,18,83.33,De Pago,Económico ($0.01 - $9.99),Indie
+100858,Steam Game 858,2017-12-21,9.99,97,9,338,"Sports, RPG",Developer 858,Publisher 58,2017-12-21,2017.0,106,91.51,De Pago,Económico ($0.01 - $9.99),Sports
+100859,Steam Game 859,2010-04-03,0.0,25,6,19,Casual,Developer 859,Publisher 59,2010-04-03,2010.0,31,80.65,Gratuito,Gratuito ($0),Casual
+100860,Steam Game 860,2019-02-19,19.99,30,3,5,"Massively Multiplayer, Racing",Developer 860,Publisher 60,2019-02-19,2019.0,33,90.91,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100861,Steam Game 861,2019-05-02,9.99,18,4,34,"Racing, Massively Multiplayer",Developer 861,Publisher 61,2019-05-02,2019.0,22,81.82,De Pago,Económico ($0.01 - $9.99),Racing
+100862,Steam Game 862,2023-11-27,9.99,3,2,1,Casual,Developer 862,Publisher 62,2023-11-27,2023.0,5,60.0,De Pago,Económico ($0.01 - $9.99),Casual
+100863,Steam Game 863,2021-10-12,9.99,62,120,20,Sports,Developer 863,Publisher 63,2021-10-12,2021.0,182,34.07,De Pago,Económico ($0.01 - $9.99),Sports
+100864,Steam Game 864,2018-11-12,9.99,25,2,5,"Strategy, Racing, Indie",Developer 864,Publisher 64,2018-11-12,2018.0,27,92.59,De Pago,Económico ($0.01 - $9.99),Strategy
+100865,Steam Game 865,2012-01-01,9.99,13,5,0,"Adventure, Simulation",Developer 865,Publisher 65,2012-01-01,2012.0,18,72.22,De Pago,Económico ($0.01 - $9.99),Adventure
+100866,Steam Game 866,2010-05-14,0.0,48,22,0,"Strategy, Massively Multiplayer, Casual",Developer 866,Publisher 66,2010-05-14,2010.0,70,68.57,Gratuito,Gratuito ($0),Strategy
+100867,Steam Game 867,2022-08-11,4.99,237,61,3,Sports,Developer 867,Publisher 67,2022-08-11,2022.0,298,79.53,De Pago,Económico ($0.01 - $9.99),Sports
+100868,Steam Game 868,2017-12-08,19.99,29,9,14,"Adventure, Simulation",Developer 868,Publisher 68,2017-12-08,2017.0,38,76.32,De Pago,Estándar ($10.00 - $29.99),Adventure
+100869,Steam Game 869,2019-11-09,39.99,90,13,0,"RPG, Simulation",Developer 869,Publisher 69,2019-11-09,2019.0,103,87.38,De Pago,Premium (>$30.00),RPG
+100870,Steam Game 870,2020-06-18,4.99,18,1,7,Massively Multiplayer,Developer 870,Publisher 70,2020-06-18,2020.0,19,94.74,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100871,Steam Game 871,2018-10-13,4.99,12,5,6,Massively Multiplayer,Developer 871,Publisher 71,2018-10-13,2018.0,17,70.59,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100872,Steam Game 872,2022-09-04,14.99,0,1,4,"Massively Multiplayer, Racing, Sports",Developer 872,Publisher 72,2022-09-04,2022.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100873,Steam Game 873,2010-06-16,9.99,44,6,12,Racing,Developer 873,Publisher 73,2010-06-16,2010.0,50,88.0,De Pago,Económico ($0.01 - $9.99),Racing
+100874,Steam Game 874,2020-11-03,0.0,9,6,1,"Sports, Racing",Developer 874,Publisher 74,2020-11-03,2020.0,15,60.0,Gratuito,Gratuito ($0),Sports
+100875,Steam Game 875,2020-09-04,0.0,206,81,3,RPG,Developer 875,Publisher 75,2020-09-04,2020.0,287,71.78,Gratuito,Gratuito ($0),RPG
+100876,Steam Game 876,2014-06-04,14.99,242,164,0,"Indie, Massively Multiplayer, RPG",Developer 876,Publisher 76,2014-06-04,2014.0,406,59.61,De Pago,Estándar ($10.00 - $29.99),Indie
+100877,Steam Game 877,2012-11-08,14.99,6,1,5,"Racing, RPG, Action",Developer 877,Publisher 77,2012-11-08,2012.0,7,85.71,De Pago,Estándar ($10.00 - $29.99),Racing
+100878,Steam Game 878,2019-03-11,0.0,109,51,11,Adventure,Developer 878,Publisher 78,2019-03-11,2019.0,160,68.12,Gratuito,Gratuito ($0),Adventure
+100879,Steam Game 879,2016-11-03,4.99,11,2,0,"Sports, Adventure, Indie",Developer 879,Publisher 79,2016-11-03,2016.0,13,84.62,De Pago,Económico ($0.01 - $9.99),Sports
+100880,Steam Game 880,2007-12-19,4.99,76,8,1,"RPG, Racing, Adventure",Developer 880,Publisher 80,2007-12-19,2007.0,84,90.48,De Pago,Económico ($0.01 - $9.99),RPG
+100881,Steam Game 881,2017-03-06,14.99,32,22,12,"Racing, Action",Developer 881,Publisher 81,2017-03-06,2017.0,54,59.26,De Pago,Estándar ($10.00 - $29.99),Racing
+100882,Steam Game 882,2019-01-27,0.0,51,29,375,"Racing, RPG, Strategy",Developer 882,Publisher 82,2019-01-27,2019.0,80,63.75,Gratuito,Gratuito ($0),Racing
+100883,Steam Game 883,2022-10-03,0.0,10,2,0,"Simulation, Casual",Developer 883,Publisher 83,2022-10-03,2022.0,12,83.33,Gratuito,Gratuito ($0),Simulation
+100884,Steam Game 884,2017-08-21,19.99,197,40,12,Casual,Developer 884,Publisher 84,2017-08-21,2017.0,237,83.12,De Pago,Estándar ($10.00 - $29.99),Casual
+100885,Steam Game 885,2013-11-04,0.0,16,24,2,"Adventure, RPG",Developer 885,Publisher 85,2013-11-04,2013.0,40,40.0,Gratuito,Gratuito ($0),Adventure
+100886,Steam Game 886,2017-12-27,14.99,3,2,6,"Adventure, Simulation",Developer 886,Publisher 86,2017-12-27,2017.0,5,60.0,De Pago,Estándar ($10.00 - $29.99),Adventure
+100887,Steam Game 887,2020-07-04,4.99,0,0,4,"Indie, Massively Multiplayer, RPG",Developer 887,Publisher 87,2020-07-04,2020.0,0,,De Pago,Económico ($0.01 - $9.99),Indie
+100888,Steam Game 888,2011-05-02,0.0,21,7,5,"Indie, Strategy",Developer 888,Publisher 88,2011-05-02,2011.0,28,75.0,Gratuito,Gratuito ($0),Indie
+100889,Steam Game 889,2013-04-16,4.99,34,4,8,"Racing, Casual",Developer 889,Publisher 89,2013-04-16,2013.0,38,89.47,De Pago,Económico ($0.01 - $9.99),Racing
+100890,Steam Game 890,2015-12-25,14.99,38,2,26,"Adventure, Indie, Strategy",Developer 890,Publisher 90,2015-12-25,2015.0,40,95.0,De Pago,Estándar ($10.00 - $29.99),Adventure
+100891,Steam Game 891,2017-03-05,19.99,19,7,13,"Simulation, Adventure, RPG",Developer 891,Publisher 91,2017-03-05,2017.0,26,73.08,De Pago,Estándar ($10.00 - $29.99),Simulation
+100892,Steam Game 892,2022-03-15,19.99,29,14,4,"Adventure, Sports",Developer 892,Publisher 92,2022-03-15,2022.0,43,67.44,De Pago,Estándar ($10.00 - $29.99),Adventure
+100893,Steam Game 893,2020-09-05,9.99,11,7,2,"Casual, Strategy",Developer 893,Publisher 93,2020-09-05,2020.0,18,61.11,De Pago,Económico ($0.01 - $9.99),Casual
+100894,Steam Game 894,2019-01-23,14.99,52,9,2,"RPG, Casual",Developer 894,Publisher 94,2019-01-23,2019.0,61,85.25,De Pago,Estándar ($10.00 - $29.99),RPG
+100895,Steam Game 895,2021-04-12,4.99,187,53,9,Racing,Developer 895,Publisher 95,2021-04-12,2021.0,240,77.92,De Pago,Económico ($0.01 - $9.99),Racing
+100896,Steam Game 896,2022-09-19,4.99,49,36,0,Simulation,Developer 896,Publisher 96,2022-09-19,2022.0,85,57.65,De Pago,Económico ($0.01 - $9.99),Simulation
+100897,Steam Game 897,2017-09-15,29.99,18,3,0,"Massively Multiplayer, Casual",Developer 897,Publisher 97,2017-09-15,2017.0,21,85.71,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100898,Steam Game 898,2020-10-06,0.0,20,3,0,"Indie, Adventure, RPG",Developer 898,Publisher 98,2020-10-06,2020.0,23,86.96,Gratuito,Gratuito ($0),Indie
+100899,Steam Game 899,2023-09-01,0.0,21,8,27,Action,Developer 899,Publisher 99,2023-09-01,2023.0,29,72.41,Gratuito,Gratuito ($0),Action
+100900,Steam Game 900,2018-12-05,4.99,0,0,0,Sports,Developer 900,Publisher 100,2018-12-05,2018.0,0,,De Pago,Económico ($0.01 - $9.99),Sports
+100901,Steam Game 901,2020-03-21,0.0,30,4,5,"Massively Multiplayer, Sports",Developer 901,Publisher 101,2020-03-21,2020.0,34,88.24,Gratuito,Gratuito ($0),Massively Multiplayer
+100902,Steam Game 902,2024-05-25,4.99,44,16,7,Racing,Developer 902,Publisher 102,2024-05-25,2024.0,60,73.33,De Pago,Económico ($0.01 - $9.99),Racing
+100903,Steam Game 903,2017-11-21,9.99,0,0,8,"Casual, Adventure",Developer 903,Publisher 103,2017-11-21,2017.0,0,,De Pago,Económico ($0.01 - $9.99),Casual
+100904,Steam Game 904,2019-04-24,9.99,3,3,0,"Indie, Sports",Developer 904,Publisher 104,2019-04-24,2019.0,6,50.0,De Pago,Económico ($0.01 - $9.99),Indie
+100905,Steam Game 905,2017-10-19,29.99,6,5,7,"Strategy, Simulation",Developer 905,Publisher 105,2017-10-19,2017.0,11,54.55,De Pago,Estándar ($10.00 - $29.99),Strategy
+100906,Steam Game 906,2020-04-11,19.99,111,17,5,Action,Developer 906,Publisher 106,2020-04-11,2020.0,128,86.72,De Pago,Estándar ($10.00 - $29.99),Action
+100907,Steam Game 907,2016-04-22,4.99,4550,1334,0,"Sports, Casual, Simulation",Developer 907,Publisher 107,2016-04-22,2016.0,5884,77.33,De Pago,Económico ($0.01 - $9.99),Sports
+100908,Steam Game 908,2012-06-14,4.99,107,27,22,Action,Developer 908,Publisher 108,2012-06-14,2012.0,134,79.85,De Pago,Económico ($0.01 - $9.99),Action
+100909,Steam Game 909,2022-12-14,4.99,0,1,0,"Indie, Adventure, Strategy",Developer 909,Publisher 109,2022-12-14,2022.0,1,0.0,De Pago,Económico ($0.01 - $9.99),Indie
+100910,Steam Game 910,2020-08-02,9.99,776,55,1,"Strategy, Casual, Simulation",Developer 910,Publisher 110,2020-08-02,2020.0,831,93.38,De Pago,Económico ($0.01 - $9.99),Strategy
+100911,Steam Game 911,2025-03-25,4.99,28,11,9,"Racing, Massively Multiplayer",Developer 911,Publisher 111,2025-03-25,2025.0,39,71.79,De Pago,Económico ($0.01 - $9.99),Racing
+100912,Steam Game 912,2020-02-22,14.99,4,3,1,Adventure,Developer 912,Publisher 112,2020-02-22,2020.0,7,57.14,De Pago,Estándar ($10.00 - $29.99),Adventure
+100913,Steam Game 913,2021-08-05,9.99,24,7,12,"Action, Racing, Casual",Developer 913,Publisher 113,2021-08-05,2021.0,31,77.42,De Pago,Económico ($0.01 - $9.99),Action
+100914,Steam Game 914,2023-09-09,9.99,43,31,4,"Indie, Massively Multiplayer, RPG",Developer 914,Publisher 114,2023-09-09,2023.0,74,58.11,De Pago,Económico ($0.01 - $9.99),Indie
+100915,Steam Game 915,2010-07-17,9.99,54,4,1,"Action, Simulation, Massively Multiplayer",Developer 915,Publisher 115,2010-07-17,2010.0,58,93.1,De Pago,Económico ($0.01 - $9.99),Action
+100916,Steam Game 916,2021-04-19,4.99,24,5,16,RPG,Developer 916,Publisher 116,2021-04-19,2021.0,29,82.76,De Pago,Económico ($0.01 - $9.99),RPG
+100917,Steam Game 917,2012-07-15,39.99,26,2,77,Casual,Developer 917,Publisher 117,2012-07-15,2012.0,28,92.86,De Pago,Premium (>$30.00),Casual
+100918,Steam Game 918,2022-12-02,19.99,67,45,2,"Simulation, Indie",Developer 918,Publisher 118,2022-12-02,2022.0,112,59.82,De Pago,Estándar ($10.00 - $29.99),Simulation
+100919,Steam Game 919,2020-12-09,0.0,182,108,21,"Sports, RPG, Action",Developer 919,Publisher 119,2020-12-09,2020.0,290,62.76,Gratuito,Gratuito ($0),Sports
+100920,Steam Game 920,2017-12-11,19.99,29,17,4,"Simulation, Racing, Sports",Developer 920,Publisher 120,2017-12-11,2017.0,46,63.04,De Pago,Estándar ($10.00 - $29.99),Simulation
+100921,Steam Game 921,2021-02-22,9.99,65,39,19,"Casual, Simulation",Developer 921,Publisher 121,2021-02-22,2021.0,104,62.5,De Pago,Económico ($0.01 - $9.99),Casual
+100922,Steam Game 922,2017-03-27,29.99,32,11,4,"Racing, Strategy, Massively Multiplayer",Developer 922,Publisher 122,2017-03-27,2017.0,43,74.42,De Pago,Estándar ($10.00 - $29.99),Racing
+100923,Steam Game 923,2020-10-06,19.99,2,1,35,"Sports, Simulation",Developer 923,Publisher 123,2020-10-06,2020.0,3,66.67,De Pago,Estándar ($10.00 - $29.99),Sports
+100924,Steam Game 924,2014-02-15,9.99,60,14,0,"Simulation, Strategy, Massively Multiplayer",Developer 924,Publisher 124,2014-02-15,2014.0,74,81.08,De Pago,Económico ($0.01 - $9.99),Simulation
+100925,Steam Game 925,2011-08-21,0.0,29,12,25,Simulation,Developer 925,Publisher 125,2011-08-21,2011.0,41,70.73,Gratuito,Gratuito ($0),Simulation
+100926,Steam Game 926,2019-02-20,4.99,17,19,0,"Simulation, Sports",Developer 926,Publisher 126,2019-02-20,2019.0,36,47.22,De Pago,Económico ($0.01 - $9.99),Simulation
+100927,Steam Game 927,2017-10-04,9.99,0,1,57,"Casual, Action",Developer 927,Publisher 127,2017-10-04,2017.0,1,0.0,De Pago,Económico ($0.01 - $9.99),Casual
+100928,Steam Game 928,2014-07-15,14.99,50,5,11,"Racing, Indie",Developer 928,Publisher 128,2014-07-15,2014.0,55,90.91,De Pago,Estándar ($10.00 - $29.99),Racing
+100929,Steam Game 929,2013-02-18,4.99,753,829,6,Adventure,Developer 929,Publisher 129,2013-02-18,2013.0,1582,47.6,De Pago,Económico ($0.01 - $9.99),Adventure
+100930,Steam Game 930,2022-02-07,0.0,19,6,28,"RPG, Action, Massively Multiplayer",Developer 930,Publisher 130,2022-02-07,2022.0,25,76.0,Gratuito,Gratuito ($0),RPG
+100931,Steam Game 931,2016-10-16,19.99,14,5,42,"Casual, Massively Multiplayer",Developer 931,Publisher 131,2016-10-16,2016.0,19,73.68,De Pago,Estándar ($10.00 - $29.99),Casual
+100932,Steam Game 932,2021-03-22,59.99,34,28,14,"Indie, Sports",Developer 932,Publisher 132,2021-03-22,2021.0,62,54.84,De Pago,Premium (>$30.00),Indie
+100933,Steam Game 933,2013-03-03,9.99,34,2,0,"Adventure, RPG, Racing",Developer 933,Publisher 133,2013-03-03,2013.0,36,94.44,De Pago,Económico ($0.01 - $9.99),Adventure
+100934,Steam Game 934,2017-06-12,0.0,9,2,4,Action,Developer 934,Publisher 134,2017-06-12,2017.0,11,81.82,Gratuito,Gratuito ($0),Action
+100935,Steam Game 935,2017-10-07,4.99,49,19,7,"Adventure, Action",Developer 935,Publisher 135,2017-10-07,2017.0,68,72.06,De Pago,Económico ($0.01 - $9.99),Adventure
+100936,Steam Game 936,2014-04-09,0.0,145,18,33,"Simulation, Adventure, Racing",Developer 936,Publisher 136,2014-04-09,2014.0,163,88.96,Gratuito,Gratuito ($0),Simulation
+100937,Steam Game 937,2014-09-10,29.99,25,9,5,"Sports, Adventure",Developer 937,Publisher 137,2014-09-10,2014.0,34,73.53,De Pago,Estándar ($10.00 - $29.99),Sports
+100938,Steam Game 938,2018-10-01,0.0,77,15,12,Simulation,Developer 938,Publisher 138,2018-10-01,2018.0,92,83.7,Gratuito,Gratuito ($0),Simulation
+100939,Steam Game 939,2017-05-12,9.99,7,2,4,"Racing, Adventure, Sports",Developer 939,Publisher 139,2017-05-12,2017.0,9,77.78,De Pago,Económico ($0.01 - $9.99),Racing
+100940,Steam Game 940,2021-08-27,4.99,9,4,10,"Massively Multiplayer, RPG, Action",Developer 940,Publisher 140,2021-08-27,2021.0,13,69.23,De Pago,Económico ($0.01 - $9.99),Massively Multiplayer
+100941,Steam Game 941,2017-10-26,9.99,2,2,0,"Action, Indie",Developer 941,Publisher 141,2017-10-26,2017.0,4,50.0,De Pago,Económico ($0.01 - $9.99),Action
+100942,Steam Game 942,2016-03-24,14.99,6,5,0,"Indie, Racing, Action",Developer 942,Publisher 142,2016-03-24,2016.0,11,54.55,De Pago,Estándar ($10.00 - $29.99),Indie
+100943,Steam Game 943,2017-11-18,19.99,2,1,0,"Indie, Adventure",Developer 943,Publisher 143,2017-11-18,2017.0,3,66.67,De Pago,Estándar ($10.00 - $29.99),Indie
+100944,Steam Game 944,2022-09-01,4.99,12,4,8,"Action, Massively Multiplayer",Developer 944,Publisher 144,2022-09-01,2022.0,16,75.0,De Pago,Económico ($0.01 - $9.99),Action
+100945,Steam Game 945,2013-04-25,0.0,31,11,5,"Action, Strategy, Sports",Developer 945,Publisher 145,2013-04-25,2013.0,42,73.81,Gratuito,Gratuito ($0),Action
+100946,Steam Game 946,2022-03-18,0.0,36,21,3,"Action, Racing, RPG",Developer 946,Publisher 146,2022-03-18,2022.0,57,63.16,Gratuito,Gratuito ($0),Action
+100947,Steam Game 947,2020-09-23,29.99,54,17,0,"Strategy, Racing",Developer 947,Publisher 147,2020-09-23,2020.0,71,76.06,De Pago,Estándar ($10.00 - $29.99),Strategy
+100948,Steam Game 948,2019-04-07,29.99,31,8,0,"Casual, RPG, Adventure",Developer 948,Publisher 148,2019-04-07,2019.0,39,79.49,De Pago,Estándar ($10.00 - $29.99),Casual
+100949,Steam Game 949,2017-06-17,9.99,128,77,17,"Casual, Simulation, Action",Developer 949,Publisher 149,2017-06-17,2017.0,205,62.44,De Pago,Económico ($0.01 - $9.99),Casual
+100950,Steam Game 950,2016-11-13,14.99,5,2,9,"RPG, Adventure",Developer 950,Publisher 150,2016-11-13,2016.0,7,71.43,De Pago,Estándar ($10.00 - $29.99),RPG
+100951,Steam Game 951,2020-12-10,14.99,6,6,0,"Massively Multiplayer, Action, Simulation",Developer 951,Publisher 151,2020-12-10,2020.0,12,50.0,De Pago,Estándar ($10.00 - $29.99),Massively Multiplayer
+100952,Steam Game 952,2019-07-14,0.0,6,5,38,"Massively Multiplayer, Action, RPG",Developer 952,Publisher 152,2019-07-14,2019.0,11,54.55,Gratuito,Gratuito ($0),Massively Multiplayer
+100953,Steam Game 953,2019-01-01,29.99,10,8,4,"Simulation, Strategy, Casual",Developer 953,Publisher 153,2019-01-01,2019.0,18,55.56,De Pago,Estándar ($10.00 - $29.99),Simulation
+100954,Steam Game 954,2019-01-23,9.99,12,14,2,Racing,Developer 954,Publisher 154,2019-01-23,2019.0,26,46.15,De Pago,Económico ($0.01 - $9.99),Racing
+100955,Steam Game 955,2010-02-06,9.99,71,19,14,"Action, Simulation, RPG",Developer 955,Publisher 155,2010-02-06,2010.0,90,78.89,De Pago,Económico ($0.01 - $9.99),Action
+100956,Steam Game 956,2018-10-04,9.99,2,1,0,"Casual, Massively Multiplayer",Developer 956,Publisher 156,2018-10-04,2018.0,3,66.67,De Pago,Económico ($0.01 - $9.99),Casual
+100957,Steam Game 957,2016-11-19,0.0,3,2,20,Indie,Developer 957,Publisher 157,2016-11-19,2016.0,5,60.0,Gratuito,Gratuito ($0),Indie
+100958,Steam Game 958,2021-02-15,0.0,58,44,4,"Indie, Action, Sports",Developer 958,Publisher 158,2021-02-15,2021.0,102,56.86,Gratuito,Gratuito ($0),Indie
+100959,Steam Game 959,2018-11-21,14.99,5,3,24,Adventure,Developer 959,Publisher 159,2018-11-21,2018.0,8,62.5,De Pago,Estándar ($10.00 - $29.99),Adventure
+100960,Steam Game 960,2017-04-21,0.0,3,1,0,"Adventure, Racing",Developer 960,Publisher 160,2017-04-21,2017.0,4,75.0,Gratuito,Gratuito ($0),Adventure
+100961,Steam Game 961,2025-01-27,14.99,23,2,11,"Simulation, Casual, RPG",Developer 961,Publisher 161,2025-01-27,2025.0,25,92.0,De Pago,Estándar ($10.00 - $29.99),Simulation
+100962,Steam Game 962,2019-10-19,4.99,705,139,14,"Casual, Adventure",Developer 962,Publisher 162,2019-10-19,2019.0,844,83.53,De Pago,Económico ($0.01 - $9.99),Casual
+100963,Steam Game 963,2022-11-22,9.99,190,13,15,"Casual, Simulation",Developer 963,Publisher 163,2022-11-22,2022.0,203,93.6,De Pago,Económico ($0.01 - $9.99),Casual
+100964,Steam Game 964,2023-07-12,4.99,42,18,132,"Indie, Action",Developer 964,Publisher 164,2023-07-12,2023.0,60,70.0,De Pago,Económico ($0.01 - $9.99),Indie
+100965,Steam Game 965,2020-06-14,4.99,22,10,9,"Adventure, Casual",Developer 965,Publisher 165,2020-06-14,2020.0,32,68.75,De Pago,Económico ($0.01 - $9.99),Adventure
+100966,Steam Game 966,2017-06-03,14.99,0,1,7,"Racing, Strategy",Developer 966,Publisher 166,2017-06-03,2017.0,1,0.0,De Pago,Estándar ($10.00 - $29.99),Racing
+100967,Steam Game 967,2018-09-04,4.99,6,4,14,"Indie, Adventure, Racing",Developer 967,Publisher 167,2018-09-04,2018.0,10,60.0,De Pago,Económico ($0.01 - $9.99),Indie
+100968,Steam Game 968,2013-04-03,9.99,38,13,25,"RPG, Strategy, Simulation",Developer 968,Publisher 168,2013-04-03,2013.0,51,74.51,De Pago,Económico ($0.01 - $9.99),RPG
+100969,Steam Game 969,2019-08-12,9.99,51,9,4,"Racing, Strategy",Developer 969,Publisher 169,2019-08-12,2019.0,60,85.0,De Pago,Económico ($0.01 - $9.99),Racing
+100970,Steam Game 970,2018-02-22,14.99,120,50,1,"RPG, Action",Developer 970,Publisher 170,2018-02-22,2018.0,170,70.59,De Pago,Estándar ($10.00 - $29.99),RPG
+100971,Steam Game 971,2014-08-09,29.99,7,6,15,"RPG, Massively Multiplayer",Developer 971,Publisher 171,2014-08-09,2014.0,13,53.85,De Pago,Estándar ($10.00 - $29.99),RPG
+100972,Steam Game 972,2009-10-19,14.99,6,1,4,"Action, Massively Multiplayer",Developer 972,Publisher 172,2009-10-19,2009.0,7,85.71,De Pago,Estándar ($10.00 - $29.99),Action
+100973,Steam Game 973,2022-12-16,4.99,16,3,49,Action,Developer 973,Publisher 173,2022-12-16,2022.0,19,84.21,De Pago,Económico ($0.01 - $9.99),Action
+100974,Steam Game 974,2009-06-01,0.0,36,5,1,Action,Developer 974,Publisher 174,2009-06-01,2009.0,41,87.8,Gratuito,Gratuito ($0),Action
+100975,Steam Game 975,2016-08-14,4.99,0,0,5,Strategy,Developer 975,Publisher 175,2016-08-14,2016.0,0,,De Pago,Económico ($0.01 - $9.99),Strategy
+100976,Steam Game 976,2018-03-13,9.99,11,2,29,"Simulation, Sports",Developer 976,Publisher 176,2018-03-13,2018.0,13,84.62,De Pago,Económico ($0.01 - $9.99),Simulation
+100977,Steam Game 977,2018-04-23,0.0,34,7,0,"Indie, RPG",Developer 977,Publisher 177,2018-04-23,2018.0,41,82.93,Gratuito,Gratuito ($0),Indie
+100978,Steam Game 978,2018-06-12,9.99,150,4,0,"Indie, Racing, Action",Developer 978,Publisher 178,2018-06-12,2018.0,154,97.4,De Pago,Económico ($0.01 - $9.99),Indie
+100979,Steam Game 979,2014-01-05,9.99,6,1,6,"RPG, Simulation",Developer 979,Publisher 179,2014-01-05,2014.0,7,85.71,De Pago,Económico ($0.01 - $9.99),RPG
+100980,Steam Game 980,2016-01-20,4.99,28,6,2,"Casual, Simulation, Action",Developer 980,Publisher 180,2016-01-20,2016.0,34,82.35,De Pago,Económico ($0.01 - $9.99),Casual
+100981,Steam Game 981,2006-12-03,19.99,41,6,260,Indie,Developer 981,Publisher 181,2006-12-03,2006.0,47,87.23,De Pago,Estándar ($10.00 - $29.99),Indie
+100982,Steam Game 982,2023-08-23,0.0,47,2,0,Simulation,Developer 982,Publisher 182,2023-08-23,2023.0,49,95.92,Gratuito,Gratuito ($0),Simulation
+100983,Steam Game 983,2019-06-02,0.0,18,4,6,Racing,Developer 983,Publisher 183,2019-06-02,2019.0,22,81.82,Gratuito,Gratuito ($0),Racing
+100984,Steam Game 984,2021-11-11,14.99,16,1,58,"Sports, Indie",Developer 984,Publisher 184,2021-11-11,2021.0,17,94.12,De Pago,Estándar ($10.00 - $29.99),Sports
+100985,Steam Game 985,2020-04-20,9.99,3,2,9,Casual,Developer 985,Publisher 185,2020-04-20,2020.0,5,60.0,De Pago,Económico ($0.01 - $9.99),Casual
+100986,Steam Game 986,2018-05-02,14.99,8,1,16,"Adventure, Casual",Developer 986,Publisher 186,2018-05-02,2018.0,9,88.89,De Pago,Estándar ($10.00 - $29.99),Adventure
+100987,Steam Game 987,2018-07-16,9.99,9,1,10,"Adventure, Sports",Developer 987,Publisher 187,2018-07-16,2018.0,10,90.0,De Pago,Económico ($0.01 - $9.99),Adventure
+100988,Steam Game 988,2017-08-26,4.99,24,36,12,"Strategy, Indie",Developer 988,Publisher 188,2017-08-26,2017.0,60,40.0,De Pago,Económico ($0.01 - $9.99),Strategy
+100989,Steam Game 989,2018-10-08,19.99,18,3,1,"RPG, Racing, Strategy",Developer 989,Publisher 189,2018-10-08,2018.0,21,85.71,De Pago,Estándar ($10.00 - $29.99),RPG
+100990,Steam Game 990,2014-07-03,19.99,584,175,73,Racing,Developer 990,Publisher 190,2014-07-03,2014.0,759,76.94,De Pago,Estándar ($10.00 - $29.99),Racing
+100991,Steam Game 991,2016-07-21,14.99,64,7,5,"Action, Adventure",Developer 991,Publisher 191,2016-07-21,2016.0,71,90.14,De Pago,Estándar ($10.00 - $29.99),Action
+100992,Steam Game 992,2018-07-27,4.99,73,36,1,"RPG, Casual",Developer 992,Publisher 192,2018-07-27,2018.0,109,66.97,De Pago,Económico ($0.01 - $9.99),RPG
+100993,Steam Game 993,2020-04-04,9.99,23,22,8,"Sports, Racing, RPG",Developer 993,Publisher 193,2020-04-04,2020.0,45,51.11,De Pago,Económico ($0.01 - $9.99),Sports
+100994,Steam Game 994,2021-05-21,4.99,16,6,8,Racing,Developer 994,Publisher 194,2021-05-21,2021.0,22,72.73,De Pago,Económico ($0.01 - $9.99),Racing
+100995,Steam Game 995,2022-10-04,0.0,77,15,1,"Strategy, Action",Developer 995,Publisher 195,2022-10-04,2022.0,92,83.7,Gratuito,Gratuito ($0),Strategy
+100996,Steam Game 996,2016-07-08,29.99,78,11,20,"Adventure, Massively Multiplayer, Indie",Developer 996,Publisher 196,2016-07-08,2016.0,89,87.64,De Pago,Estándar ($10.00 - $29.99),Adventure
+100997,Steam Game 997,2018-03-06,0.0,83,62,4,Casual,Developer 997,Publisher 197,2018-03-06,2018.0,145,57.24,Gratuito,Gratuito ($0),Casual
+100998,Steam Game 998,2018-05-14,39.99,10,1,6,Adventure,Developer 998,Publisher 198,2018-05-14,2018.0,11,90.91,De Pago,Premium (>$30.00),Adventure
+100999,Steam Game 999,2017-07-15,9.99,7,3,9,"Sports, RPG, Action",Developer 999,Publisher 199,2017-07-15,2017.0,10,70.0,De Pago,Económico ($0.01 - $9.99),Sports
+101001,Steam Game 1001,2006-07-05,9.99,26,14,0,"Racing, Indie, Adventure",Developer 1001,Publisher 201,2006-07-05,2006.0,40,65.0,De Pago,Económico ($0.01 - $9.99),Racing
+101002,Steam Game 1002,2013-06-01,29.99,84,3,2,"Adventure, Casual",Developer 1002,Publisher 202,2013-06-01,2013.0,87,96.55,De Pago,Estándar ($10.00 - $29.99),Adventure
+101003,Steam Game 1003,2012-08-12,14.99,105,79,0,"Action, Strategy, Adventure",Developer 1003,Publisher 203,2012-08-12,2012.0,184,57.07,De Pago,Estándar ($10.00 - $29.99),Action

@@ -1,0 +1,11 @@
+columna,tipo_dato_inferido,valores_no_nulos,valores_nulos,porcentaje_nulos
+appid,int64,50500,0,0.0
+name,str,50499,1,0.0
+release_date,str,50500,0,0.0
+price,float64,50500,0,0.0
+positive_reviews,int64,50500,0,0.0
+negative_reviews,int64,50500,0,0.0
+peak_ccu,int64,50500,0,0.0
+genres,str,50500,0,0.0
+developer,str,50500,0,0.0
+publisher,str,50500,0,0.0
