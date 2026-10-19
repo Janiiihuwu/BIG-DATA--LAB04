@@ -1,0 +1,10 @@
+##Organización sugerida del proyecto
+
+##proyecto_eda/
+  ##analisis_exploratorio.py
+  ##requirements.txt
+  ##README.md
+  ##datos/
+  ##resultados/tablas/
+  ##resultados/figuras/
+  ##informe.pdf
