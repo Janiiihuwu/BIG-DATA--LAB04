@@ -1,7 +1,7 @@
 ## BIG-DATA--LAB04
 ## Versiones:
 Python: "Version Python"
-DataSet: "URL/Link Descarga"
+DataSet: "https://www.kaggle.com/datasets/artermiloff/steam-games-dataset"
 
 ## Dependencias:
 -Rellenar con las dependencias
