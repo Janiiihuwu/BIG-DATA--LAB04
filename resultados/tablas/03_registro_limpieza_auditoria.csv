@@ -1,6 +1,0 @@
-paso,descripcion,registros_antes,registros_despues,diferencia,justificacion
-1,Eliminación de filas duplicadas exactas,50500,50500,0,Filas 100% idénticas distorsionan los conteos y frecuencias.
-2,Eliminación de duplicados de appid (Clave primaria),50500,50498,-2,El AppID en Steam es único por producto; se conserva la primera aparición válida.
-3,Eliminación de registros con nombre nulo o vacío,50498,50497,-1,Un registro sin título no representa un producto catalogable en Steam.
-4,Corrección de precios numéricos y eliminación de precios negativos,50497,50496,-1,Los precios no pueden ser negativos en una plataforma de distribución comercial.
-5,Conversión de fechas y filtrado de años inverosímiles,50496,50496,0,Se estandariza la fecha de lanzamiento y se extrae el año; se descartan años corruptos.

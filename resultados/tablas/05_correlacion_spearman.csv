@@ -1,7 +1,0 @@
-,price,positive_reviews,negative_reviews,total_reviews,positive_ratio,peak_ccu
-price,1.0,0.005,0.004,0.005,-0.002,-0.005
-positive_reviews,0.005,1.0,0.825,0.991,0.451,0.003
-negative_reviews,0.004,0.825,1.0,0.886,-0.066,-0.0
-total_reviews,0.005,0.991,0.886,1.0,0.347,0.002
-positive_ratio,-0.002,0.451,-0.066,0.347,1.0,0.004
-peak_ccu,-0.005,0.003,-0.0,0.002,0.004,1.0

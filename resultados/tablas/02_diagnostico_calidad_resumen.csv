@@ -1,7 +1,0 @@
-parametro,valor
-Total Registros Evaluados,50500
-Duplicados de Fila Exacta,0
-Duplicados de Identificador (appid),2
-Precios negativos (< $0),1
-Precios atípicos elevados (> $200 USD),0
-Reseñas positivas negativas (< 0),0
