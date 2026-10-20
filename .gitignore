@@ -1,0 +1,2 @@
+# Ignora todos los .csv de la carpeta "datos"
+datos/*.csv
