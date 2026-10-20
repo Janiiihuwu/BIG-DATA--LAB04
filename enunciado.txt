@@ -1,0 +1,83 @@
+Instrucciones
+Para el presente laboratorio, cada equipo deberá buscar y seleccionar un dataset de al menos 50.000 registros y desarrollar un script en Python para realizar un análisis exploratorio de datos (EDA). El trabajo debe seguir la lógica práctica de los ejemplos revisados en clases:
+
+Trabajar con datos
+Revisar su calidad
+Procesarlos y producir resultados interpretables.
+Tenga en consideración que para este laboratorio no se exige utilizar Hadoop ni las herramientas de otros proyectos del curso.
+
+Objetivo de aprendizaje
+
+Desarrollar un proceso reproducible de análisis exploratorio sobre un conjunto de datos de tamaño significativo, aplicando inspección, limpieza, estadística descriptiva y visualización para responder preguntas fundamentadas en evidencia, al finalizar, el equipo deberá ser capaz de justificar la elección del dataset, identificar problemas de calidad, documentar sus decisiones de preparación, comparar variables y comunicar hallazgos y limitaciones sin confundir asociaciones con relaciones causales.
+
+Selección y validación del dataset
+
+Buscar un dataset público y descargable, se pueden explorar portales de datos abiertos, repositorios institucionales o plataformas de datasets, debe indicar el título, entidad o autor, URL de origen, fecha de descarga y licencia o condiciones de uso.
+El archivo de entrada debe contener al menos 50.000 registros de datos, sin contar la fila de encabezados, no se permite alcanzar el mínimo repitiendo filas, inventando registros.
+Si la fuente tiene más de 50.000 registros, podrán analizar el conjunto completo o seleccionar una muestra de al menos 50.000 registros, deberán explicar el procedimiento y fijar una semilla si existe selección aleatoria.
+Seleccionar datos que permitan analizar al menos dos variables numéricas y una variable categórica o temporal, si es necesario derivar una variable, explicar cómo se construyó y qué representa, un identificador numérico no se considera por sí solo una medida cuantitativa de interés.
+Definir qué representa cada fila y elaborar un diccionario de las variables utilizadas: nombre, significado, tipo de dato y unidad de medida cuando corresponda.
+No deben utilizar datos personales sensibles ni información obtenida sin autorización, si una fuente incluye identificadores personales, deben seleccionar otra versión o excluir esos campos del análisis y de los entregables.
+El mínimo de registros se verifica antes de la limpieza, si el conjunto disminuye después de tratar duplicados o registros inválidos, informar el total final y justificar cada reducción, no conservar errores únicamente para mantener el mínimo.
+Problema y preguntas de análisis
+
+Deben contextualizar el dataset y formular al menos cuatro preguntas exploratorias antes de desarrollar los resultados, las preguntas deben ser respondibles con las variables disponibles y no limitarse a contar filas, incluyan preguntas sobre:
+
+Distribución de una variable numérica
+Diferencias entre grupos
+Relación entre dos variables
+Evolución temporal, valores extremos u otro patrón relevante según el dataset.
+Desarrollo del script
+
+Deben implementar un archivo principal denominado analisis_exploratorio.py, utilizando Python y bibliotecas como pandas, NumPy, Matplotlib o Seaborn, según corresponda, las etapas deben quedar identificadas mediante funciones y comentarios pertinentes, considere lo siguiente
+
+Carga e inspección: leer los datos desde una ruta configurable, informar dimensiones, nombres de columnas, tipos de datos y primeras observaciones, se debe validar el mínimo de 50.000 registros de entrada y detectar problemas de lectura, codificación, separadores o conversión de fechas.
+Diagnóstico de calidad: cuantificar valores faltantes por columna, duplicados, tipos inconsistentes y valores fuera de rangos plausibles, diferencien duplicados exactos de repeticiones válidas de una entidad, si una revisión no detecta problemas, informar el resultado sin introducir errores artificiales.
+Limpieza y preparación: deben tratar los problemas detectados mediante decisiones justificadas (eliminación, imputación, corrección, conversión o conservación con advertencia), no deben eliminar automáticamente todos los valores extremos, se debe explicar por qué son errores, observaciones plausibles o casos que requieren cautela.
+Estadística descriptiva: deben calcular para las variables numéricas relevantes, cantidad de observaciones válidas, media, mediana, desviación estándar, mínimo, máximo y cuartiles, para las variables categóricas, obtener frecuencias y porcentajes. Incorporar al menos una comparación o agregación por grupos.
+Relaciones entre variables: exploraren al menos una relación entre variables y una comparación entre grupos, si se calcula una correlación, seleccionar variables apropiadas, informar el método y explicar sus límites, no  se deben interpretar identificadores como magnitudes ni atribuir causalidad a una correlación.
+Visualización: deben generar al menos cinco graficos pertinentes, considere usar:
+Una distribución,
+Valores extremos
+Dispersión por grupos
+Frecuencias o comparación de categorías
+Relación entre variables
+Deben adicionar, un gráfico vinculado a una pregunta del equipo.
+Cada figura debe tener título, ejes, unidades cuando corresponda y leyenda cuando sea necesaria., eviten gráficos ilegibles por exceso de categorías o puntos, deben documentar cualquier selección o muestreo utilizado únicamente para visualizar.
+
+Exportación: Deben guardar tablas de diagnóstico y resultados en CSV, figuras en PNG y un registro de limpieza con cantidades antes y después de cada transformación. además deben guardar el dataset procesado o explicar cómo regenerarlo si su tamaño impide adjuntarlo.
+Reproducibilidad. el script debe ejecutar el proceso completo sin intervención manual sobre los datos, es por ello que debe usar rutas relativas, gestionar carpetas de salida, incluir mensajes de error comprensibles y fijar semillas cuando corresponda, recuerden adjuntar requirements.txt con las versiones empleadas y un README con instrucciones.
+Organización sugerida del proyecto
+
+proyecto_eda/
+  analisis_exploratorio.py
+  requirements.txt
+  README.md
+  datos/
+  resultados/tablas/
+  resultados/figuras/
+  informe.pdf
+
+Deben conservar una copia del archivo original sin modificar, las carpetas de resultados deben poder reconstruirse ejecutando el script, no incluiyan contraseñas, tokens, rutas personales absolutas ni archivos temporales innecesarios, el README debe indicar versión de Python, instalación de dependencias, ubicación o descarga del dataset y comando de ejecución, si no se adjunta el dataset, incluir una URL que permita acceder al archivo utilizado y las instrucciones necesarias para reproducir la descarga.
+
+Entregables
+
+El presente laboratorio, considera la entrega del programa en python, que realice el proceso, según lo indicado anteriormente, junto con esto los equipos de trabajo, deberán entregar un informe que considere los siguiente:
+
+El informe debe tener una extensión de entre 10 y 15 páginas de contenido, sin considerar portada, referencias ni anexos, debe priorizar resultados interpretados, no utilizen capturas de código como sustituto de la explicación.
+Considere esta estructura:
+Portada con asignatura, título, integrantes y fecha
+Contexto, objetivo y preguntas
+Fuente, licencia, tamaño y diccionario de datos
+Metodología y entorno
+Diagnóstico y decisiones de limpieza
+Resultados con tablas y al menos cinco figuras
+Respuestas explícitas a las preguntas
+Conclusiones y limitaciones
+Distribución de responsabilidades
+Referencias y anexos de ejecución.
+Incluiyan evidencia del número de registros de entrada, total final, valores faltantes, duplicados y transformaciones aplicadas, cada figura o tabla debe ser mencionada e interpretada en el texto, distingan observaciones de hipótesis y señalen las limitaciones de representatividad o calidad del dataset.
+Cada equipo realizará una única entrega en este recurso de Canvas, mediante un archivo comprimido, que contemple
+Informe PDF
+Archivo ZIP con el código, requirements.txt, README y resultados generados
+El dataset podrá incluirse en el ZIP si la licencia y el tamaño lo permiten, en caso contrario, documentar la descarga exacta y el archivo utilizado un enlace genérico a la página principal del repositorio no es suficiente.
