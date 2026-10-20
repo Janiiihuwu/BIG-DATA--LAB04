@@ -1,5 +1,7 @@
 #Bibliotecas necesarias
 import os
+import matplotlib.pyplot as plt 
+import seaborn as sns #
 import pandas as pd
 import numpy as np
 
@@ -352,6 +354,36 @@ def limpiar_y_preparar_datos(
 
     return df_clean, df_log
 
+def analisisEstadistico():
+    print(f"Analizando {"datos/dataset_limpio.csv"}")
+    df = pd.read_csv("datos/dataset_limpio.csv") 
+
+    lim = df["estimated_owners"].str.split("-", expand=True).astype(float)
+    df["owners"] = (lim[0] + lim[1]) / 2
+
+    #Dispersion Dueños versus Reseñas
+    sns.scatterplot(data=df, x="owners", y="total_reviews", alpha=0.2)
+    plt.title("Análisis de dispersión: dueños vs reseñas")
+    plt.xscale("log")
+    plt.yscale("log")
+    plt.savefig("resultados/figuras/ownersVSreviews", dpi=150, bbox_inches="tight")
+    plt.close()
+    #Matriz de Correlacion
+    numericas = ["price", "approval_rate", "owners", "total_reviews","average_playtime_forever", "peak_ccu"]
+
+    corr = df[numericas].corr(method="spearman")
+    sns.heatmap(corr, annot=True, fmt=".2f", cmap="coolwarm", vmin=-1, vmax=1)
+    plt.title("Matriz de correlación (Spearman)")
+    plt.savefig("resultados/figuras/MatrizCorrelacion", dpi=150, bbox_inches="tight")
+    plt.close()  
+
+    #Comparacion Bivariada
+    sns.boxplot(data=df, x="is_free", y="approval_rate")
+    plt.title("Comparación bivariada: aprobación según gratis/pago")
+    plt.savefig("resultados/figuras/approvedVSprice", dpi=150, bbox_inches="tight")
+    plt.close()
+
+
 def main():
     """Ejecuta el flujo completo de forma secuencial y reproducible."""
     #Ruta configurable usando rutas relativas (exigido por la pauta)
@@ -376,6 +408,7 @@ def main():
     print("[ÉXITO] PROCESO DE DIAGNÓSTICO Y LIMPIEZA FINALIZADO")
     print(f"Registros iniciales: {len(df_raw):,} | Registros finales limpios: {len(df_limpio):,}")
     print("=" * 60)
+    analisisEstadistico()
 
 
 if __name__ == "__main__":
