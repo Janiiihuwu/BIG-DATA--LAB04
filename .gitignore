@@ -1,2 +1,3 @@
 # Ignora todos los .csv de la carpeta "datos"
-datos/*.csv
+echo venv/>> .gitignore
+echo datos/*.csv>> .gitignore
