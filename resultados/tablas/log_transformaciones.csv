@@ -1,8 +1,0 @@
-etapa,accion,registros_antes,registros_despues,registros_eliminados,justificacion
-1. Duplicados Exactos,Eliminación de filas 100% idénticas en todas las columnas,87806,87806,0,Redundancia exacta de datos por captura. No aporta información nueva.
-2. Unicidad de Entidad (AppID),Eliminación de AppID duplicados (conservando primera aparición),87806,87806,0,AppID es la llave primaria única en Steam. Nombres repetidos con distinto AppID se conservan por ser reediciones o juegos homónimos válidos.
-3. Nulos en Nombre (name),Eliminación de registros sin título identificable,87806,87803,3,Registros huérfanos o pruebas internas en la tienda de Steam sin título.
-4. Conversión Temporal (release_date),"Conversión a datetime, filtro de rango 1970-2026 y creación de release_year",87803,87803,0,Se requiere fecha válida para responder preguntas sobre evolución temporal.
-5. Rangos Plausibles Numéricos,"Conversión numérica y filtro de no negatividad (>= 0) en ['price', 'positive', 'negative', 'peak_ccu']",87803,87803,0,Precios o conteos de reseñas/jugadores menores a cero son imposibles (errores de captura).
-6. Imputación Categórica (genres),"Imputación de 4,188 vacíos como 'Sin Especificar' y creación de primary_genre",87803,87803,0,Evita perder miles de registros válidos y extrae la categoría principal para gráficos legibles.
-7. Variables Derivadas y Marcado de Outliers,"Creación de total_reviews, approval_rate, is_free y marcado de 4,164 outliers de precio (> $23.49 USD)",87803,87803,0,"No se eliminan automáticamente los valores extremos: precios altos corresponden a bundles o software profesional real, y conteos masivos de reseñas a títulos AAA exitosos."

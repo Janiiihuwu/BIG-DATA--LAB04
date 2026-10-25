@@ -1,18 +1,11 @@
-# ==============================================================================
-# PROYECTO: ANÁLISIS EXPLORATORIO DE DATOS (EDA) - CATÁLOGO DE STEAM
-# Asignatura: Big Data - Laboratorio 04
-# Script Principal: analisis_exploratorio.py
-# Semilla de Reproducibilidad: 42
-# ==============================================================================
-
 import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Configuración global de reproducibilidad y visualización
-SEED = 42
+# Configuración
+SEED = 1
 np.random.seed(SEED)
 sns.set_theme(style="whitegrid", palette="deep")
 plt.rcParams.update({
@@ -22,32 +15,6 @@ plt.rcParams.update({
     "figure.titlesize": 14,
     "figure.autolayout": True
 })
-
-# ==============================================================================
-# PREGUNTAS FORMULADAS DE INVESTIGACIÓN (SEGÚN RÚBRICA)
-# ==============================================================================
-PREGUNTAS_INVESTIGACION = """
-==============================================================================
-PREGUNTAS EXPLORATORIAS DE INVESTIGACIÓN FORMULADAS
-==============================================================================
-P1 [Distribución Numérica]:
-   ¿Cómo se distribuyen los precios (price) y las tasas de aprobación (approval_rate)
-   de los videojuegos en Steam, y cuál es el impacto de los valores extremos?
-
-P2 [Diferencias entre Grupos]:
-   ¿Existen diferencias significativas en la recepción de la comunidad y volumen
-   de reseñas entre títulos gratuitos (Free-to-Play) y títulos de pago?
-
-P3 [Relación entre Variables]:
-   ¿Existe una asociación estadística entre el precio fijado para un título y su
-   nivel de popularidad (peak_ccu o total_reviews)?
-   * Advertencia metodológica: Correlación no implica causalidad.
-
-P4 [Evolución Temporal]:
-   ¿Cómo ha evolucionado el volumen anual de lanzamientos de videojuegos y el
-   precio promedio a lo largo de las décadas (1997-2024) en Steam?
-==============================================================================
-"""
 
 def obtener_columna(df: pd.DataFrame, candidatos: list[str]) -> str | None:
     """
@@ -815,9 +782,6 @@ def imprimir_respuestas_sintesis(df: pd.DataFrame, tablas: dict[str, pd.DataFram
 # FUNCIÓN PRINCIPAL DE EJECUCIÓN
 # ==============================================================================
 def main():
-    """Ejecuta el flujo completo de forma secuencial y 100% reproducible."""
-    print(PREGUNTAS_INVESTIGACION)
-
     ruta_entrada = os.path.join("datos", "games_may2024_full.csv")
     ruta_tablas = os.path.join("resultados", "tablas")
     ruta_figuras = os.path.join("resultados", "figuras")

@@ -1,6 +1,6 @@
-# Laboratorio 04: Análisis Exploratorio de Datos (EDA) en Big Data
+# Laboratorio 04: Análisis Exploratorio de Datos (EDA)
 
-Este proyecto implementa un flujo de Análisis Exploratorio de Datos (EDA) sobre el catálogo masivo de videojuegos de la plataforma **Steam**, utilizando Python y librerías científicas. El proceso es 100% reproducible, automatizado y estructurado bajo las directrices del Laboratorio 04.
+Este proyecto implementa un flujo de Análisis Exploratorio de Datos (EDA) sobre el catalogo de juegos de **Steam**, utilizando Python y librerías científicas.
 
 ---
 
@@ -12,9 +12,9 @@ Este proyecto implementa un flujo de Análisis Exploratorio de Datos (EDA) sobre
 ---
 
 ## 2. Dataset Utilizado
-- **Nombre:** Steam Games Dataset (Mayo 2024 / Marzo 2025)
+- **Nombre:** Steam Games Dataset
 - **Autor / Origen:** Artemiloff (Kaggle)
-- **URL de Descarga:** [https://www.kaggle.com/datasets/artermiloff/steam-games-dataset](https://www.kaggle.com/datasets/artermiloff/steam-games-dataset)
+- **URL de Descarga:** https://www.kaggle.com/datasets/artermiloff/steam-games-dataset
 - **Archivo de Entrada:** `datos/games_may2024_full.csv`
 - **Volumen Inicial:** 87.806 registros $\times$ 46 columnas (Cumple requisito $\ge 50.000$)
 - **Volumen Limpio Final:** 87.803 registros $\times$ 52 columnas
@@ -24,24 +24,15 @@ Este proyecto implementa un flujo de Análisis Exploratorio de Datos (EDA) sobre
 ## 3. Preguntas de Investigación Formuladas
 
 1. **P1 [Distribución Numérica]:** ¿Cómo se distribuyen los precios (`price`) y las tasas de aprobación (`approval_rate`) de los videojuegos en Steam, y cuál es el impacto de los valores extremos?
-2. **P2 [Diferencias entre Grupos]:** ¿Existen diferencias significativas en la recepción de la comunidad (tasa de aprobación) y volumen de reseñas entre títulos gratuitos (*Free-to-Play*) y de pago (*Pay-to-Play*)?
-3. **P3 [Relación entre Variables]:** ¿Existe una asociación estadística entre el precio fijado para un título y su nivel de popularidad (`peak_ccu` o `total_reviews`)? *(Nota: Correlación no implica causalidad).*
+2. **P2 [Diferencias entre Grupos]:** ¿Existen diferencias significativas en la recepción de la comunidad *(tasa de aprobación)* y volumen de reseñas entre títulos gratuitos (*Free-to-Play*) y de pago (*Pay-to-Play*)?
+3. **P3 [Relación entre Variables]:** ¿Existe una asociación estadística entre el precio fijado para un título y su nivel de popularidad (`peak_ccu` o `total_reviews`)?
 4. **P4 [Evolución Temporal]:** ¿Cómo ha evolucionado el volumen anual de lanzamientos de videojuegos y el precio promedio a lo largo de las décadas (1997–2024) en Steam?
 
 ---
 
 ## 4. Instalación de Dependencias
 
-Se recomienda utilizar un entorno virtual de Python:
-
 ```bash
-# Crear y activar entorno virtual (opcional)
-python -m venv venv
-# En Windows:
-venv\Scripts\activate
-# En Linux/macOS:
-source venv/bin/activate
-
 # Instalar librerías requeridas
 pip install -r requirements.txt
 ```
@@ -56,13 +47,15 @@ pip install -r requirements.txt
 
 ## 5. Instrucciones de Ejecución
 
-Para ejecutar el flujo completo de forma autónoma (diagnóstico, limpieza, cálculo estadístico, matrices de correlación y renderizado de figuras PNG a 300 DPI):
+Para ejecutar el flujo completo de forma autónoma (diagnóstico, limpieza, cálculo estadístico, matrices de correlación y obtención de figuras) se requiere:
 
+1. Instalar el dataset del link proporcionado 
+2. Extraer el `zip` en la carpeta de "datos" del proyecto
+
+3. **Arrancar el script:**
 ```bash
 python analisis_exploratorio.py
 ```
-
-*Nota: No se requiere intervención manual. El script utiliza rutas relativas, valida la existencia de directorios y exporta todos los artefactos automáticamente.*
 
 ---
 
@@ -93,7 +86,7 @@ BIG-DATA--LAB04/
     │   ├── matriz_correlacion_spearman.csv
     │   └── matriz_correlacion_pearson.csv
     │
-    └── figuras/                    # Visualizaciones de alta resolución (300 DPI)
+    └── figuras/
         ├── fig1_distribucion_precios_aprobacion.png   # [Responde P1]
         ├── fig2_boxplot_valores_extremos.png          # [Responde P1 y P2]
         ├── fig3_dispersion_precio_vs_popularidad.png  # [Responde P3]
