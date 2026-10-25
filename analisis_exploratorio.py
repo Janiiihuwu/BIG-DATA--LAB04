@@ -5,45 +5,44 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Configuración
+## Arranca una misma semilla (para la obtención de los mismos datos)
 SEED = 1
 np.random.seed(SEED)
+
+## Definición del estilo de graficos
 sns.set_theme(style="whitegrid", palette="deep")
 plt.rcParams.update({
     "font.size": 10,
     "axes.titlesize": 12,
     "axes.labelsize": 11,
     "figure.titlesize": 14,
-    "figure.autolayout": True
+    "figure.autolayout": True # Ajuste automatico de margenes
 })
 
 def obtener_columna(df: pd.DataFrame, candidatos: list[str]) -> str | None:
-    """
-    Busca y retorna el nombre real de una columna en el DataFrame,
-    independiente de si viene en mayúsculas, minúsculas o con guiones bajos.
-    """
     mapa_cols = {col.lower().strip(): col for col in df.columns}
     for cand in candidatos:
         if cand.lower().strip() in mapa_cols:
             return mapa_cols[cand.lower().strip()]
     return None
 
-# ==============================================================================
-# 1. CARGA E INSPECCIÓN DE DATOS
-# ==============================================================================
+# ========== 1. CARGA E INSPECCIÓN DE DATOS ==========
 def cargar_y_explorar_datos(ruta_archivo: str) -> pd.DataFrame | None:
     """
     Lee los datos desde una ruta configurable, valida el mínimo de 50.000 registros,
     informa dimensiones, nombres de columnas, tipos de datos y primeras observaciones.
     """
-    print("\n" + "=" * 60)
+    print("\n" + "=" * 52)
     print("1. INICIANDO CARGA E INSPECCIÓN DE DATOS")
-    print("=" * 60)
+    print("=" * 52)
 
+    # Error: No se encontró el .csv
     if not os.path.exists(ruta_archivo):
         print(f"Error: No se encontró el archivo en la ruta '{ruta_archivo}'.")
         print("Asegúrate de que el archivo esté dentro de la carpeta 'datos/'.")
         return None
 
+    # Intento de lectura del dataset en la variable "df"
     try:
         df = pd.read_csv(ruta_archivo, encoding="utf-8", low_memory=False)
     except UnicodeDecodeError:
@@ -55,16 +54,16 @@ def cargar_y_explorar_datos(ruta_archivo: str) -> pd.DataFrame | None:
 
     filas, columnas = df.shape
     print(f"-> Archivo cargado exitosamente desde: '{ruta_archivo}'")
-    print(f"-> Dimensiones del dataset: {filas:,} filas x {columnas} columnas")
+    print(f"-> Dimensiones del dataset: {filas} filas x {columnas} columnas")
 
     # Validación del requisito de al menos 50.000 registros
     if filas < 50000:
         raise ValueError(
-            f"Incumplimiento de requisito: El dataset tiene {filas:,} registros "
-            f"(se requieren al menos 50.000 registros antes de la limpieza)."
+            f"El dataset tiene {filas} registros "
+            f"(se requieren al menos 50.000 registros)."
         )
     else:
-        print(f"-> Validación de tamaño: CUMPLE ({filas:,} >= 50,000 registros).")
+        print(f"-> Cumple con ({filas} >= 50,000 registros).")
 
     print("\n--- Columnas y Tipos de Datos ---")
     resumen_tipos = pd.DataFrame({
@@ -79,18 +78,16 @@ def cargar_y_explorar_datos(ruta_archivo: str) -> pd.DataFrame | None:
 
     return df
 
-# ==============================================================================
-# 2. DIAGNÓSTICO DE CALIDAD DE DATOS
-# ==============================================================================
+# ========== 2. DIAGNÓSTICO DE CALIDAD DE DATOS ========== 
 def diagnosticar_calidad(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas") -> pd.DataFrame:
     """
     Cuantifica valores faltantes por columna, duplicados exactos vs repeticiones
     válidas de entidad, tipos inconsistentes y valores fuera de rangos plausibles.
     Exporta el diagnóstico a 'resultados/tablas/diagnostico_calidad.csv'.
     """
-    print("\n" + "=" * 60)
+    print("\n" + "=" * 34)
     print("2. DIAGNÓSTICO DE CALIDAD DE DATOS")
-    print("=" * 60)
+    print("=" * 34)
 
     os.makedirs(ruta_tablas, exist_ok=True)
     total_filas = len(df)
@@ -179,9 +176,7 @@ def diagnosticar_calidad(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas
 
     return df_diagnostico
 
-# ==============================================================================
-# 3. LIMPIEZA, PREPARACIÓN Y LOG DE TRANSFORMACIONES
-# ==============================================================================
+# ========== 3. LIMPIEZA, PREPARACIÓN Y LOG DE TRANSFORMACIONES ========== 
 def limpiar_y_preparar_datos(
     df: pd.DataFrame,
     ruta_tablas: str = "resultados/tablas",
@@ -192,9 +187,9 @@ def limpiar_y_preparar_datos(
     genera variables derivadas, evalúa valores extremos sin eliminarlos ciegamente
     y exporta el log de transformaciones y el dataset limpio.
     """
-    print("\n" + "=" * 60)
+    print("\n" + "=" * 50)
     print("3. LIMPIEZA, PREPARACIÓN Y LOG DE TRANSFORMACIONES")
-    print("=" * 60)
+    print("=" * 50)
 
     os.makedirs(ruta_tablas, exist_ok=True)
     os.makedirs(ruta_datos, exist_ok=True)
@@ -356,9 +351,7 @@ def limpiar_y_preparar_datos(
 
     return df_clean, df_log
 
-# ==============================================================================
-# 4. ESTADÍSTICA DESCRIPTIVA Y COMPARACIÓN POR GRUPOS (P1 Y P2)
-# ==============================================================================
+# ========== 4. ESTADÍSTICA DESCRIPTIVA Y COMPARACIÓN POR GRUPOS (P1 Y P2) ========== 
 def calcular_estadistica_descriptiva(
     df: pd.DataFrame, ruta_tablas: str = "resultados/tablas"
 ) -> dict[str, pd.DataFrame]:
@@ -497,9 +490,7 @@ def calcular_estadistica_descriptiva(
     print(f"\n[OK] Todas las tablas descriptivas fueron exportadas a: {ruta_tablas}")
     return tablas_generadas
 
-# ==============================================================================
-# 5. RELACIONES ENTRE VARIABLES Y CORRELACIÓN (P3)
-# ==============================================================================
+# ========== 5. RELACIONES ENTRE VARIABLES Y CORRELACIÓN (P3) ========== 
 def analizar_relaciones(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas") -> pd.DataFrame:
     """
     Calcula matrices de correlación (Spearman y Pearson) entre variables numéricas
@@ -538,9 +529,7 @@ def analizar_relaciones(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas"
 
     return corr_spearman
 
-# ==============================================================================
-# 6. VISUALIZACIÓN CIENTÍFICA (FIGURAS 1 A 6)
-# ==============================================================================
+# ========== 6. VISUALIZACIÓN CIENTÍFICA (FIGURAS 1 A 6) ========== 
 def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/figuras"):
     """
     Genera y guarda en disco 6 gráficos pertinentes y de alta resolución (300 DPI):
@@ -557,9 +546,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
 
     os.makedirs(ruta_figuras, exist_ok=True)
 
-    # --------------------------------------------------------------------------
-    # FIGURA 1: Distribución Numérica de Precios y Aprobación (P1)
-    # --------------------------------------------------------------------------
+    # ==========  FIGURA 1: Distribución Numérica de Precios y Aprobación (P1) ========== 
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
     # 1A: Distribución de precios de juegos de pago (hasta $60 para visualización limpia)
@@ -586,9 +573,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 1] Guardada: {ruta_fig1}")
 
-    # --------------------------------------------------------------------------
-    # FIGURA 2: Valores Extremos (Boxplots) por Modelo de Negocio (P1 y P2)
-    # --------------------------------------------------------------------------
+    # ==========  FIGURA 2: Valores Extremos (Boxplots) por Modelo de Negocio (P1 y P2) ========== 
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
     # 2A: Boxplot de Precios por Modelo (Juegos de pago)
@@ -610,9 +595,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 2] Guardada: {ruta_fig2}")
 
-    # --------------------------------------------------------------------------
-    # FIGURA 3: Dispersión por Grupos - Precio vs. Popularidad (P3)
-    # --------------------------------------------------------------------------
+    # ==========  FIGURA 3: Dispersión por Grupos - Precio vs. Popularidad (P3) ========== 
     fig, ax = plt.subplots(figsize=(9, 6))
 
     # Muestreo representativo de 5.000 puntos para visualización nítida y reproducible
@@ -641,9 +624,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 3] Guardada: {ruta_fig3}")
 
-    # --------------------------------------------------------------------------
-    # FIGURA 4: Frecuencias y Comparación de Categorías (P2)
-    # --------------------------------------------------------------------------
+    # ==========  FIGURA 4: Frecuencias y Comparación de Categorías (P2) ========== 
     fig, ax = plt.subplots(figsize=(10, 6))
 
     top10_gen = df["primary_genre"].value_counts().head(10).reset_index()
@@ -668,9 +649,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 4] Guardada: {ruta_fig4}")
 
-    # --------------------------------------------------------------------------
-    # FIGURA 5: Evolución Temporal de Lanzamientos y Precios 1997-2024 (P4)
-    # --------------------------------------------------------------------------
+    # ==========  FIGURA 5: Evolución Temporal de Lanzamientos y Precios 1997-2024 (P4) ========== 
     fig, ax1 = plt.subplots(figsize=(11, 5.5))
 
     df_anual = df[(df["release_year"] >= 2000) & (df["release_year"] <= 2024)].groupby("release_year").agg(
@@ -699,9 +678,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 5] Guardada: {ruta_fig5}")
 
-    # --------------------------------------------------------------------------
-    # FIGURA 6: Gráfico del Equipo - Mapa de Calor de Correlaciones (P3)
-    # --------------------------------------------------------------------------
+    # ==========  FIGURA 6: Gráfico del Equipo - Mapa de Calor de Correlaciones (P3) ========== 
     fig, ax = plt.subplots(figsize=(8, 6.5))
 
     cols_heatmap = ["price", "positive", "negative", "total_reviews", "approval_rate", "peak_ccu"]
@@ -729,9 +706,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
 
     print(f"\n[OK] Se han generado y exportado exitosamente las 6 figuras científicas en: {ruta_figuras}")
 
-# ==============================================================================
-# 7. RESPUESTAS SINTETIZADAS A LAS PREGUNTAS DE INVESTIGACIÓN
-# ==============================================================================
+# ========== 7. RESPUESTAS SINTETIZADAS A LAS PREGUNTAS DE INVESTIGACIÓN ========== 
 def imprimir_respuestas_sintesis(df: pd.DataFrame, tablas: dict[str, pd.DataFrame]):
     """
     Imprime en consola una síntesis analítica basada en evidencia empírica
@@ -778,9 +753,7 @@ def imprimir_respuestas_sintesis(df: pd.DataFrame, tablas: dict[str, pd.DataFram
         print(f"   * El año con mayor cantidad de títulos registrados en este catálogo es {int(pico_anio['release_year'])} con {int(pico_anio['lanzamientos']):,} lanzamientos.")
         print("   * El precio medio ha mostrado estabilización en torno a los $6-$9 USD debido a la proliferación de juegos indie.")
 
-# ==============================================================================
-# FUNCIÓN PRINCIPAL DE EJECUCIÓN
-# ==============================================================================
+# ========== FUNCIÓN PRINCIPAL DE EJECUCIÓN ========== 
 def main():
     ruta_entrada = os.path.join("datos", "games_may2024_full.csv")
     ruta_tablas = os.path.join("resultados", "tablas")
