@@ -5,25 +5,31 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Configuración
-## Arranca una misma semilla (para la obtención de los mismos datos)
-SEED = 1
+## Arranca una misma semilla para asegurar la reproducibilidad de los resultados aleatorios
+SEED = 42
 np.random.seed(SEED)
 
-## Definición del estilo de graficos
+## Definición del estilo visual y estandarización estética de los gráficos
 sns.set_theme(style="whitegrid", palette="deep")
 plt.rcParams.update({
     "font.size": 10,
     "axes.titlesize": 12,
     "axes.labelsize": 11,
     "figure.titlesize": 14,
-    "figure.autolayout": True # Ajuste automatico de margenes
+    "figure.autolayout": True  # Ajuste automático de márgenes para evitar solapamientos
 })
 
+# Función auxiliar de búsqueda insensible a mayúsculas, minúsculas y espacios
 def obtener_columna(df: pd.DataFrame, candidatos: list[str]) -> str | None:
+    ## Mapea columnas en minúsculas y sin espacios al nombre original en el DataFrame
     mapa_cols = {col.lower().strip(): col for col in df.columns}
+    
+    ## Itera sobre los candidatos en orden de preferencia
     for cand in candidatos:
         if cand.lower().strip() in mapa_cols:
             return mapa_cols[cand.lower().strip()]
+            
+    ## Retorna None si ninguna de las opciones candidatas existe en las columnas
     return None
 
 # ========== 1. CARGA E INSPECCIÓN DE DATOS ==========
@@ -36,7 +42,7 @@ def cargar_y_explorar_datos(ruta_archivo: str) -> pd.DataFrame | None:
     print("1. INICIANDO CARGA E INSPECCIÓN DE DATOS")
     print("=" * 52)
 
-    # Error: No se encontró el .csv
+    # Error: Verificación de existencia del archivo .csv en disco
     if not os.path.exists(ruta_archivo):
         print(f"Error: No se encontró el archivo en la ruta '{ruta_archivo}'.")
         print("Asegúrate de que el archivo esté dentro de la carpeta 'datos/'.")
@@ -44,27 +50,33 @@ def cargar_y_explorar_datos(ruta_archivo: str) -> pd.DataFrame | None:
 
     # Intento de lectura del dataset en la variable "df"
     try:
+        ## Lectura estándar con codificación universal UTF-8
         df = pd.read_csv(ruta_archivo, encoding="utf-8", low_memory=False)
     except UnicodeDecodeError:
+        ## Alternativa de codificación si el archivo contiene caracteres especiales incompatibles
         print("Advertencia: Falló lectura con UTF-8. Reintentando con latin-1...")
         df = pd.read_csv(ruta_archivo, encoding="latin-1", low_memory=False)
     except Exception as e:
+        ## Captura de errores inesperados de I/O o formato corrupto
         print(f"Error crítico al leer el archivo CSV: {e}")
         return None
 
+    # Obtención de dimensiones del conjunto de datos
     filas, columnas = df.shape
     print(f"-> Archivo cargado exitosamente desde: '{ruta_archivo}'")
-    print(f"-> Dimensiones del dataset: {filas} filas x {columnas} columnas")
+    print(f"-> Dimensiones del dataset: {filas:,} filas x {columnas} columnas")
 
-    # Validación del requisito de al menos 50.000 registros
+    # Validación del requisito metodológico de al menos 50.000 registros
     if filas < 50000:
+        ## Lanza un error deteniendo la ejecución si no se cumple el volumen requerido
         raise ValueError(
-            f"El dataset tiene {filas} registros "
-            f"(se requieren al menos 50.000 registros)."
+            f"El dataset tiene {filas:,} registros "
+            f"(se requieren al menos 50.000 registros antes de la limpieza)."
         )
     else:
-        print(f"-> Cumple con ({filas} >= 50,000 registros).")
+        print(f"-> Cumple con el requisito mínimo ({filas:,} >= 50,000 registros).")
 
+    # Resumen estructural: Nombres de columnas y tipos de datos detectados
     print("\n--- Columnas y Tipos de Datos ---")
     resumen_tipos = pd.DataFrame({
         "Columna": df.columns,
@@ -72,6 +84,7 @@ def cargar_y_explorar_datos(ruta_archivo: str) -> pd.DataFrame | None:
     })
     print(resumen_tipos.to_string(index=False))
 
+    # Vista preliminar: Muestra reducida para inspección visual sin saturar la terminal
     cols_vista = df.columns[:8]
     print("\n--- Primeras 5 Observaciones (Vista Preliminar) ---")
     print(df[cols_vista].head(5).to_string())
@@ -89,9 +102,11 @@ def diagnosticar_calidad(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas
     print("2. DIAGNÓSTICO DE CALIDAD DE DATOS")
     print("=" * 34)
 
+    # Creación de directorio de salida para almacenar tablas generadas
     os.makedirs(ruta_tablas, exist_ok=True)
     total_filas = len(df)
 
+    # Identificación flexible de columnas clave independientemente de variantes de nombre
     col_id = obtener_columna(df, ["AppID", "appid", "steam_appid"])
     col_name = obtener_columna(df, ["Name", "name"])
     col_date = obtener_columna(df, ["Release date", "release_date"])
@@ -102,13 +117,17 @@ def diagnosticar_calidad(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas
     # 1. Cuantificación de valores faltantes (NA y cadenas vacías) por columna
     resumen_calidad = []
     for col in df.columns:
+        ## Conteo de valores nulos nativos (NaN / None)
         nulos = int(df[col].isna().sum())
+        
+        ## Conteo de cadenas de texto vacías o compuestas exclusivamente de espacios
         if df[col].dtype == "object":
             vacios = int((df[col].fillna("").astype(str).str.strip() == "").sum()) - nulos
             vacios = max(0, vacios)
         else:
             vacios = 0
 
+        ## Suma total de valores ausentes y cálculo del porcentaje relativo
         total_faltantes = nulos + vacios
         pct_faltantes = (total_faltantes / total_filas) * 100
 
@@ -122,15 +141,20 @@ def diagnosticar_calidad(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas
             "valores_unicos": int(df[col].nunique(dropna=True))
         })
 
+    # Estructuración y presentación del Top 10 de columnas con mayor incompletitud
     df_diagnostico = pd.DataFrame(resumen_calidad)
-
     print("\n--- Top 10 Columnas con Valores Faltantes ---")
     top_faltantes = df_diagnostico.sort_values(by="total_faltantes", ascending=False).head(10)
     print(top_faltantes[["columna", "tipo_dato", "total_faltantes", "porcentaje_faltantes"]].to_string(index=False))
 
     # 2. Análisis de Duplicados (Exactos vs. Identidad de Entidad)
+    ## Conteo de filas 100% idénticas en todas sus columnas
     duplicados_exactos = int(df.duplicated().sum())
+    
+    ## Conteo de registros que repiten la llave primaria técnica de Steam
     duplicados_id = int(df.duplicated(subset=[col_id]).sum()) if col_id else 0
+    
+    ## Conteo de nombres de títulos repetidos (casos válidos como reediciones o DLCs)
     duplicados_nombre = int(df.duplicated(subset=[col_name]).sum()) if col_name else 0
 
     print("\n--- Diagnóstico de Duplicados ---")
@@ -146,18 +170,22 @@ def diagnosticar_calidad(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas
 
     # 3. Revisión de Rangos Plausibles e Inconsistencias
     inconsistencias = {}
+    ## Validación de precios imposibles menores a cero
     if col_price:
         inconsistencias[f"Precios negativos ({col_price} < 0)"] = int(
             (pd.to_numeric(df[col_price], errors="coerce") < 0).sum()
         )
+    ## Validación de conteo de reseñas positivas no negativas
     if col_pos:
         inconsistencias[f"Reseñas positivas menores a 0 ({col_pos} < 0)"] = int(
             (pd.to_numeric(df[col_pos], errors="coerce") < 0).sum()
         )
+    ## Validación de conteo de reseñas negativas no negativas
     if col_neg:
         inconsistencias[f"Reseñas negativas menores a 0 ({col_neg} < 0)"] = int(
             (pd.to_numeric(df[col_neg], errors="coerce") < 0).sum()
         )
+    ## Validación de coherencia temporal en fechas de lanzamiento
     if col_date:
         fechas_conv = pd.to_datetime(df[col_date], errors="coerce", format="mixed")
         fechas_ilegibles = int(fechas_conv.isna().sum() - df[col_date].isna().sum())
@@ -170,6 +198,7 @@ def diagnosticar_calidad(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas
         estado = "SIN PROBLEMAS" if cantidad == 0 else f"ALERTA ({cantidad:,} casos)"
         print(f"   * {criterio}: {cantidad:,} [{estado}]")
 
+    # Exportación del diagnóstico completo a formato CSV
     ruta_csv_diag = os.path.join(ruta_tablas, "diagnostico_calidad.csv")
     df_diagnostico.to_csv(ruta_csv_diag, index=False, encoding="utf-8")
     print(f"\n[OK] Tabla de diagnóstico guardada en: {ruta_csv_diag}")
@@ -191,12 +220,15 @@ def limpiar_y_preparar_datos(
     print("3. LIMPIEZA, PREPARACIÓN Y LOG DE TRANSFORMACIONES")
     print("=" * 50)
 
+    # Creación de directorios para tablas y datos procesados
     os.makedirs(ruta_tablas, exist_ok=True)
     os.makedirs(ruta_datos, exist_ok=True)
 
+    ## Copia defensiva para preservar el DataFrame original intacto
     df_clean = df.copy()
     log_transformaciones = []
 
+    # Identificación de nombres de columnas presentes
     col_id = obtener_columna(df_clean, ["AppID", "appid", "steam_appid"])
     col_name = obtener_columna(df_clean, ["Name", "name"])
     col_date = obtener_columna(df_clean, ["Release date", "release_date"])
@@ -206,6 +238,7 @@ def limpiar_y_preparar_datos(
     col_ccu = obtener_columna(df_clean, ["Peak CCU", "peak_ccu"])
     col_genres = obtener_columna(df_clean, ["Genres", "genres"])
 
+    # Función auxiliar para registrar la trazabilidad de cada transformación
     def registrar_paso(etapa: str, accion: str, antes: int, despues: int, justificacion: str):
         diferencia = antes - despues
         log_transformaciones.append({
@@ -219,7 +252,8 @@ def limpiar_y_preparar_datos(
         print(f"-> [{etapa}] Antes: {antes:,} | Después: {despues:,} (Eliminados: {diferencia:,})")
         print(f"   Motivo: {justificacion}")
 
-    # PASO 1: Duplicados exactos
+    # PASO 1: Tratamiento de Duplicados Exactos
+    ## Elimina filas 100% idénticas originadas por redundancia de captura
     n_antes = len(df_clean)
     df_clean = df_clean.drop_duplicates()
     registrar_paso(
@@ -230,7 +264,8 @@ def limpiar_y_preparar_datos(
         justificacion="Redundancia exacta de datos por captura. No aporta información nueva."
     )
 
-    # PASO 2: Unicidad de llave primaria (AppID)
+    # PASO 2: Unicidad de Entidad por Clave Primaria (AppID)
+    ## Descarta duplicados accidentales de la clave técnica, conservando la primera observación
     if col_id:
         n_antes = len(df_clean)
         df_clean = df_clean.drop_duplicates(subset=[col_id], keep="first")
@@ -242,7 +277,8 @@ def limpiar_y_preparar_datos(
             justificacion="AppID es la llave primaria única en Steam. Nombres repetidos con distinto AppID se conservan por ser reediciones o juegos homónimos válidos."
         )
 
-    # PASO 3: Nulos en el nombre del juego
+    # PASO 3: Remoción de Nulos en Título del Videojuego
+    ## Elimina observaciones huérfanas sin nombre identifiable
     if col_name:
         n_antes = len(df_clean)
         mask_nombre = df_clean[col_name].notna() & (df_clean[col_name].astype(str).str.strip() != "")
@@ -255,7 +291,8 @@ def limpiar_y_preparar_datos(
             justificacion="Registros huérfanos o pruebas internas en la tienda de Steam sin título."
         )
 
-    # PASO 4: Estandarización de fechas y derivación de release_year
+    # PASO 4: Estandarización Temporal y Derivación de 'release_year'
+    ## Convierte textos de fecha a formato datetime y extrae el año de publicación
     if col_date:
         n_antes = len(df_clean)
         df_clean[col_date] = pd.to_datetime(df_clean[col_date], errors="coerce", format="mixed")
@@ -273,7 +310,8 @@ def limpiar_y_preparar_datos(
             justificacion="Se requiere fecha válida para responder preguntas sobre evolución temporal."
         )
 
-    # PASO 5: Tipos numéricos y rangos plausibles
+    # PASO 5: Conversión a Numéricos y Filtrado de No Negatividad (>= 0)
+    ## Asegura tipos continuos y elimina valores corruptos negativos
     cols_num = [c for c in [col_price, col_pos, col_neg, col_ccu] if c is not None]
     if cols_num:
         n_antes = len(df_clean)
@@ -290,7 +328,8 @@ def limpiar_y_preparar_datos(
             justificacion="Precios o conteos de reseñas/jugadores menores a cero son imposibles (errores de captura)."
         )
 
-    # PASO 6: Imputación categórica de Genres y derivación de primary_genre
+    # PASO 6: Imputación Categórica de Géneros y Derivación de 'primary_genre'
+    ## Trata valores faltantes sin descartar filas y extrae la categoría primaria
     if col_genres:
         n_antes = len(df_clean)
         s_genres = df_clean[col_genres].fillna("").astype(str).str.strip()
@@ -306,23 +345,30 @@ def limpiar_y_preparar_datos(
             justificacion="Evita perder miles de registros válidos y extrae la categoría principal para gráficos legibles."
         )
 
-    # PASO 7: Variables derivadas y tratamiento justificado de Outliers
+    # PASO 7: Creación de Variables Derivadas y Tratamiento Justificado de Outliers
     if col_pos and col_neg and col_price:
         n_antes = len(df_clean)
+        ## Derivación de total_reviews como suma directa de valoraciones positivas y negativas
         df_clean["total_reviews"] = df_clean[col_pos] + df_clean[col_neg]
+        
+        ## Derivación de approval_rate (%) evitando división por cero cuando no existen reseñas
         df_clean["approval_rate"] = np.where(
             df_clean["total_reviews"] > 0,
             (df_clean[col_pos] / df_clean["total_reviews"]) * 100,
             np.nan
         )
+        
+        ## Derivación de variable dicotómica del modelo de monetización
         df_clean["is_free"] = np.where(df_clean[col_price] == 0, "Gratis (Free-to-Play)", "De Pago")
 
-        # Detección IQR de valores atípicos en precio
+        # Detección IQR de valores atípicos en precio (criterio estadístico de Tukey)
         q1 = df_clean[col_price].quantile(0.25)
         q3 = df_clean[col_price].quantile(0.75)
         iqr = q3 - q1
         umbral_outlier = q3 + 1.5 * iqr
         n_outliers = int((df_clean[col_price] > umbral_outlier).sum())
+        
+        ## Marcado con bandera booleana sin eliminación ciega
         df_clean["flag_outlier_price"] = df_clean[col_price] > umbral_outlier
 
         registrar_paso(
@@ -339,12 +385,13 @@ def limpiar_y_preparar_datos(
             )
         )
 
-    # Exportación
+    # Exportación del log formal de transformaciones a CSV
     df_log = pd.DataFrame(log_transformaciones)
     ruta_log = os.path.join(ruta_tablas, "log_transformaciones.csv")
     df_log.to_csv(ruta_log, index=False, encoding="utf-8")
     print(f"\n[OK] Log de transformaciones guardado en: {ruta_log}")
 
+    # Exportación del dataset procesado final a CSV
     ruta_limpio = os.path.join(ruta_datos, "dataset_limpio.csv")
     df_clean.to_csv(ruta_limpio, index=False, encoding="utf-8")
     print(f"[OK] Dataset procesado guardado en: {ruta_limpio} (Total final: {len(df_clean):,} registros)")
@@ -366,10 +413,11 @@ def calcular_estadistica_descriptiva(
     print("4. CÁLCULO DE ESTADÍSTICA DESCRIPTIVA Y COMPARACIÓN POR GRUPOS")
     print("=" * 60)
 
+    # Creación de directorio de salida
     os.makedirs(ruta_tablas, exist_ok=True)
     tablas_generadas = {}
 
-    # 1. Resumen de Variables Numéricas Relevantes
+    # 1. Resumen Estadístico Paramétrico y No Paramétrico de Variables Numéricas
     cols_num = ["price", "positive", "negative", "total_reviews", "approval_rate", "peak_ccu"]
     cols_existentes = [c for c in cols_num if c in df.columns]
 
@@ -381,6 +429,7 @@ def calcular_estadistica_descriptiva(
         q3 = float(serie.quantile(0.75))
         iqr = q3 - q1
 
+        ## Construcción del compendio de estadísticos descriptivos
         stats_list.append({
             "variable": col,
             "n_validos": int(serie.count()),
@@ -402,7 +451,8 @@ def calcular_estadistica_descriptiva(
     print("\n--- Estadísticas Numéricas Descriptivas ---")
     print(df_stats_num.to_string(index=False))
 
-    # 2. Resumen Categórico 1: Modelo de Negocio (is_free)
+    # 2. Resumen Categórico 1: Distribución del Modelo de Negocio (is_free)
+    ## Frecuencias absolutas y porcentajes relativos
     if "is_free" in df.columns:
         conteo_free = df["is_free"].value_counts()
         pct_free = (df["is_free"].value_counts(normalize=True) * 100).round(2)
@@ -418,7 +468,8 @@ def calcular_estadistica_descriptiva(
         print("\n--- Frecuencia por Modelo de Negocio (is_free) ---")
         print(df_cat_free.to_string(index=False))
 
-    # 3. Resumen Categórico 2: Género Primario (Top 10 y Otros)
+    # 3. Resumen Categórico 2: Frecuencia de Géneros Primarios (Top 10 y Otros)
+    ## Conteo de los diez géneros más prolíficos agrupando el remanente en 'Otros'
     if "primary_genre" in df.columns:
         top10_genres = df["primary_genre"].value_counts().head(10)
         otros_count = len(df) - top10_genres.sum()
@@ -437,6 +488,7 @@ def calcular_estadistica_descriptiva(
         print(df_cat_gen.to_string(index=False))
 
     # 4. Agregación y Comparación por Grupos: Modelo de Negocio (P2)
+    ## Contraste entre títulos gratuitos y de pago en precio, volumen de reseñas y satisfacción
     if "is_free" in df.columns:
         agrup_free = df.groupby("is_free").agg(
             total_juegos=("AppID", "count"),
@@ -457,6 +509,7 @@ def calcular_estadistica_descriptiva(
         print(agrup_free.to_string(index=False))
 
     # 5. Agregación y Comparación por Grupos: Top 10 Géneros
+    ## Desglose de métricas operativas por categoría primaria
     if "primary_genre" in df.columns:
         top_gen_names = df["primary_genre"].value_counts().head(10).index
         df_top_gen = df[df["primary_genre"].isin(top_gen_names)]
@@ -474,6 +527,7 @@ def calcular_estadistica_descriptiva(
         tablas_generadas["resumen_por_genero_top10"] = agrup_gen
 
     # 6. Agregación Temporal Anual (P4)
+    ## Evaluación de lanzamientos y evolución de precios entre los años 2000 y 2024
     if "release_year" in df.columns:
         df_tiempo = df[(df["release_year"] >= 2000) & (df["release_year"] <= 2024)]
         agrup_year = df_tiempo.groupby("release_year").agg(
@@ -501,18 +555,20 @@ def analizar_relaciones(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas"
     print("5. ANÁLISIS DE RELACIONES ENTRE VARIABLES Y CORRELACIÓN (P3)")
     print("=" * 60)
 
+    # Creación de directorio
     os.makedirs(ruta_tablas, exist_ok=True)
     cols_rel = ["price", "positive", "negative", "total_reviews", "approval_rate", "peak_ccu"]
     cols_existentes = [c for c in cols_rel if c in df.columns]
 
+    ## Filtrado de columnas numéricas excluyendo identificadores artificiales
     df_num = df[cols_existentes].dropna()
 
-    # Correlación de Spearman: Robusta ante asimetría extrema y outliers
+    # Correlación de Spearman: Coeficiente no paramétrico robusto a asimetría y outliers
     corr_spearman = df_num.corr(method="spearman").round(3)
     ruta_spearman = os.path.join(ruta_tablas, "matriz_correlacion_spearman.csv")
     corr_spearman.to_csv(ruta_spearman, encoding="utf-8")
 
-    # Correlación de Pearson: Mide estrictamente linealidad paramétrica
+    # Correlación de Pearson: Coeficiente lineal paramétrico
     corr_pearson = df_num.corr(method="pearson").round(3)
     ruta_pearson = os.path.join(ruta_tablas, "matriz_correlacion_pearson.csv")
     corr_pearson.to_csv(ruta_pearson, encoding="utf-8")
@@ -520,6 +576,7 @@ def analizar_relaciones(df: pd.DataFrame, ruta_tablas: str = "resultados/tablas"
     print("\n--- Matriz de Correlación de Spearman (Monótona / No paramétrica) ---")
     print(corr_spearman.to_string())
 
+    # Advertencias metodológicas fundamentales
     print("\n" + ">" * 3 + " ADVERTENCIA METODOLÓGICA FUNDAMENTAL:")
     print("   * Correlación no implica causalidad.")
     print("   * Se utiliza Spearman prioritariamente debido al fuerte sesgo a la derecha")
@@ -544,12 +601,13 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     print("6. GENERACIÓN DE VISUALIZACIONES CIENTÍFICAS (FIGURAS 1 A 6)")
     print("=" * 60)
 
+    # Creación de directorio para almacenar figuras en disco
     os.makedirs(ruta_figuras, exist_ok=True)
 
-    # ==========  FIGURA 1: Distribución Numérica de Precios y Aprobación (P1) ========== 
+    # ========== FIGURA 1: Distribución Numérica de Precios y Aprobación (P1) ========== 
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
-    # 1A: Distribución de precios de juegos de pago (hasta $60 para visualización limpia)
+    ## 1A: Distribución de precios de juegos de pago (foco en rango comercial <= $60 USD)
     precios_pago = df[(df["price"] > 0) & (df["price"] <= 60)]["price"]
     sns.histplot(precios_pago, bins=30, kde=True, ax=axes[0], color="#2b5c8f")
     axes[0].set_title("Distribución de Precios (Juegos de Pago <= $60 USD)\n[Responde Pregunta 1]", fontweight="bold")
@@ -558,7 +616,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     axes[0].axvline(df[df["price"] > 0]["price"].median(), color="red", linestyle="--", label=f"Mediana: ${df[df['price'] > 0]['price'].median():.2f}")
     axes[0].legend()
 
-    # 1B: Distribución de tasa de aprobación (juegos con >= 10 reseñas para evitar sesgo de muestra ínfima)
+    ## 1B: Distribución de tasa de aprobación (filtrando títulos con >= 10 reseñas para evitar ruido de muestra ínfima)
     aprobacion_muestra = df[df["total_reviews"] >= 10]["approval_rate"].dropna()
     sns.histplot(aprobacion_muestra, bins=25, kde=True, ax=axes[1], color="#2a9d8f")
     axes[1].set_title("Distribución de Tasa de Aprobación (Total Reseñas >= 10)\n[Responde Pregunta 1]", fontweight="bold")
@@ -573,18 +631,26 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 1] Guardada: {ruta_fig1}")
 
-    # ==========  FIGURA 2: Valores Extremos (Boxplots) por Modelo de Negocio (P1 y P2) ========== 
+    # ========== FIGURA 2: Valores Extremos (Boxplots) por Modelo de Negocio (P1 y P2) ========== 
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
-    # 2A: Boxplot de Precios por Modelo (Juegos de pago)
+    ## 2A: Diagrama de caja de precios para títulos comerciales de pago
     sns.boxplot(data=df[df["price"] > 0], y="price", ax=axes[0], color="#e76f51", flierprops={"marker": "o", "markersize": 3, "alpha": 0.3})
     axes[0].set_title("Detección de Valores Extremos en Precio (Juegos de Pago)\n[Responde Pregunta 1]", fontweight="bold")
     axes[0].set_ylabel("Precio (USD)")
-    axes[0].set_ylim(0, 100)  # Foco visual en rango comercial estándar
+    axes[0].set_ylim(0, 100)  # Límite superior para visibilidad de cuartiles
 
-    # 2B: Boxplot de Tasa de Aprobación según Modelo de Negocio (Gratis vs Pago)
+    ## 2B: Diagrama de caja comparativo de aprobación entre títulos Gratis y De Pago
     df_box_rev = df[df["total_reviews"] >= 5]
-    sns.boxplot(data=df_box_rev, x="is_free", y="approval_rate", ax=axes[1], hue="is_free", legend=False, palette=["#457b9d", "#e63946"])
+    sns.boxplot(
+        data=df_box_rev,
+        x="is_free",
+        y="approval_rate",
+        ax=axes[1],
+        hue="is_free",
+        legend=False,
+        palette={"Gratis (Free-to-Play)": "#e63946", "De Pago": "#457b9d"}
+    )
     axes[1].set_title("Tasa de Aprobación por Modelo de Negocio (Reseñas >= 5)\n[Responde Pregunta 2]", fontweight="bold")
     axes[1].set_xlabel("Modelo de Negocio")
     axes[1].set_ylabel("Tasa de Aprobación (%)")
@@ -595,12 +661,13 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 2] Guardada: {ruta_fig2}")
 
-    # ==========  FIGURA 3: Dispersión por Grupos - Precio vs. Popularidad (P3) ========== 
+    # ========== FIGURA 3: Dispersión por Grupos - Precio vs. Popularidad (P3) ========== 
     fig, ax = plt.subplots(figsize=(9, 6))
 
-    # Muestreo representativo de 5.000 puntos para visualización nítida y reproducible
+    ## Muestreo aleatorio reproducible de 5.000 observaciones para evitar saturación gráfica
     df_disp = df[df["total_reviews"] > 0].sample(n=min(5000, len(df[df["total_reviews"] > 0])), random_state=SEED)
 
+    ## Diagrama de dispersión con diferenciación de color por modelo de monetización
     sns.scatterplot(
         data=df_disp,
         x="price",
@@ -611,6 +678,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
         palette={"Gratis (Free-to-Play)": "#e63946", "De Pago": "#1d3557"},
         ax=ax
     )
+    ## Escala logarítmica para gestionar la concentración extrema provocada por superéxitos
     ax.set_yscale("log")
     ax.set_xlim(-1, 80)
     ax.set_title("Relación entre Precio y Total de Reseñas (Escala Logarítmica)\n[Muestra aleatoria n=5.000 | Responde Pregunta 3]", fontweight="bold")
@@ -624,9 +692,10 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 3] Guardada: {ruta_fig3}")
 
-    # ==========  FIGURA 4: Frecuencias y Comparación de Categorías (P2) ========== 
+    # ========== FIGURA 4: Frecuencias y Comparación de Categorías (P2) ========== 
     fig, ax = plt.subplots(figsize=(10, 6))
 
+    ## Selección y ordenamiento de los diez principales géneros
     top10_gen = df["primary_genre"].value_counts().head(10).reset_index()
     top10_gen.columns = ["genero", "cantidad"]
     top10_gen["pct"] = (top10_gen["cantidad"] / len(df) * 100).round(1)
@@ -636,7 +705,7 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     ax.set_xlabel("Cantidad de Títulos Publicados")
     ax.set_ylabel("Género Primario")
 
-    # Anotar porcentajes y cantidades exactas en las barras
+    ## Inserción directa de cifras exactas y porcentajes al final de cada barra
     for p, (_, row) in zip(barplot.patches, top10_gen.iterrows()):
         ancho = p.get_width()
         ax.text(ancho + 250, p.get_y() + p.get_height() / 2, f"{int(row['cantidad']):,} ({row['pct']}%)",
@@ -649,9 +718,10 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 4] Guardada: {ruta_fig4}")
 
-    # ==========  FIGURA 5: Evolución Temporal de Lanzamientos y Precios 1997-2024 (P4) ========== 
+    # ========== FIGURA 5: Evolución Temporal de Lanzamientos y Precios 2000-2024 (P4) ========== 
     fig, ax1 = plt.subplots(figsize=(11, 5.5))
 
+    ## Agrupación anual para contrastar volumen publicado versus precio medio
     df_anual = df[(df["release_year"] >= 2000) & (df["release_year"] <= 2024)].groupby("release_year").agg(
         total_juegos=("AppID", "count"),
         precio_medio=("price", "mean")
@@ -660,17 +730,24 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     color1 = "#1d3557"
     color2 = "#e76f51"
 
+    ## Eje Y izquierdo: Histograma anual de títulos lanzados
     ax1.set_title("Evolución Temporal: Lanzamientos Anuales y Precio Promedio (2000-2024)\n[Responde Pregunta 4]", fontweight="bold")
     ax1.bar(df_anual["release_year"], df_anual["total_juegos"], color=color1, alpha=0.75, label="Lanzamientos Anuales (Eje Izq.)")
     ax1.set_xlabel("Año de Lanzamiento")
     ax1.set_ylabel("Cantidad de Títulos Publicados", color=color1)
     ax1.tick_params(axis="y", labelcolor=color1)
 
+    ## Eje Y derecho (twinx): Curva continua de precio medio
     ax2 = ax1.twinx()
     ax2.plot(df_anual["release_year"], df_anual["precio_medio"], color=color2, linewidth=2.5, marker="o", label="Precio Promedio USD (Eje Der.)")
     ax2.set_ylabel("Precio Promedio ($ USD)", color=color2)
     ax2.tick_params(axis="y", labelcolor=color2)
     ax2.grid(False)
+
+    ## Unificación de leyendas de ambos ejes en la esquina superior izquierda
+    lineas1, labels1 = ax1.get_legend_handles_labels()
+    lineas2, labels2 = ax2.get_legend_handles_labels()
+    ax1.legend(lineas1 + lineas2, labels1 + labels2, loc="upper left")
 
     plt.tight_layout()
     ruta_fig5 = os.path.join(ruta_figuras, "fig5_evolucion_temporal_lanzamientos.png")
@@ -678,13 +755,15 @@ def generar_visualizaciones(df: pd.DataFrame, ruta_figuras: str = "resultados/fi
     plt.close(fig)
     print(f"-> [Figura 5] Guardada: {ruta_fig5}")
 
-    # ==========  FIGURA 6: Gráfico del Equipo - Mapa de Calor de Correlaciones (P3) ========== 
+    # ========== FIGURA 6: Gráfico del Equipo - Mapa de Calor de Correlaciones (P3) ========== 
     fig, ax = plt.subplots(figsize=(8, 6.5))
 
+    ## Selección de magnitudes y cómputo de la matriz de Spearman
     cols_heatmap = ["price", "positive", "negative", "total_reviews", "approval_rate", "peak_ccu"]
     cols_exist = [c for c in cols_heatmap if c in df.columns]
     corr_mat = df[cols_exist].dropna().corr(method="spearman")
 
+    ## Renderizado del mapa de calor con anotación directa de los coeficientes
     sns.heatmap(
         corr_mat,
         annot=True,
@@ -716,35 +795,41 @@ def imprimir_respuestas_sintesis(df: pd.DataFrame, tablas: dict[str, pd.DataFram
     print("7. SÍNTESIS DE RESPUESTAS A LAS PREGUNTAS DE INVESTIGACIÓN")
     print("=" * 60)
 
-    # Respuesta P1
-    mediana_precio = df[df["price"] > 0]["price"].median()
-    iqr_precio = df["price"].quantile(0.75) - df["price"].quantile(0.25)
+    # Respuesta P1: Distribución Numérica e Impacto de Outliers
+    precios_pago = df[df["price"] > 0]["price"]
+    mediana_precio = precios_pago.median()
+    iqr_precio = precios_pago.quantile(0.75) - precios_pago.quantile(0.25)
     mediana_aprob = df["approval_rate"].dropna().median()
+    
     print("\n[P1 - DISTRIBUCIÓN NUMÉRICA]:")
     print(f"   * Los precios exhiben asimetría positiva extrema. Para títulos de pago, la mediana es")
     print(f"     de ${mediana_precio:.2f} USD con un IQR de ${iqr_precio:.2f} USD.")
     print(f"   * La tasa de aprobación presenta mediana de {mediana_aprob:.1f}%, concentrándose mayoritariamente")
     print("     en valoraciones favorables, aunque con amplia dispersión en títulos con pocas reseñas.")
 
-    # Respuesta P2
+    # Respuesta P2: Diferencias entre Títulos Gratuitos y de Pago
     agrup_free = tablas.get("resumen_por_modelo_negocio")
     if agrup_free is not None:
-        rev_f2p = agrup_free.loc[agrup_free["is_free"] == "Gratis (Free-to-Play)", "total_reviews_promedio"].values[0]
-        rev_pago = agrup_free.loc[agrup_free["is_free"] == "De Pago", "total_reviews_promedio"].values[0]
-        aprob_f2p = agrup_free.loc[agrup_free["is_free"] == "Gratis (Free-to-Play)", "approval_rate_promedio"].values[0]
-        aprob_pago = agrup_free.loc[agrup_free["is_free"] == "De Pago", "approval_rate_promedio"].values[0]
+        sub_f2p = agrup_free.loc[agrup_free["is_free"] == "Gratis (Free-to-Play)"]
+        sub_pago = agrup_free.loc[agrup_free["is_free"] == "De Pago"]
+        
+        rev_f2p = sub_f2p["total_reviews_promedio"].values[0] if len(sub_f2p) > 0 else 0
+        rev_pago = sub_pago["total_reviews_promedio"].values[0] if len(sub_pago) > 0 else 0
+        aprob_f2p = sub_f2p["approval_rate_promedio"].values[0] if len(sub_f2p) > 0 else 0
+        aprob_pago = sub_pago["approval_rate_promedio"].values[0] if len(sub_pago) > 0 else 0
+        
         print("\n[P2 - DIFERENCIAS ENTRE GRUPOS: GRATIS VS DE PAGO]:")
         print(f"   * Juegos Free-to-Play tienen mayor volumen de reseñas promedio ({rev_f2p:,.1f} vs {rev_pago:,.1f}).")
         print(f"   * Sin embargo, los juegos de pago presentan una tasa de aprobación promedio ligeramente superior")
         print(f"     ({aprob_pago:.1f}% vs {aprob_f2p:.1f}%), sugiriendo mayor exigencia o escrutinio de usuarios en títulos gratuitos.")
 
-    # Respuesta P3
+    # Respuesta P3: Asociación entre Precio y Nivel de Popularidad
     print("\n[P3 - ASOCIACIÓN ENTRE PRECIO Y POPULARIDAD]:")
     print("   * La correlación entre precio y volumen de reseñas/jugadores es débil a moderada.")
     print("   * Un mayor precio NO garantiza éxito comercial. El éxito en Steam está dominado por factores cualitativos,")
     print("     efecto de red y visibilidad algorítmica. Correlación no representa causalidad.")
 
-    # Respuesta P4
+    # Respuesta P4: Evolución Temporal y Tendencia Histórica
     agrup_tiempo = tablas.get("resumen_temporal_anual")
     if agrup_tiempo is not None:
         pico_anio = agrup_tiempo.sort_values(by="lanzamientos", ascending=False).iloc[0]
@@ -755,38 +840,41 @@ def imprimir_respuestas_sintesis(df: pd.DataFrame, tablas: dict[str, pd.DataFram
 
 # ========== FUNCIÓN PRINCIPAL DE EJECUCIÓN ========== 
 def main():
+    ## Configuración de rutas relativas para portabilidad y reproducibilidad
     ruta_entrada = os.path.join("datos", "games_may2024_full.csv")
     ruta_tablas = os.path.join("resultados", "tablas")
     ruta_figuras = os.path.join("resultados", "figuras")
     ruta_datos = "datos"
 
-    # 1. Carga e inspección
+    # Etapa 1: Carga e inspección preliminar del dataset
     df_raw = cargar_y_explorar_datos(ruta_entrada)
     if df_raw is None:
+        print("Proceso detenido: No se pudo cargar el dataset.")
         return
 
-    # 2. Diagnóstico de calidad
+    # Etapa 2: Diagnóstico exhaustivo de calidad de datos
     diagnosticar_calidad(df_raw, ruta_tablas=ruta_tablas)
 
-    # 3. Limpieza, preparación y variables derivadas
+    # Etapa 3: Limpieza metodológica, registro de transformaciones y variables derivadas
     df_limpio, _ = limpiar_y_preparar_datos(
         df_raw,
         ruta_tablas=ruta_tablas,
         ruta_datos=ruta_datos
     )
 
-    # 4. Estadística descriptiva y agregaciones grupales (P1 y P2)
+    # Etapa 4: Estadística descriptiva y comparaciones por grupos (P1 y P2)
     tablas_descriptivas = calcular_estadistica_descriptiva(df_limpio, ruta_tablas=ruta_tablas)
 
-    # 5. Análisis de relaciones y correlación (P3)
+    # Etapa 5: Análisis de relaciones y cómputo de matrices de correlación (P3)
     analizar_relaciones(df_limpio, ruta_tablas=ruta_tablas)
 
-    # 6. Generación de las 6 visualizaciones científicas (P1 a P4)
+    # Etapa 6: Generación de las 6 visualizaciones científicas (P1 a P4)
     generar_visualizaciones(df_limpio, ruta_figuras=ruta_figuras)
 
-    # 7. Síntesis interpretativa de respuestas
+    # Etapa 7: Síntesis interpretativa de respuestas a las preguntas de investigación
     imprimir_respuestas_sintesis(df_limpio, tablas_descriptivas)
 
+    # Resumen final de ejecución exitosa
     print("\n" + "=" * 60)
     print("[ÉXITO TOTAL] PROCESO EDA COMPLETO FINALIZADO SIN ERRORES")
     print(f"-> Registros iniciales: {len(df_raw):,} | Registros limpios analizados: {len(df_limpio):,}")
