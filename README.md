@@ -6,16 +6,19 @@ Este proyecto implementa un flujo de Análisis Exploratorio de Datos (EDA) sobre
 
 ## 1. Entorno y Versiones
 - **Sistema Operativo:** Windows 10/11
-- **Lenguaje:** Python `3.15.0` (compatible con `>= 3.10`)
+- **Lenguaje:** Python `3.11` (compatible con `>= 3.10`)
 - **Semilla de Reproducibilidad:** `SEED = 42` (configurada en NumPy y muestreos gráficos)
 
 ---
 
 ## 2. Dataset Utilizado
 - **Nombre:** Steam Games Dataset
-- **Autor / Origen:** Artemiloff (Kaggle)
-- **URL de Descarga:** https://www.kaggle.com/datasets/artermiloff/steam-games-dataset
-- **Archivo de Entrada:** `datos/games_may2024_full.csv`
+- **Autor / Origen:** Artemiy Miloff (Kaggle)
+- **Fecha de descarga:** 20/10/2026
+- **URL Directa al Archivo Específico:** https://www.kaggle.com/datasets/artermiloff/steam-games-dataset?select=games_may2024_full.csv
+- **URL de Descarga Directa:** https://www.kaggle.com/datasets/artermiloff/steam-games-dataset?resource=download&select=games_may2024_full.csv
+- **Archivo utilizado:** `datos/games_may2024_full.csv`
+- **Licencia y Condiciones de Uso:** MIT License (Uso, copia, modificación y distribución libre)
 - **Volumen Inicial:** 87.806 registros $\times$ 46 columnas (Cumple requisito $\ge 50.000$)
 - **Volumen Limpio Final:** 87.803 registros $\times$ 52 columnas
 
